@@ -660,7 +660,7 @@ export const book4Units: Unit[] = [
                 "definition": "To perish means to die, usually because of bad conditions or bad events.",
                 "example": "Many people perish in  wars.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Dead_baby_bird.jpg/500px-Dead_baby_bird.jpg",
+                image: "/image-manager/uploads/book4_unit4_perish.jpg",
             },
             {
                 "word": "pit",
@@ -855,7 +855,7 @@ export const book4Units: Unit[] = [
                 "definition": "A lecture is a long, educational speech.",
                 "example": "His lecture on world hunger was very informative.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/ADFA_Lecture_Theatres.jpg/500px-ADFA_Lecture_Theatres.jpg",
+                image: "/image-manager/uploads/book4_unit5_lecture.jpg",
             },
             {
                 "word": "moral",
