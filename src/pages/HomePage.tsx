@@ -78,6 +78,36 @@ export const HomePage: React.FC = () => {
           <StreakBadge count={progress.streak.count} />
         </div>
 
+        {/* Welcome card for new users */}
+        {(progress.wordsLearned || 0) === 0 && !progress.lastStudied && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="rounded-2xl p-4 mb-4"
+            style={{ 
+              background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(139, 92, 246, 0.15))',
+              border: '1px solid rgba(59, 130, 246, 0.3)',
+            }}
+          >
+            <div className="flex items-center gap-3 mb-2">
+              <span className="text-2xl">👋</span>
+              <h3 className="text-lg font-bold" style={{ color: 'var(--tg-text)' }}>
+                Welcome to SOZYOLA!
+              </h3>
+            </div>
+            <p className="text-sm mb-3" style={{ color: 'var(--tg-subtitle)' }}>
+              Start your vocabulary journey with 4000+ English words translated to Uzbek & Russian.
+            </p>
+            <button
+              onClick={() => navigate('/book/1')}
+              className="w-full py-2.5 rounded-xl text-sm font-semibold flex items-center justify-center gap-2"
+              style={{ backgroundColor: 'var(--tg-button)', color: 'var(--tg-button-text)' }}
+            >
+              🚀 Start Learning
+            </button>
+          </motion.div>
+        )}
+
         {/* Daily goal card */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
