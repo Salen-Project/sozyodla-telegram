@@ -1,7 +1,8 @@
 import React, { useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Trophy, BookOpen, Brain, Flame, Star, Calendar, Target, ChevronRight } from 'lucide-react';
+import { Trophy, BookOpen, Brain, Flame, Star, Calendar, Target, ChevronRight, Share2 } from 'lucide-react';
+import { haptic } from '../lib/telegram';
 import { useProgress } from '../contexts/ProgressContext';
 import { editions } from '../data/vocabulary';
 import { hideBackButton, hideMainButton, getTelegramUser } from '../lib/telegram';
@@ -54,6 +55,35 @@ export const ProfilePage: React.FC = () => {
 
   const unearned = 11 - achievements.length;
 
+  // Share progress
+  const shareProgress = async () => {
+    const text = `📚 SOZYOLA Progress Report!\n\n` +
+      `🎯 Level: ${level.emoji} ${level.name}\n` +
+      `📖 Words Learned: ${progress.wordsLearned || 0}\n` +
+      `🔥 Streak: ${progress.streak.count} days\n` +
+      `🏆 Achievements: ${achievements.length}/11\n\n` +
+      `#SOZYOLA #LearningEnglish`;
+    
+    haptic.impact('light');
+    
+    if (navigator.share) {
+      try {
+        await navigator.share({ text });
+      } catch {
+        // User cancelled or error
+      }
+    } else {
+      // Fallback to clipboard
+      try {
+        await navigator.clipboard.writeText(text);
+        haptic.notification('success');
+        alert('Progress copied to clipboard!');
+      } catch {
+        // Clipboard not available
+      }
+    }
+  };
+
   return (
     <div className="h-full overflow-y-auto pb-2">
       {/* Profile header */}
@@ -69,7 +99,7 @@ export const ProfilePage: React.FC = () => {
           >
             {tgUser?.first_name?.[0]?.toUpperCase() || level.emoji}
           </div>
-          <div>
+          <div className="flex-1">
             <h1 className="text-xl font-bold" style={{ color: 'var(--tg-text)' }}>
               {tgUser ? `${tgUser.first_name}${tgUser.last_name ? ' ' + tgUser.last_name : ''}` : 'Learner'}
             </h1>
@@ -80,6 +110,13 @@ export const ProfilePage: React.FC = () => {
               </span>
             </div>
           </div>
+          <button
+            onClick={shareProgress}
+            className="p-2.5 rounded-xl active:scale-95 transition-transform"
+            style={{ backgroundColor: 'var(--tg-secondary-bg)' }}
+          >
+            <Share2 size={20} style={{ color: 'var(--tg-hint)' }} />
+          </button>
         </motion.div>
 
         {/* Stats grid */}
