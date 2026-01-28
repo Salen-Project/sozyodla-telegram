@@ -45,12 +45,20 @@ export const HomePage: React.FC = () => {
     haptic.selection();
   };
 
-  // Dynamic greeting based on user activity
+  // Dynamic greeting based on user activity and time of day
   const getGreeting = () => {
     const streak = progress.streak.count;
     const wordsToday = progress.dailyGoal.wordsToday;
     const totalLearned = progress.wordsLearned || 0;
+    const hour = new Date().getHours();
     
+    // Time-based greetings
+    const timeGreeting = hour < 6 ? "🌙 Night owl studying!" : 
+                         hour < 12 ? "☀️ Good morning!" :
+                         hour < 17 ? "🌤️ Good afternoon!" :
+                         hour < 21 ? "🌆 Good evening!" : "🌙 Late night learner!";
+    
+    // Activity-based greetings take priority for special achievements
     if (goalPercent >= 100) return "🌟 Goal achieved! Amazing!";
     if (streak >= 30) return "🔥 30+ day streak! Legend!";
     if (streak >= 14) return "💪 2 week streak! Keep it up!";
@@ -59,7 +67,7 @@ export const HomePage: React.FC = () => {
     if (totalLearned >= 500) return "✨ 500+ words learned!";
     if (wordsToday > 0) return "👍 Great start today!";
     if (streak > 0) return `🔥 ${streak} day streak!`;
-    return "Learn vocabulary the smart way";
+    return timeGreeting;
   };
 
   return (
