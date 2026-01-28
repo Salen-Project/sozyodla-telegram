@@ -181,29 +181,6 @@ export const UnitPage: React.FC = () => {
           )}
         </div>
 
-        {/* Word chips */}
-        <div className="mb-4">
-          <h2 className="text-sm font-semibold mb-2 uppercase tracking-wider" style={{ color: 'var(--tg-section-header)' }}>
-            Words in this unit
-          </h2>
-          <div className="flex flex-wrap gap-1.5">
-            {unit.words.slice(0, 15).map((w) => (
-              <span
-                key={w.word}
-                className="px-2.5 py-1 rounded-full text-xs font-medium"
-                style={{ backgroundColor: 'var(--tg-secondary-bg)', color: 'var(--tg-text)' }}
-              >
-                {w.word}
-              </span>
-            ))}
-            {unit.words.length > 15 && (
-              <span className="px-2.5 py-1 rounded-full text-xs" style={{ color: 'var(--tg-hint)' }}>
-                +{unit.words.length - 15} more
-              </span>
-            )}
-          </div>
-        </div>
-
         {/* Exercise modes */}
         <h2 className="text-sm font-semibold mb-3 uppercase tracking-wider" style={{ color: 'var(--tg-section-header)' }}>
           Start Practicing
