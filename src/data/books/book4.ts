@@ -1395,7 +1395,7 @@ export const book4Units: Unit[] = [
                 "definition": "To influence someone or something is to have an effect over them.",
                 "example": "My friend influenced my decision to attend Terrance University.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Influence_Map.jpg/500px-Influence_Map.jpg",
+                image: "/image-manager/uploads/book4_unit8_influence.jpg",
             },
             {
                 "word": "law",
