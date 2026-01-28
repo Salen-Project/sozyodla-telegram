@@ -1,4 +1,5 @@
-import WebApp from '@twa-dev/sdk';
+// Use global Telegram WebApp from the CDN script in index.html
+const WebApp = (window as any).Telegram?.WebApp;
 
 // Initialize Telegram Web App
 export const tg = WebApp;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { MemoryRouter, Routes, Route } from 'react-router-dom';
 import { ProgressProvider } from './contexts/ProgressContext';
 import { HomePage } from './pages/HomePage';
 import { BookPage } from './pages/BookPage';
@@ -12,7 +12,7 @@ import { RecallPage } from './pages/RecallPage';
 const App: React.FC = () => {
   return (
     <ProgressProvider>
-      <HashRouter>
+      <MemoryRouter>
         <div className="h-full w-full" style={{ backgroundColor: 'var(--tg-bg)' }}>
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -24,7 +24,7 @@ const App: React.FC = () => {
             <Route path="/recall/:bookId/:unitId" element={<RecallPage />} />
           </Routes>
         </div>
-      </HashRouter>
+      </MemoryRouter>
     </ProgressProvider>
   );
 };
