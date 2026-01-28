@@ -5,7 +5,7 @@ import { editions } from '../data/vocabulary';
 import { useProgress } from '../contexts/ProgressContext';
 import { showBackButton, hideMainButton, haptic } from '../lib/telegram';
 import { Word } from '../types';
-import { Trophy, RefreshCw, FileText, Check, X } from 'lucide-react';
+import { Trophy, RefreshCw, FileText, Check, X, RotateCcw } from 'lucide-react';
 
 const LANG_KEY = 'sozyola_tg_lang';
 const GAME_SIZE = 10;
@@ -57,11 +57,14 @@ export const FillBlankPage: React.FC = () => {
   const [incorrectCount, setIncorrectCount] = useState(0);
   const [completed, setCompleted] = useState(false);
   const [results, setResults] = useState<boolean[]>([]);
+  const [usedWords, setUsedWords] = useState<Word[]>([]);
 
   // Build sentences
-  const initGame = useCallback(() => {
+  const initGame = useCallback((wordsToUse?: Word[]) => {
+    const sourceWords = wordsToUse || words;
     const eligible: SentenceItem[] = [];
-    const shuffledWords = shuffleArray(words);
+    const usedWordList: Word[] = [];
+    const shuffledWords = shuffleArray(sourceWords);
     
     for (const w of shuffledWords) {
       if (eligible.length >= GAME_SIZE) break;
@@ -73,10 +76,12 @@ export const FillBlankPage: React.FC = () => {
           beforeBlank: result.before,
           afterBlank: result.after,
         });
+        usedWordList.push(w);
       }
     }
     
     setSentences(eligible);
+    setUsedWords(usedWordList);
     // Create word bank with extra wrong words
     const correctWords = eligible.map(s => s.word);
     const wrongWords = shuffleArray(words.filter(w => !correctWords.includes(w.word.toLowerCase())))
@@ -93,6 +98,14 @@ export const FillBlankPage: React.FC = () => {
     setCompleted(false);
     setResults([]);
   }, [words]);
+
+  // Retry only incorrect words
+  const retryIncorrect = useCallback(() => {
+    const wrongWords = usedWords.filter((_, i) => !results[i]);
+    if (wrongWords.length > 0) {
+      initGame(wrongWords);
+    }
+  }, [usedWords, results, initGame]);
 
   useEffect(() => {
     if (words.length > 0) initGame();
@@ -236,8 +249,18 @@ export const FillBlankPage: React.FC = () => {
         </div>
 
         <div className="flex flex-col gap-3 w-full max-w-[280px]">
+          {total - score > 0 && (
+            <button
+              onClick={retryIncorrect}
+              className="w-full py-3 rounded-xl text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-transform"
+              style={{ backgroundColor: '#f59e0b', color: 'white' }}
+            >
+              <RotateCcw size={18} />
+              {lang === 'uz' ? `Xato so'zlarni qaytadan (${total - score})` : `Retry Incorrect (${total - score})`}
+            </button>
+          )}
           <button
-            onClick={initGame}
+            onClick={() => initGame()}
             className="w-full py-3 rounded-xl text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-transform"
             style={{ backgroundColor: 'var(--tg-button)', color: 'var(--tg-button-text)' }}
           >
