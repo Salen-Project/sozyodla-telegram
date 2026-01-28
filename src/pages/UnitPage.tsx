@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { BookOpen, Brain, Pen, ArrowRight, Volume2, Shuffle, ListChecks, Sparkles, FileText } from 'lucide-react';
 import { editions } from '../data/vocabulary';
 import { useProgress } from '../contexts/ProgressContext';
-import { showBackButton, hideMainButton } from '../lib/telegram';
+import { showBackButton, hideMainButton, haptic } from '../lib/telegram';
 import { getWordImageUrl } from '../lib/images';
 import { Word } from '../types';
 
@@ -20,6 +20,7 @@ const WordCard: React.FC<{ word: Word; lang: string }> = ({ word, lang }) => {
     u.lang = 'en-US';
     u.rate = 0.85;
     speechSynthesis.speak(u);
+    haptic.selection();
   };
 
   return (
@@ -209,7 +210,10 @@ export const UnitPage: React.FC = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: i * 0.06 }}
               whileTap={{ scale: 0.98 }}
-              onClick={() => navigate(mode.path)}
+              onClick={() => {
+                haptic.impact('light');
+                navigate(mode.path);
+              }}
               className="w-full flex items-center gap-3 p-4 rounded-xl"
               style={{ backgroundColor: 'var(--tg-section-bg)', border: '1px solid var(--tg-secondary-bg)' }}
             >
