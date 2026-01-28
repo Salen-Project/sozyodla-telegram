@@ -25,29 +25,51 @@ const GRADIENTS = [
   'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)',
 ];
 
-const WordImage: React.FC<{ word: string }> = ({ word }) => {
-  const [imgError, setImgError] = useState(false);
-  const gradIdx = word.charCodeAt(0) % GRADIENTS.length;
-  const imgUrl = `https://source.unsplash.com/200x200/?${encodeURIComponent(word)}`;
+// Generate a consistent hash number from a word for deterministic styling
+const hashWord = (word: string): number => {
+  let hash = 0;
+  for (let i = 0; i < word.length; i++) {
+    hash = ((hash << 5) - hash) + word.charCodeAt(i);
+    hash |= 0;
+  }
+  return Math.abs(hash);
+};
+
+// Word-related emoji mapping for common word categories
+const getWordEmoji = (word: string, pos?: string): string => {
+  const w = word.toLowerCase();
+  // Simple category detection
+  if (['afraid', 'angry', 'happy', 'sad', 'excited', 'nervous'].some(e => w.includes(e))) return '😊';
+  if (['run', 'walk', 'jump', 'move', 'fly', 'swim'].some(e => w.includes(e))) return '🏃';
+  if (['eat', 'food', 'cook', 'meal', 'drink'].some(e => w.includes(e))) return '🍽️';
+  if (['book', 'read', 'write', 'study', 'learn'].some(e => w.includes(e))) return '📚';
+  if (['work', 'job', 'office', 'business'].some(e => w.includes(e))) return '💼';
+  if (['home', 'house', 'room', 'door', 'wall'].some(e => w.includes(e))) return '🏠';
+  if (['tree', 'flower', 'plant', 'garden'].some(e => w.includes(e))) return '🌳';
+  if (['water', 'river', 'ocean', 'rain', 'sea'].some(e => w.includes(e))) return '🌊';
+  if (['fire', 'hot', 'burn', 'heat'].some(e => w.includes(e))) return '🔥';
+  if (['light', 'sun', 'bright', 'shine'].some(e => w.includes(e))) return '☀️';
+  if (['dark', 'night', 'shadow', 'black'].some(e => w.includes(e))) return '🌙';
+  if (['love', 'heart', 'kind', 'care'].some(e => w.includes(e))) return '❤️';
+  if (['money', 'pay', 'cost', 'price', 'rich'].some(e => w.includes(e))) return '💰';
+  if (['time', 'clock', 'hour', 'wait'].some(e => w.includes(e))) return '⏰';
+  if (pos === 'v') return '⚡';
+  if (pos === 'adj') return '✨';
+  if (pos === 'n') return '📦';
+  return '💡';
+};
+
+const WordImage: React.FC<{ word: string; pos?: string }> = ({ word, pos }) => {
+  const h = hashWord(word);
+  const gradIdx = h % GRADIENTS.length;
+  const emoji = getWordEmoji(word, pos);
 
   return (
     <div
-      className="w-24 h-24 rounded-2xl mb-3 flex items-center justify-center overflow-hidden shadow-sm"
+      className="w-20 h-20 rounded-2xl mb-3 flex items-center justify-center shadow-sm"
       style={{ background: GRADIENTS[gradIdx] }}
     >
-      {!imgError ? (
-        <img
-          src={imgUrl}
-          alt={word}
-          loading="lazy"
-          className="w-full h-full object-cover"
-          onError={() => setImgError(true)}
-        />
-      ) : (
-        <span className="text-4xl font-bold text-white opacity-80">
-          {word[0]?.toUpperCase()}
-        </span>
-      )}
+      <span className="text-3xl">{emoji}</span>
     </div>
   );
 };
@@ -165,7 +187,7 @@ export const FlashCard: React.FC<FlashCardProps> = ({
           >
             <div className="flex-1 flex flex-col items-center justify-center w-full">
               {/* Word image */}
-              <WordImage word={word.word} />
+              <WordImage word={word.word} pos={word.partOfSpeech} />
               <span
                 className="text-xs uppercase tracking-wider mb-2 font-medium"
                 style={{ color: 'var(--tg-hint)' }}
