@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { BookOpen, Brain, Pen, Trophy, ChevronRight, Zap } from 'lucide-react';
+import { BookOpen, Brain, Pen, Trophy, ChevronRight, Zap, PlayCircle } from 'lucide-react';
 import { useProgress } from '../contexts/ProgressContext';
 import { editions } from '../data/vocabulary';
 import { StreakBadge } from '../components/StreakBadge';
@@ -30,7 +30,7 @@ export const HomePage: React.FC = () => {
   ];
 
   return (
-    <div className="h-full overflow-y-auto pb-6 safe-area-bottom">
+    <div className="h-full overflow-y-auto pb-2">
       {/* Header */}
       <div className="px-4 pt-4 pb-3">
         <div className="flex items-center justify-between mb-4">
@@ -71,6 +71,30 @@ export const HomePage: React.FC = () => {
             {progress.dailyGoal.wordsToday} / {progress.dailyGoal.target} words today
           </p>
         </motion.div>
+
+        {/* Continue Learning */}
+        {progress.lastStudied && (() => {
+          const ed = editions.find(e => e.id === progress.lastStudied!.editionId);
+          const un = ed?.units.find(u => u.id === progress.lastStudied!.unitId);
+          if (!ed || !un) return null;
+          return (
+            <motion.button
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={() => navigate(`/unit/${ed.id}/${un.id}`)}
+              className="w-full flex items-center gap-3 p-3 rounded-xl mb-4 active:opacity-80"
+              style={{ backgroundColor: 'var(--tg-button)', color: 'var(--tg-button-text)' }}
+            >
+              <PlayCircle size={24} />
+              <div className="flex-1 text-left">
+                <p className="text-sm font-semibold">Continue Learning</p>
+                <p className="text-xs opacity-80">{ed.title} · Unit {un.id}</p>
+              </div>
+              <ChevronRight size={18} />
+            </motion.button>
+          );
+        })()}
 
         {/* Stats row */}
         <div className="grid grid-cols-3 gap-2 mb-5">
