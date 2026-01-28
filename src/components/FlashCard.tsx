@@ -39,7 +39,10 @@ const hashWord = (word: string): number => {
 const getWordEmoji = (word: string, pos?: string): string => {
   const w = word.toLowerCase();
   // Simple category detection
-  if (['afraid', 'angry', 'happy', 'sad', 'excited', 'nervous'].some(e => w.includes(e))) return '😊';
+  if (['afraid', 'fear', 'scared', 'nervous', 'worry'].some(e => w.includes(e))) return '😨';
+  if (['angry', 'mad', 'fury', 'rage'].some(e => w.includes(e))) return '😠';
+  if (['happy', 'joy', 'glad', 'pleased', 'cheerful', 'excited'].some(e => w.includes(e))) return '😊';
+  if (['sad', 'sorrow', 'grief', 'unhappy'].some(e => w.includes(e))) return '😢';
   if (['run', 'walk', 'jump', 'move', 'fly', 'swim'].some(e => w.includes(e))) return '🏃';
   if (['eat', 'food', 'cook', 'meal', 'drink'].some(e => w.includes(e))) return '🍽️';
   if (['book', 'read', 'write', 'study', 'learn'].some(e => w.includes(e))) return '📚';
