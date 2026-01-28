@@ -1,12 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Trophy, ChevronRight, Zap, PlayCircle } from 'lucide-react';
+import { Trophy, ChevronRight, Zap, PlayCircle, Sparkles, Volume2 } from 'lucide-react';
 import { useProgress } from '../contexts/ProgressContext';
 import { editions } from '../data/vocabulary';
 import { StreakBadge } from '../components/StreakBadge';
 import { ProgressBar } from '../components/ProgressBar';
-import { hideBackButton, hideMainButton } from '../lib/telegram';
+import { hideBackButton, hideMainButton, haptic } from '../lib/telegram';
+import { Word } from '../types';
 
 export const HomePage: React.FC = () => {
   const navigate = useNavigate();
@@ -22,6 +23,27 @@ export const HomePage: React.FC = () => {
   const goalPercent = progress.dailyGoal.target > 0
     ? Math.min(100, Math.round((progress.dailyGoal.wordsToday / progress.dailyGoal.target) * 100))
     : 0;
+
+  // Word of the Day - deterministic based on date
+  const wordOfTheDay = useMemo<Word | null>(() => {
+    const allWords: Word[] = [];
+    editions.forEach(ed => ed.units.forEach(u => allWords.push(...u.words)));
+    if (allWords.length === 0) return null;
+    
+    // Generate a consistent index based on date
+    const today = new Date();
+    const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24));
+    const index = (dayOfYear * 17 + today.getFullYear()) % allWords.length; // 17 is arbitrary prime for better distribution
+    return allWords[index];
+  }, []);
+
+  const speakWord = (text: string) => {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.85;
+    speechSynthesis.speak(utterance);
+    haptic.selection();
+  };
 
   return (
     <div className="h-full overflow-y-auto pb-2">
@@ -65,6 +87,45 @@ export const HomePage: React.FC = () => {
             {progress.dailyGoal.wordsToday} / {progress.dailyGoal.target} words today
           </p>
         </motion.div>
+
+        {/* Word of the Day */}
+        {wordOfTheDay && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            className="rounded-2xl p-4 mb-4"
+            style={{ 
+              background: 'linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(59, 130, 246, 0.15))',
+              border: '1px solid rgba(139, 92, 246, 0.3)',
+            }}
+          >
+            <div className="flex items-center justify-between mb-2">
+              <div className="flex items-center gap-2">
+                <Sparkles size={16} style={{ color: '#8b5cf6' }} />
+                <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: '#8b5cf6' }}>
+                  Word of the Day
+                </span>
+              </div>
+              <button 
+                onClick={() => speakWord(wordOfTheDay.word)}
+                className="p-1.5 rounded-full active:scale-90 transition-transform"
+                style={{ backgroundColor: 'rgba(139, 92, 246, 0.2)' }}
+              >
+                <Volume2 size={14} style={{ color: '#8b5cf6' }} />
+              </button>
+            </div>
+            <h3 className="text-xl font-bold mb-1" style={{ color: 'var(--tg-text)' }}>
+              {wordOfTheDay.word}
+            </h3>
+            <p className="text-sm mb-2" style={{ color: 'var(--tg-subtitle)' }}>
+              {wordOfTheDay.meaning}
+            </p>
+            <p className="text-xs italic" style={{ color: 'var(--tg-hint)' }}>
+              "{wordOfTheDay.example}"
+            </p>
+          </motion.div>
+        )}
 
         {/* Continue Learning */}
         {progress.lastStudied && (() => {
