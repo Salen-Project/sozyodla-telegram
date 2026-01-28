@@ -11,6 +11,8 @@ interface ProgressContextType {
   toggleFavorite: (editionId: number, unitId: number, word: string) => void;
   isFavorite: (editionId: number, unitId: number, word: string) => boolean;
   setLastStudied: (editionId: number, unitId: number) => void;
+  setDailyGoalTarget: (target: number) => void;
+  resetProgress: () => void;
 }
 
 const ProgressCtx = createContext<ProgressContextType | null>(null);

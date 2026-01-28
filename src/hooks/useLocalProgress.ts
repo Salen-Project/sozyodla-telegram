@@ -108,6 +108,18 @@ export function useLocalProgress() {
     }));
   }, []);
 
+  const setDailyGoalTarget = useCallback((target: number) => {
+    setProgress(prev => ({
+      ...prev,
+      dailyGoal: { ...prev.dailyGoal, target },
+    }));
+  }, []);
+
+  const resetProgress = useCallback(() => {
+    setProgress(INITIAL_PROGRESS);
+    localStorage.removeItem(STORAGE_KEY);
+  }, []);
+
   return {
     progress,
     updateStreak,
@@ -117,5 +129,7 @@ export function useLocalProgress() {
     toggleFavorite,
     isFavorite,
     setLastStudied,
+    setDailyGoalTarget,
+    resetProgress,
   };
 }
