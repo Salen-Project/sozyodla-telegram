@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { ChevronRight, Lock, CheckCircle } from 'lucide-react';
 import { editions } from '../data/vocabulary';
 import { useProgress } from '../contexts/ProgressContext';
-import { showBackButton, hideMainButton } from '../lib/telegram';
+import { showBackButton, hideMainButton, haptic } from '../lib/telegram';
 
 export const BookPage: React.FC = () => {
   const navigate = useNavigate();
@@ -59,7 +59,12 @@ export const BookPage: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.03 }}
               whileTap={unlocked ? { scale: 0.98 } : undefined}
-              onClick={() => unlocked && navigate(`/unit/${edition.id}/${unit.id}`)}
+              onClick={() => {
+                if (unlocked) {
+                  haptic.impact('light');
+                  navigate(`/unit/${edition.id}/${unit.id}`);
+                }
+              }}
               disabled={!unlocked}
               className="w-full flex items-center gap-3 p-4 rounded-xl transition-opacity"
               style={{
