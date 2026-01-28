@@ -66,25 +66,43 @@ export const HomePage: React.FC = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           className="rounded-2xl p-4 mb-4"
-          style={{ backgroundColor: 'var(--tg-section-bg)', border: '1px solid var(--tg-secondary-bg)' }}
+          style={{ 
+            backgroundColor: goalPercent >= 100 ? 'rgba(34, 197, 94, 0.1)' : 'var(--tg-section-bg)', 
+            border: goalPercent >= 100 ? '1px solid rgba(34, 197, 94, 0.3)' : '1px solid var(--tg-secondary-bg)' 
+          }}
         >
           <div className="flex items-center justify-between mb-2">
             <div className="flex items-center gap-2">
-              <Zap size={18} style={{ color: 'var(--tg-button)' }} />
-              <span className="text-sm font-semibold" style={{ color: 'var(--tg-text)' }}>
-                Daily Goal
+              {goalPercent >= 100 ? (
+                <motion.span
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1, rotate: [0, 10, -10, 0] }}
+                  transition={{ duration: 0.5 }}
+                  className="text-lg"
+                >
+                  🎉
+                </motion.span>
+              ) : (
+                <Zap size={18} style={{ color: 'var(--tg-button)' }} />
+              )}
+              <span className="text-sm font-semibold" style={{ color: goalPercent >= 100 ? '#22c55e' : 'var(--tg-text)' }}>
+                {goalPercent >= 100 ? 'Goal Complete!' : 'Daily Goal'}
               </span>
             </div>
-            <span className="text-xs font-bold" style={{ color: 'var(--tg-button)' }}>
+            <span className="text-xs font-bold" style={{ color: goalPercent >= 100 ? '#22c55e' : 'var(--tg-button)' }}>
               {goalPercent}%
             </span>
           </div>
           <ProgressBar
             current={progress.dailyGoal.wordsToday}
             total={progress.dailyGoal.target}
+            color={goalPercent >= 100 ? '#22c55e' : undefined}
           />
-          <p className="text-xs mt-2" style={{ color: 'var(--tg-hint)' }}>
-            {progress.dailyGoal.wordsToday} / {progress.dailyGoal.target} words today
+          <p className="text-xs mt-2" style={{ color: goalPercent >= 100 ? '#22c55e' : 'var(--tg-hint)' }}>
+            {goalPercent >= 100 
+              ? '🌟 Amazing work today!' 
+              : `${progress.dailyGoal.wordsToday} / ${progress.dailyGoal.target} words today`
+            }
           </p>
         </motion.div>
 
