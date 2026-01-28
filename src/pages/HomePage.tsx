@@ -81,7 +81,7 @@ export const HomePage: React.FC = () => {
         <div className="flex items-center justify-between mb-4">
           <div>
             <h1 className="text-2xl font-bold" style={{ color: 'var(--tg-text)' }}>
-              SOZYOLA 📚
+              So'z Yodla 📚
             </h1>
             <p className="text-sm mt-0.5" style={{ color: 'var(--tg-subtitle)' }}>
               {getGreeting()}
@@ -104,7 +104,7 @@ export const HomePage: React.FC = () => {
             <div className="flex items-center gap-3 mb-2">
               <span className="text-2xl">👋</span>
               <h3 className="text-lg font-bold" style={{ color: 'var(--tg-text)' }}>
-                Welcome to SOZYOLA!
+                So'z Yodla'ga xush kelibsiz!
               </h3>
             </div>
             <p className="text-sm mb-3" style={{ color: 'var(--tg-subtitle)' }}>

@@ -57,12 +57,12 @@ export const ProfilePage: React.FC = () => {
 
   // Share progress
   const shareProgress = async () => {
-    const text = `📚 SOZYOLA Progress Report!\n\n` +
+    const text = `📚 So'z Yodla Progress Report!\n\n` +
       `🎯 Level: ${level.emoji} ${level.name}\n` +
       `📖 Words Learned: ${progress.wordsLearned || 0}\n` +
       `🔥 Streak: ${progress.streak.count} days\n` +
       `🏆 Achievements: ${achievements.length}/11\n\n` +
-      `#SOZYOLA #LearningEnglish`;
+      `#SozYodla #LearningEnglish`;
     
     haptic.impact('light');
     
