@@ -57,14 +57,19 @@ export const WordScramblePage: React.FC = () => {
   const [results, setResults] = useState<boolean[]>([]);
   const [completed, setCompleted] = useState(false);
 
+  // Track original words for retry
+  const [incorrectWords, setIncorrectWords] = useState<Word[]>([]);
+
   // Initialize game
-  const initGame = useCallback(() => {
-    const shuffled = shuffleArray(words).slice(0, Math.min(GAME_SIZE, words.length));
+  const initGame = useCallback((wordsToUse?: Word[]) => {
+    const sourceWords = wordsToUse || words;
+    const shuffled = shuffleArray(sourceWords).slice(0, Math.min(GAME_SIZE, sourceWords.length));
     const newItems: ScrambleItem[] = shuffled.map(w => ({
       word: w.word.toUpperCase(),
       clue: getClue(w),
       scrambled: shuffleLetters(w.word),
-    }));
+      originalWord: w,
+    } as ScrambleItem & { originalWord: Word }));
     setItems(newItems);
     setCurrentIndex(0);
     setAnswerSlots(new Array(newItems[0]?.word.length || 0).fill(null));
@@ -72,11 +77,24 @@ export const WordScramblePage: React.FC = () => {
     setIsCorrect(false);
     setResults([]);
     setCompleted(false);
+    if (!wordsToUse) setIncorrectWords([]);
   }, [words, getClue]);
+
+  // Retry only incorrect words
+  const retryIncorrect = useCallback(() => {
+    const wrongItems = items
+      .filter((_, i) => !results[i])
+      .map((item) => words.find(w => w.word.toUpperCase() === item.word))
+      .filter((w): w is Word => w !== undefined);
+    if (wrongItems.length > 0) {
+      initGame(wrongItems);
+    }
+  }, [items, results, words, initGame]);
 
   useEffect(() => {
     if (words.length > 0) initGame();
-  }, [words, initGame]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [words]);
 
   useEffect(() => {
     showBackButton(() => navigate(`/unit/${bookId}/${unitId}`));
@@ -231,8 +249,18 @@ export const WordScramblePage: React.FC = () => {
         </div>
 
         <div className="flex flex-col gap-3 w-full max-w-[280px]">
+          {total - score > 0 && (
+            <button
+              onClick={retryIncorrect}
+              className="w-full py-3 rounded-xl text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-transform"
+              style={{ backgroundColor: '#f59e0b', color: 'white' }}
+            >
+              <RotateCcw size={18} />
+              {lang === 'uz' ? `Xato so'zlarni qaytadan (${total - score})` : `Retry Incorrect (${total - score})`}
+            </button>
+          )}
           <button
-            onClick={initGame}
+            onClick={() => initGame()}
             className="w-full py-3 rounded-xl text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-transform"
             style={{ backgroundColor: 'var(--tg-button)', color: 'var(--tg-button-text)' }}
           >
