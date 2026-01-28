@@ -160,6 +160,7 @@ export const UnitPage: React.FC = () => {
       icon: Sparkles,
       color: '#06b6d4',
       path: `/scramble/${bookId}/${unitId}`,
+      isNew: true,
     },
     {
       id: 'fill-blank',
@@ -168,6 +169,7 @@ export const UnitPage: React.FC = () => {
       icon: FileText,
       color: '#8b5cf6',
       path: `/fill-blank/${bookId}/${unitId}`,
+      isNew: true,
     },
   ];
 
@@ -224,9 +226,16 @@ export const UnitPage: React.FC = () => {
                 <mode.icon size={20} style={{ color: mode.color }} />
               </div>
               <div className="flex-1 text-left">
-                <p className="text-sm font-semibold" style={{ color: 'var(--tg-text)' }}>
-                  {mode.label}
-                </p>
+                <div className="flex items-center gap-2">
+                  <p className="text-sm font-semibold" style={{ color: 'var(--tg-text)' }}>
+                    {mode.label}
+                  </p>
+                  {mode.isNew && (
+                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-gradient-to-r from-cyan-500 to-purple-500 text-white">
+                      NEW
+                    </span>
+                  )}
+                </div>
                 <p className="text-xs" style={{ color: 'var(--tg-hint)' }}>{mode.desc}</p>
               </div>
               <ArrowRight size={18} style={{ color: mode.color }} />
