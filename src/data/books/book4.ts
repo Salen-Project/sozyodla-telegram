@@ -1218,7 +1218,7 @@ export const book4Units: Unit[] = [
                 "definition": "If something is memorable, then it is remembered for a special reason.",
                 "example": "The party was memorable; people were still talking about it years later.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Hvozdec%2C_Mrtn%C3%ADk%2C_memorable_tree.jpg/500px-Hvozdec%2C_Mrtn%C3%ADk%2C_memorable_tree.jpg",
+                image: "/image-manager/uploads/book4_unit7_memorable.jpg",
             },
             {
                 "word": "oblige",
