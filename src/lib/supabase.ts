@@ -13,3 +13,16 @@ export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
     flowType: 'pkce',
   },
 });
+
+// Email domain for username to email conversion
+export const EMAIL_DOMAIN = 'vocab.app';
+
+// Convert username to email format
+export const usernameToEmail = (username: string): string => {
+  return `${username.toLowerCase().trim()}@${EMAIL_DOMAIN}`;
+};
+
+// Extract username from email
+export const emailToUsername = (email: string): string => {
+  return email.split('@')[0];
+};

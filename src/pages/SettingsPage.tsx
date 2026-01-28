@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Target, Globe, Trash2, Info, CheckCircle } from 'lucide-react';
+import { Target, Globe, Trash2, Info, CheckCircle, LogOut } from 'lucide-react';
 import { useProgress } from '../contexts/ProgressContext';
+import { useAuth } from '../contexts/AuthContext';
 import { hideBackButton, hideMainButton } from '../lib/telegram';
 
 const LANG_KEY = 'sozyola_tg_lang';
@@ -9,6 +10,7 @@ const GOAL_OPTIONS = [10, 15, 20, 30, 50];
 
 export const SettingsPage: React.FC = () => {
   const { progress, setDailyGoalTarget, resetProgress } = useProgress();
+  const { user: authUser, logout } = useAuth();
   const [lang, setLang] = useState<string>(() => localStorage.getItem(LANG_KEY) || 'uz');
   const [showResetConfirm, setShowResetConfirm] = useState(false);
   const [saved, setSaved] = useState(false);
@@ -171,6 +173,38 @@ export const SettingsPage: React.FC = () => {
             {showResetConfirm ? 'Tap again to confirm reset' : 'Reset All Progress'}
           </button>
         </motion.div>
+
+        {/* Account */}
+        {authUser && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="rounded-xl p-4"
+            style={{ backgroundColor: 'var(--tg-section-bg)', border: '1px solid var(--tg-secondary-bg)' }}
+          >
+            <div className="flex items-center gap-2 mb-3">
+              <LogOut size={18} style={{ color: 'var(--tg-button)' }} />
+              <span className="text-sm font-semibold" style={{ color: 'var(--tg-text)' }}>
+                Account
+              </span>
+            </div>
+            <p className="text-xs mb-3" style={{ color: 'var(--tg-hint)' }}>
+              Signed in as <strong style={{ color: 'var(--tg-text)' }}>{authUser.username}</strong>
+            </p>
+            <button
+              onClick={logout}
+              className="w-full flex items-center justify-center gap-2 py-2.5 rounded-lg text-sm font-medium active:scale-95 transition-all"
+              style={{
+                backgroundColor: 'var(--tg-secondary-bg)',
+                color: 'var(--tg-text)',
+              }}
+            >
+              <LogOut size={16} />
+              Sign Out
+            </button>
+          </motion.div>
+        )}
 
         {/* Version */}
         <p className="text-center text-xs py-2" style={{ color: 'var(--tg-hint)', opacity: 0.6 }}>

@@ -1,6 +1,8 @@
 import React from 'react';
 import { MemoryRouter, Routes, Route } from 'react-router-dom';
+import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { ProgressProvider } from './contexts/ProgressContext';
+import { LoginPage } from './pages/LoginPage';
 import { HomePage } from './pages/HomePage';
 import { BookPage } from './pages/BookPage';
 import { UnitPage } from './pages/UnitPage';
@@ -17,7 +19,31 @@ import { ProfilePage } from './pages/ProfilePage';
 import { ShopPage } from './pages/ShopPage';
 import { BottomNav } from './components/BottomNav';
 
-const App: React.FC = () => {
+const AuthGate: React.FC = () => {
+  const { user, isLoading } = useAuth();
+
+  if (isLoading) {
+    return (
+      <div
+        className="h-full w-full flex flex-col items-center justify-center"
+        style={{ backgroundColor: 'var(--tg-bg)' }}
+      >
+        <div className="text-4xl mb-3">📚</div>
+        <div
+          className="animate-spin h-6 w-6 border-2 rounded-full"
+          style={{
+            borderColor: 'var(--tg-hint)',
+            borderTopColor: 'var(--tg-button)',
+          }}
+        />
+      </div>
+    );
+  }
+
+  if (!user) {
+    return <LoginPage />;
+  }
+
   return (
     <ProgressProvider>
       <MemoryRouter>
@@ -44,6 +70,14 @@ const App: React.FC = () => {
         </div>
       </MemoryRouter>
     </ProgressProvider>
+  );
+};
+
+const App: React.FC = () => {
+  return (
+    <AuthProvider>
+      <AuthGate />
+    </AuthProvider>
   );
 };
 
