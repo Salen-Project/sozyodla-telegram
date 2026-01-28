@@ -8,6 +8,7 @@ import { hideBackButton, hideMainButton } from '../lib/telegram';
 
 interface SearchResult {
   word: Word;
+  wordIndex: number;
   editionId: number;
   editionTitle: string;
   unitId: number;
@@ -33,7 +34,8 @@ export const SearchPage: React.FC = () => {
     const found: SearchResult[] = [];
     for (const edition of editions) {
       for (const unit of edition.units) {
-        for (const word of unit.words) {
+        for (let i = 0; i < unit.words.length; i++) {
+          const word = unit.words[i];
           if (
             word.word.toLowerCase().includes(q) ||
             word.meaning.toLowerCase().includes(q) ||
@@ -42,6 +44,7 @@ export const SearchPage: React.FC = () => {
           ) {
             found.push({
               word,
+              wordIndex: i,
               editionId: edition.id,
               editionTitle: edition.title,
               unitId: unit.id,
@@ -115,7 +118,7 @@ export const SearchPage: React.FC = () => {
                 initial={{ opacity: 0, y: 5 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: Math.min(i * 0.02, 0.3) }}
-                onClick={() => navigate(`/unit/${r.editionId}/${r.unitId}`)}
+                onClick={() => navigate(`/word/${r.editionId}/${r.unitId}/${r.wordIndex}`)}
                 className="w-full text-left p-3 rounded-xl active:opacity-80 transition-opacity"
                 style={{ backgroundColor: 'var(--tg-section-bg)', border: '1px solid var(--tg-secondary-bg)' }}
               >

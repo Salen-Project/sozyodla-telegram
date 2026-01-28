@@ -17,6 +17,7 @@ import { FavoritesPage } from './pages/FavoritesPage';
 import { SettingsPage } from './pages/SettingsPage';
 import { ProfilePage } from './pages/ProfilePage';
 import { ShopPage } from './pages/ShopPage';
+import { WordDetailPage } from './pages/WordDetailPage';
 import { BottomNav } from './components/BottomNav';
 
 const AuthGate: React.FC = () => {
@@ -58,6 +59,7 @@ const AuthGate: React.FC = () => {
               <Route path="/shop" element={<ShopPage />} />
               <Route path="/book/:bookId" element={<BookPage />} />
               <Route path="/unit/:bookId/:unitId" element={<UnitPage />} />
+              <Route path="/word/:bookId/:unitId/:wordIndex" element={<WordDetailPage />} />
               <Route path="/select/:mode" element={<SelectUnitPage />} />
               <Route path="/flashcards/:bookId/:unitId" element={<FlashcardsPage />} />
               <Route path="/quiz/:bookId/:unitId" element={<QuizPage />} />
