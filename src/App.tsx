@@ -40,7 +40,7 @@ const PageLoader: React.FC = () => (
 );
 
 const AuthGate: React.FC = () => {
-  const { user, isLoading } = useAuth();
+  const { user, isLoading, isSkipped } = useAuth();
 
   if (isLoading) {
     return (
@@ -60,7 +60,7 @@ const AuthGate: React.FC = () => {
     );
   }
 
-  if (!user) {
+  if (!user && !isSkipped) {
     return <LoginPage />;
   }
 

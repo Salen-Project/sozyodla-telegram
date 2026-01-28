@@ -12,10 +12,14 @@ interface AuthContextType {
   user: AuthUser | null;
   session: Session | null;
   isLoading: boolean;
+  isSkipped: boolean;
   login: (username: string, password: string) => Promise<{ error: string | null }>;
   signup: (username: string, password: string) => Promise<{ error: string | null }>;
   logout: () => Promise<void>;
+  skipAuth: () => void;
 }
+
+const SKIP_AUTH_KEY = 'sozyola_auth_skipped';
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
@@ -23,6 +27,9 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const [user, setUser] = useState<AuthUser | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [isSkipped, setIsSkipped] = useState(() => {
+    return localStorage.getItem(SKIP_AUTH_KEY) === 'true';
+  });
 
   const transformUser = (supabaseUser: User | null): AuthUser | null => {
     if (!supabaseUser || !supabaseUser.email) return null;
@@ -72,6 +79,9 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         }
         return { error: error.message };
       }
+      // Clear skipped state on successful login
+      setIsSkipped(false);
+      localStorage.removeItem(SKIP_AUTH_KEY);
       return { error: null };
     } catch {
       return { error: 'An unexpected error occurred. Please try again.' };
@@ -98,6 +108,9 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       }
 
       if (data?.session) {
+        // Clear skipped state on successful signup
+        setIsSkipped(false);
+        localStorage.removeItem(SKIP_AUTH_KEY);
         return { error: null };
       }
 
@@ -105,6 +118,9 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       if (loginError) {
         return { error: loginError.message };
       }
+      // Clear skipped state on successful signup
+      setIsSkipped(false);
+      localStorage.removeItem(SKIP_AUTH_KEY);
       return { error: null };
     } catch {
       return { error: 'An unexpected error occurred. Please try again.' };
@@ -116,13 +132,20 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       await supabase.auth.signOut();
       setUser(null);
       setSession(null);
+      setIsSkipped(false);
+      localStorage.removeItem(SKIP_AUTH_KEY);
     } catch (error) {
       console.error('Error signing out:', error);
     }
   };
 
+  const skipAuth = () => {
+    setIsSkipped(true);
+    localStorage.setItem(SKIP_AUTH_KEY, 'true');
+  };
+
   return (
-    <AuthContext.Provider value={{ user, session, isLoading, login, signup, logout }}>
+    <AuthContext.Provider value={{ user, session, isLoading, isSkipped, login, signup, logout, skipAuth }}>
       {children}
     </AuthContext.Provider>
   );
