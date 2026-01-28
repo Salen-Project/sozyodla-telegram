@@ -5,6 +5,7 @@ import { BookOpen, Brain, Pen, ArrowRight, Volume2, Shuffle, ListChecks, Sparkle
 import { editions } from '../data/vocabulary';
 import { useProgress } from '../contexts/ProgressContext';
 import { showBackButton, hideMainButton, haptic } from '../lib/telegram';
+import { saveLastVisited } from '../lib/lastVisited';
 import { getWordImageUrl } from '../lib/images';
 import { Word } from '../types';
 
@@ -101,6 +102,18 @@ export const UnitPage: React.FC = () => {
     showBackButton(() => navigate(`/book/${bookId}`));
     hideMainButton();
   }, [navigate, bookId]);
+
+  // Track last visited unit
+  useEffect(() => {
+    if (edition && unit) {
+      saveLastVisited({
+        bookId: edition.id,
+        unitId: unit.id,
+        bookTitle: edition.title,
+        unitTitle: unit.title,
+      });
+    }
+  }, [edition, unit]);
 
   if (!edition || !unit) {
     return (

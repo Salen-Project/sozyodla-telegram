@@ -1,8 +1,9 @@
 import React, { useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Trophy, ChevronRight, Zap, PlayCircle, Sparkles, Volume2 } from 'lucide-react';
+import { Trophy, ChevronRight, Zap, PlayCircle, Sparkles, Volume2, Play } from 'lucide-react';
 import { useProgress } from '../contexts/ProgressContext';
+import { getLastVisited, LastVisited } from '../lib/lastVisited';
 import { editions } from '../data/vocabulary';
 import { StreakBadge } from '../components/StreakBadge';
 import { ProgressBar } from '../components/ProgressBar';
@@ -23,6 +24,9 @@ export const HomePage: React.FC = () => {
   const goalPercent = progress.dailyGoal.target > 0
     ? Math.min(100, Math.round((progress.dailyGoal.wordsToday / progress.dailyGoal.target) * 100))
     : 0;
+
+  // Last visited unit for "Continue Learning"
+  const lastVisited = useMemo<LastVisited | null>(() => getLastVisited(), []);
 
   // Word of the Day - deterministic based on date
   const wordOfTheDay = useMemo<Word | null>(() => {
@@ -113,6 +117,48 @@ export const HomePage: React.FC = () => {
             >
               🚀 Start Learning
             </button>
+          </motion.div>
+        )}
+
+        {/* Continue Learning card - show if user has visited a unit before and isn't new */}
+        {lastVisited && (progress.wordsLearned || 0) > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="rounded-2xl p-4 mb-4"
+            style={{ 
+              backgroundColor: 'var(--tg-section-bg)', 
+              border: '1px solid var(--tg-secondary-bg)'
+            }}
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div 
+                  className="w-10 h-10 rounded-xl flex items-center justify-center"
+                  style={{ backgroundColor: 'rgba(139, 92, 246, 0.15)' }}
+                >
+                  <Play size={20} color="#8b5cf6" />
+                </div>
+                <div>
+                  <p className="text-sm font-semibold" style={{ color: 'var(--tg-text)' }}>
+                    Continue Learning
+                  </p>
+                  <p className="text-xs" style={{ color: 'var(--tg-hint)' }}>
+                    Book {lastVisited.bookId} · {lastVisited.unitTitle}
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => {
+                  haptic.impact('light');
+                  navigate(`/unit/${lastVisited.bookId}/${lastVisited.unitId}`);
+                }}
+                className="px-4 py-2 rounded-xl text-sm font-medium"
+                style={{ backgroundColor: 'rgba(139, 92, 246, 0.15)', color: '#8b5cf6' }}
+              >
+                Resume
+              </button>
+            </div>
           </motion.div>
         )}
 
