@@ -39,7 +39,7 @@ export const book4Units: Unit[] = [
                 "definition": "To combine is to join together to make a single thing or group.",
                 "example": "We combined our notes to study for the chemistry exam.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/How_to_Assembled_3D_puzzle.jpg",
+                image: "/image-manager/uploads/book4_unit1_combine.jpg",
             },
             {
                 "word": "condensed",
@@ -102,7 +102,7 @@ export const book4Units: Unit[] = [
                 "definition": "The palate is the top part of the mouth.",
                 "example": "You can touch your palate with your tongue.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Illu01_head_neck.jpg/400px-Illu01_head_neck.jpg",
+                image: "/image-manager/uploads/book4_unit1_palate.jpg",
             },
             {
                 "word": "paradise",
@@ -279,7 +279,7 @@ export const book4Units: Unit[] = [
                 "definition": "If you are horrified, you are very shocked and feel upset.",
                 "example": "I was horrified when I read about the old lady who was attacked.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Horrified_Face.jpg/500px-Horrified_Face.jpg",
+                image: "/image-manager/uploads/book4_unit2_horrified.jpg",
             },
             {
                 "word": "kerosene",
@@ -555,7 +555,7 @@ export const book4Units: Unit[] = [
                 "definition": "To torment someone means to cause them to suffer on purpose.",
                 "example": "She tormented her little brother by taking his favorite toy.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Torment_%281924%29_-_1.jpg/500px-Torment_%281924%29_-_1.jpg",
+                image: "/image-manager/uploads/book4_unit3_torment.jpg",
             }
         ]
     },

@@ -2973,7 +2973,7 @@ export const book3Units: Unit[] = [
                 "definition": "When something is tidy, it is clean and  in order.",
                 "example": "Leon has always been a very tidy boy.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Tidy_Street_-_geograph.org.uk_-_2533749.jpg/480px-Tidy_Street_-_geograph.org.uk_-_2533749.jpg",
+                image: "/image-manager/uploads/book3_unit16_tidy.jpg",
             }
         ]
     },
@@ -4416,7 +4416,7 @@ export const book3Units: Unit[] = [
                 "definition": "A phantom is a ghost or spirit.",
                 "example": "A scary phantom appeared from out o f the darkness.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Phantom_%28South_Korean_band%29_from_acrofan.jpg/454px-Phantom_%28South_Korean_band%29_from_acrofan.jpg",
+                image: "/image-manager/uploads/book3_unit24_phantom.jpg",
             },
             {
                 "word": "portable",
