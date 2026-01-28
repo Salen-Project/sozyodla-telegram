@@ -11,6 +11,8 @@ import { RecallPage } from './pages/RecallPage';
 import { SearchPage } from './pages/SearchPage';
 import { FavoritesPage } from './pages/FavoritesPage';
 import { SettingsPage } from './pages/SettingsPage';
+import { ProfilePage } from './pages/ProfilePage';
+import { ShopPage } from './pages/ShopPage';
 import { BottomNav } from './components/BottomNav';
 
 const App: React.FC = () => {
@@ -24,6 +26,8 @@ const App: React.FC = () => {
               <Route path="/search" element={<SearchPage />} />
               <Route path="/favorites" element={<FavoritesPage />} />
               <Route path="/settings" element={<SettingsPage />} />
+              <Route path="/profile" element={<ProfilePage />} />
+              <Route path="/shop" element={<ShopPage />} />
               <Route path="/book/:bookId" element={<BookPage />} />
               <Route path="/unit/:bookId/:unitId" element={<UnitPage />} />
               <Route path="/select/:mode" element={<SelectUnitPage />} />

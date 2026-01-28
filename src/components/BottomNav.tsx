@@ -1,12 +1,12 @@
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Home, Search, Heart, Settings } from 'lucide-react';
+import { Home, Search, ShoppingBag, User } from 'lucide-react';
 
 const tabs = [
   { path: '/', icon: Home, label: 'Home' },
   { path: '/search', icon: Search, label: 'Search' },
-  { path: '/favorites', icon: Heart, label: 'Favorites' },
-  { path: '/settings', icon: Settings, label: 'Settings' },
+  { path: '/shop', icon: ShoppingBag, label: 'Shop' },
+  { path: '/profile', icon: User, label: 'Profile' },
 ];
 
 export const BottomNav: React.FC = () => {
@@ -14,8 +14,8 @@ export const BottomNav: React.FC = () => {
   const location = useLocation();
 
   // Only show on top-level pages
-  const showNav = ['/', '/search', '/favorites', '/settings'].includes(location.pathname);
-  if (!showNav) return null;
+  const topPages = ['/', '/search', '/shop', '/profile', '/favorites', '/settings'];
+  if (!topPages.includes(location.pathname)) return null;
 
   return (
     <div
@@ -36,7 +36,6 @@ export const BottomNav: React.FC = () => {
             <tab.icon
               size={22}
               style={{ color: isActive ? 'var(--tg-button)' : 'var(--tg-hint)' }}
-              fill={isActive && tab.icon === Heart ? 'var(--tg-button)' : 'none'}
             />
             <span
               className="text-xs"

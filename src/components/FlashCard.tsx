@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence, PanInfo } from 'framer-motion';
 import { Word } from '../types';
 import { haptic } from '../lib/telegram';
-import { Volume2, Heart, RotateCcw } from 'lucide-react';
+import { Volume2, Heart, RotateCcw, ImageOff } from 'lucide-react';
 
 interface FlashCardProps {
   word: Word;
@@ -13,6 +13,44 @@ interface FlashCardProps {
   onSwipeLeft: () => void;
   onSwipeRight: () => void;
 }
+
+const GRADIENTS = [
+  'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+  'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+  'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+  'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+  'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
+  'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)',
+  'linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)',
+  'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)',
+];
+
+const WordImage: React.FC<{ word: string }> = ({ word }) => {
+  const [imgError, setImgError] = useState(false);
+  const gradIdx = word.charCodeAt(0) % GRADIENTS.length;
+  const imgUrl = `https://source.unsplash.com/200x200/?${encodeURIComponent(word)}`;
+
+  return (
+    <div
+      className="w-24 h-24 rounded-2xl mb-3 flex items-center justify-center overflow-hidden shadow-sm"
+      style={{ background: GRADIENTS[gradIdx] }}
+    >
+      {!imgError ? (
+        <img
+          src={imgUrl}
+          alt={word}
+          loading="lazy"
+          className="w-full h-full object-cover"
+          onError={() => setImgError(true)}
+        />
+      ) : (
+        <span className="text-4xl font-bold text-white opacity-80">
+          {word[0]?.toUpperCase()}
+        </span>
+      )}
+    </div>
+  );
+};
 
 export const FlashCard: React.FC<FlashCardProps> = ({
   word,
@@ -126,6 +164,8 @@ export const FlashCard: React.FC<FlashCardProps> = ({
             }}
           >
             <div className="flex-1 flex flex-col items-center justify-center w-full">
+              {/* Word image */}
+              <WordImage word={word.word} />
               <span
                 className="text-xs uppercase tracking-wider mb-2 font-medium"
                 style={{ color: 'var(--tg-hint)' }}
