@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Home, Search, ShoppingBag, User } from 'lucide-react';
+import { haptic } from '../lib/telegram';
 
 const tabs = [
   { path: '/', icon: Home, label: 'Home' },
@@ -30,7 +31,12 @@ export const BottomNav: React.FC = () => {
         return (
           <button
             key={tab.path}
-            onClick={() => navigate(tab.path)}
+            onClick={() => {
+              if (location.pathname !== tab.path) {
+                haptic.selection();
+              }
+              navigate(tab.path);
+            }}
             className="flex flex-col items-center gap-0.5 px-3 py-1 active:scale-90 transition-transform"
           >
             <tab.icon
