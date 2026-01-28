@@ -1299,7 +1299,7 @@ export const book4Units: Unit[] = [
                 "definition": "A witness is someone who sees or hears a crime or accident happen.",
                 "example": "The woman  was the only witness of the horrible crime.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Olga_Eyer_on_witness_stand_during_the_Doctors%27_Trial.jpg/500px-Olga_Eyer_on_witness_stand_during_the_Doctors%27_Trial.jpg",
+                image: "/image-manager/uploads/book4_unit7_witness.jpg",
             }
         ]
     },
