@@ -8,6 +8,8 @@ import { SelectUnitPage } from './pages/SelectUnitPage';
 import { FlashcardsPage } from './pages/FlashcardsPage';
 import { QuizPage } from './pages/QuizPage';
 import { RecallPage } from './pages/RecallPage';
+import { MatchingPage } from './pages/MatchingPage';
+import { MultipleChoicePage } from './pages/MultipleChoicePage';
 import { SearchPage } from './pages/SearchPage';
 import { FavoritesPage } from './pages/FavoritesPage';
 import { SettingsPage } from './pages/SettingsPage';
@@ -34,6 +36,8 @@ const App: React.FC = () => {
               <Route path="/flashcards/:bookId/:unitId" element={<FlashcardsPage />} />
               <Route path="/quiz/:bookId/:unitId" element={<QuizPage />} />
               <Route path="/recall/:bookId/:unitId" element={<RecallPage />} />
+              <Route path="/matching/:bookId/:unitId" element={<MatchingPage />} />
+              <Route path="/multiple-choice/:bookId/:unitId" element={<MultipleChoicePage />} />
             </Routes>
           </div>
           <BottomNav />

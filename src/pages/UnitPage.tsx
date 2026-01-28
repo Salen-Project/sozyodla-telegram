@@ -1,15 +1,97 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { BookOpen, Brain, Pen, ArrowRight } from 'lucide-react';
+import { BookOpen, Brain, Pen, ArrowRight, Volume2, Shuffle, ListChecks } from 'lucide-react';
 import { editions } from '../data/vocabulary';
 import { useProgress } from '../contexts/ProgressContext';
 import { showBackButton, hideMainButton } from '../lib/telegram';
+import { getWordImageUrl } from '../lib/images';
+import { Word } from '../types';
+
+const LANG_KEY = 'sozyola_tg_lang';
+
+const WordCard: React.FC<{ word: Word; lang: string }> = ({ word, lang }) => {
+  const [imgError, setImgError] = useState(false);
+  const imageUrl = getWordImageUrl(word.image);
+  const translation = lang === 'ru' && word.meaningRu ? word.meaningRu : word.meaning;
+
+  const speak = (text: string) => {
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'en-US';
+    u.rate = 0.85;
+    speechSynthesis.speak(u);
+  };
+
+  return (
+    <div
+      className="rounded-xl overflow-hidden"
+      style={{ backgroundColor: 'var(--tg-section-bg)', border: '1px solid var(--tg-secondary-bg)' }}
+    >
+      {/* Image */}
+      {imageUrl && !imgError ? (
+        <div className="w-full h-32 overflow-hidden" style={{ backgroundColor: 'var(--tg-secondary-bg)' }}>
+          <img
+            src={imageUrl}
+            alt={word.word}
+            loading="lazy"
+            className="w-full h-full object-cover"
+            onError={() => setImgError(true)}
+          />
+        </div>
+      ) : (
+        <div
+          className="w-full h-20 flex items-center justify-center"
+          style={{ backgroundColor: 'var(--tg-secondary-bg)' }}
+        >
+          <span className="text-3xl opacity-50">📖</span>
+        </div>
+      )}
+
+      {/* Content */}
+      <div className="p-3">
+        <div className="flex items-center gap-1.5 mb-1">
+          <span className="text-base font-bold" style={{ color: 'var(--tg-link)' }}>
+            {word.word}
+          </span>
+          <button
+            onClick={() => speak(word.word)}
+            className="active:opacity-60 p-0.5"
+          >
+            <Volume2 size={14} style={{ color: 'var(--tg-hint)' }} />
+          </button>
+          {word.partOfSpeech && (
+            <span
+              className="ml-auto text-xs px-1.5 py-0.5 rounded"
+              style={{ backgroundColor: 'var(--tg-secondary-bg)', color: 'var(--tg-hint)' }}
+            >
+              {word.partOfSpeech}
+            </span>
+          )}
+        </div>
+
+        <p className="text-sm font-medium mb-1.5" style={{ color: 'var(--tg-text)' }}>
+          {translation}
+        </p>
+
+        <p className="text-xs mb-1" style={{ color: 'var(--tg-subtitle)' }}>
+          <span style={{ color: 'var(--tg-hint)' }}>Def: </span>
+          {word.definition}
+        </p>
+
+        <p className="text-xs italic" style={{ color: 'var(--tg-hint)' }}>
+          "{word.example}"
+        </p>
+      </div>
+    </div>
+  );
+};
 
 export const UnitPage: React.FC = () => {
   const navigate = useNavigate();
   const { bookId, unitId } = useParams<{ bookId: string; unitId: string }>();
   const { progress } = useProgress();
+  const [showAllWords, setShowAllWords] = useState(false);
+  const [lang] = useState(() => localStorage.getItem(LANG_KEY) || 'uz');
 
   const edition = editions.find(e => e.id === Number(bookId));
   const unit = edition?.units.find(u => u.id === Number(unitId));
@@ -54,6 +136,22 @@ export const UnitPage: React.FC = () => {
       color: '#f59e0b',
       path: `/recall/${bookId}/${unitId}`,
     },
+    {
+      id: 'matching',
+      label: 'Matching',
+      desc: 'Match words with meanings',
+      icon: Shuffle,
+      color: '#22c55e',
+      path: `/matching/${bookId}/${unitId}`,
+    },
+    {
+      id: 'multiple-choice',
+      label: 'Multiple Choice',
+      desc: 'Choose the right meaning',
+      icon: ListChecks,
+      color: '#ec4899',
+      path: `/multiple-choice/${bookId}/${unitId}`,
+    },
   ];
 
   return (
@@ -83,8 +181,8 @@ export const UnitPage: React.FC = () => {
           )}
         </div>
 
-        {/* Word preview */}
-        <div className="mb-5">
+        {/* Word chips */}
+        <div className="mb-4">
           <h2 className="text-sm font-semibold mb-2 uppercase tracking-wider" style={{ color: 'var(--tg-section-header)' }}>
             Words in this unit
           </h2>
@@ -99,10 +197,7 @@ export const UnitPage: React.FC = () => {
               </span>
             ))}
             {unit.words.length > 15 && (
-              <span
-                className="px-2.5 py-1 rounded-full text-xs"
-                style={{ color: 'var(--tg-hint)' }}
-              >
+              <span className="px-2.5 py-1 rounded-full text-xs" style={{ color: 'var(--tg-hint)' }}>
                 +{unit.words.length - 15} more
               </span>
             )}
@@ -113,13 +208,13 @@ export const UnitPage: React.FC = () => {
         <h2 className="text-sm font-semibold mb-3 uppercase tracking-wider" style={{ color: 'var(--tg-section-header)' }}>
           Start Practicing
         </h2>
-        <div className="space-y-2">
+        <div className="space-y-2 mb-5">
           {modes.map((mode, i) => (
             <motion.button
               key={mode.id}
               initial={{ opacity: 0, x: -15 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: i * 0.08 }}
+              transition={{ delay: i * 0.06 }}
               whileTap={{ scale: 0.98 }}
               onClick={() => navigate(mode.path)}
               className="w-full flex items-center gap-3 p-4 rounded-xl"
@@ -140,6 +235,45 @@ export const UnitPage: React.FC = () => {
               <ArrowRight size={18} style={{ color: mode.color }} />
             </motion.button>
           ))}
+        </div>
+
+        {/* All Words Section */}
+        <div className="mb-4">
+          <div className="flex items-center justify-between mb-3">
+            <h2 className="text-sm font-semibold uppercase tracking-wider" style={{ color: 'var(--tg-section-header)' }}>
+              All Words
+            </h2>
+            <button
+              onClick={() => setShowAllWords(!showAllWords)}
+              className="text-xs font-medium px-3 py-1 rounded-full active:opacity-70"
+              style={{ backgroundColor: 'var(--tg-secondary-bg)', color: 'var(--tg-button)' }}
+            >
+              {showAllWords ? 'Collapse' : 'Show All'}
+            </button>
+          </div>
+
+          <div className="grid grid-cols-2 gap-2">
+            {(showAllWords ? unit.words : unit.words.slice(0, 4)).map((word, i) => (
+              <motion.div
+                key={word.word}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: Math.min(i * 0.03, 0.3) }}
+              >
+                <WordCard word={word} lang={lang} />
+              </motion.div>
+            ))}
+          </div>
+
+          {!showAllWords && unit.words.length > 4 && (
+            <button
+              onClick={() => setShowAllWords(true)}
+              className="w-full mt-3 py-2.5 rounded-xl text-sm font-medium active:opacity-70"
+              style={{ backgroundColor: 'var(--tg-secondary-bg)', color: 'var(--tg-button)' }}
+            >
+              Show all {unit.words.length} words
+            </button>
+          )}
         </div>
       </div>
     </div>
