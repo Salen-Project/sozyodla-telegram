@@ -45,6 +45,23 @@ export const HomePage: React.FC = () => {
     haptic.selection();
   };
 
+  // Dynamic greeting based on user activity
+  const getGreeting = () => {
+    const streak = progress.streak.count;
+    const wordsToday = progress.dailyGoal.wordsToday;
+    const totalLearned = progress.wordsLearned || 0;
+    
+    if (goalPercent >= 100) return "🌟 Goal achieved! Amazing!";
+    if (streak >= 30) return "🔥 30+ day streak! Legend!";
+    if (streak >= 14) return "💪 2 week streak! Keep it up!";
+    if (streak >= 7) return "🎯 Week streak! Awesome!";
+    if (totalLearned >= 1000) return "📚 1000+ words! Scholar!";
+    if (totalLearned >= 500) return "✨ 500+ words learned!";
+    if (wordsToday > 0) return "👍 Great start today!";
+    if (streak > 0) return `🔥 ${streak} day streak!`;
+    return "Learn vocabulary the smart way";
+  };
+
   return (
     <div className="h-full overflow-y-auto pb-2">
       {/* Header */}
@@ -55,7 +72,7 @@ export const HomePage: React.FC = () => {
               SOZYOLA 📚
             </h1>
             <p className="text-sm mt-0.5" style={{ color: 'var(--tg-subtitle)' }}>
-              Learn vocabulary the smart way
+              {getGreeting()}
             </p>
           </div>
           <StreakBadge count={progress.streak.count} />
