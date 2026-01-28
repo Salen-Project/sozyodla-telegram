@@ -9,7 +9,7 @@ import { showBackButton, hideMainButton } from '../lib/telegram';
 export const BookPage: React.FC = () => {
   const navigate = useNavigate();
   const { bookId } = useParams<{ bookId: string }>();
-  const { progress } = useProgress();
+  const { progress, isUnitUnlocked } = useProgress();
 
   const edition = editions.find(e => e.id === Number(bookId));
 
@@ -50,7 +50,7 @@ export const BookPage: React.FC = () => {
       <div className="px-4 space-y-2">
         {edition.units.map((unit, i) => {
           const result = progress.results[`${edition.id}-${unit.id}`];
-          const isUnlocked = unit.id <= 3; // First 3 units free in TG version
+          const unlocked = isUnitUnlocked(edition.id, unit.id);
 
           return (
             <motion.button
@@ -58,14 +58,14 @@ export const BookPage: React.FC = () => {
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.03 }}
-              whileTap={isUnlocked ? { scale: 0.98 } : undefined}
-              onClick={() => isUnlocked && navigate(`/unit/${edition.id}/${unit.id}`)}
-              disabled={!isUnlocked}
+              whileTap={unlocked ? { scale: 0.98 } : undefined}
+              onClick={() => unlocked && navigate(`/unit/${edition.id}/${unit.id}`)}
+              disabled={!unlocked}
               className="w-full flex items-center gap-3 p-4 rounded-xl transition-opacity"
               style={{
                 backgroundColor: 'var(--tg-section-bg)',
                 border: '1px solid var(--tg-secondary-bg)',
-                opacity: isUnlocked ? 1 : 0.5,
+                opacity: unlocked ? 1 : 0.5,
               }}
             >
               <div
@@ -73,7 +73,7 @@ export const BookPage: React.FC = () => {
                 style={{
                   backgroundColor: result
                     ? '#22c55e20'
-                    : isUnlocked
+                    : unlocked
                     ? 'var(--tg-secondary-bg)'
                     : 'var(--tg-secondary-bg)',
                   color: result ? '#22c55e' : 'var(--tg-text)',
@@ -90,7 +90,7 @@ export const BookPage: React.FC = () => {
                   {result && ` • ${result.percentage}%`}
                 </p>
               </div>
-              {isUnlocked ? (
+              {unlocked ? (
                 <ChevronRight size={18} style={{ color: 'var(--tg-hint)' }} />
               ) : (
                 <Lock size={16} style={{ color: 'var(--tg-hint)' }} />
