@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useAuth } from '../contexts/AuthContext';
+import { haptic } from '../lib/telegram';
 
 export const LoginPage: React.FC = () => {
   const { login, signup } = useAuth();
@@ -12,12 +13,16 @@ export const LoginPage: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    haptic.impact('light');
+    
     if (!username.trim() || !password.trim()) {
       setError('Please fill in all fields');
+      haptic.notification('error');
       return;
     }
     if (password.length < 6) {
       setError('Password must be at least 6 characters');
+      haptic.notification('error');
       return;
     }
 
@@ -32,6 +37,9 @@ export const LoginPage: React.FC = () => {
 
     if (result.error) {
       setError(result.error);
+      haptic.notification('error');
+    } else {
+      haptic.notification('success');
     }
   };
 
@@ -132,7 +140,7 @@ export const LoginPage: React.FC = () => {
         {/* Toggle login/signup */}
         <div className="text-center mt-5">
           <button
-            onClick={() => { setIsSignup(!isSignup); setError(null); }}
+            onClick={() => { haptic.selection(); setIsSignup(!isSignup); setError(null); }}
             className="text-sm"
             style={{ color: 'var(--tg-link)' }}
           >
