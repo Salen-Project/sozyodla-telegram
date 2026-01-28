@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { Volume2, Heart, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { editions } from '../data/vocabulary';
 import { useProgress } from '../contexts/ProgressContext';
-import { showBackButton, hideMainButton } from '../lib/telegram';
+import { showBackButton, hideMainButton, haptic } from '../lib/telegram';
 import { getWordImageUrl } from '../lib/images';
 
 const LANG_KEY = 'sozyola_tg_lang';
@@ -60,6 +60,7 @@ export const WordDetailPage: React.FC = () => {
         setIsFavorite(true);
       }
       localStorage.setItem(FAV_KEY, JSON.stringify(favs));
+      haptic.impact('light');
     } catch (e) {
       console.error('Failed to toggle favorite:', e);
     }
@@ -70,6 +71,7 @@ export const WordDetailPage: React.FC = () => {
     u.lang = 'en-US';
     u.rate = 0.85;
     speechSynthesis.speak(u);
+    haptic.selection();
   };
 
   if (!edition || !unit || !word) {
@@ -191,7 +193,10 @@ export const WordDetailPage: React.FC = () => {
           <button
             onClick={() => {
               const prevIdx = Number(wordIndex) - 1;
-              if (prevIdx >= 0) navigate(`/word/${bookId}/${unitId}/${prevIdx}`);
+              if (prevIdx >= 0) {
+                haptic.selection();
+                navigate(`/word/${bookId}/${unitId}/${prevIdx}`);
+              }
             }}
             disabled={Number(wordIndex) <= 0}
             className="flex-1 flex items-center justify-center gap-1 py-2.5 rounded-xl font-medium active:opacity-80 disabled:opacity-40"
@@ -203,7 +208,10 @@ export const WordDetailPage: React.FC = () => {
           <button
             onClick={() => {
               const nextIdx = Number(wordIndex) + 1;
-              if (nextIdx < unit.words.length) navigate(`/word/${bookId}/${unitId}/${nextIdx}`);
+              if (nextIdx < unit.words.length) {
+                haptic.selection();
+                navigate(`/word/${bookId}/${unitId}/${nextIdx}`);
+              }
             }}
             disabled={Number(wordIndex) >= unit.words.length - 1}
             className="flex-1 flex items-center justify-center gap-1 py-2.5 rounded-xl font-medium active:opacity-80 disabled:opacity-40"
