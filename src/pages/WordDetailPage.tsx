@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { Volume2, Heart, ArrowRight } from 'lucide-react';
+import { Volume2, Heart, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { editions } from '../data/vocabulary';
 import { useProgress } from '../contexts/ProgressContext';
 import { showBackButton, hideMainButton } from '../lib/telegram';
@@ -184,6 +184,34 @@ export const WordDetailPage: React.FC = () => {
           <p className="text-xs" style={{ color: 'var(--tg-hint)' }}>
             📚 Book {bookId} · Unit {unitId} · Word {Number(wordIndex) + 1} of {unit.words.length}
           </p>
+        </div>
+
+        {/* Word navigation */}
+        <div className="flex gap-2 mb-4">
+          <button
+            onClick={() => {
+              const prevIdx = Number(wordIndex) - 1;
+              if (prevIdx >= 0) navigate(`/word/${bookId}/${unitId}/${prevIdx}`);
+            }}
+            disabled={Number(wordIndex) <= 0}
+            className="flex-1 flex items-center justify-center gap-1 py-2.5 rounded-xl font-medium active:opacity-80 disabled:opacity-40"
+            style={{ backgroundColor: 'var(--tg-secondary-bg)', color: 'var(--tg-text)' }}
+          >
+            <ChevronLeft size={18} />
+            Previous
+          </button>
+          <button
+            onClick={() => {
+              const nextIdx = Number(wordIndex) + 1;
+              if (nextIdx < unit.words.length) navigate(`/word/${bookId}/${unitId}/${nextIdx}`);
+            }}
+            disabled={Number(wordIndex) >= unit.words.length - 1}
+            className="flex-1 flex items-center justify-center gap-1 py-2.5 rounded-xl font-medium active:opacity-80 disabled:opacity-40"
+            style={{ backgroundColor: 'var(--tg-secondary-bg)', color: 'var(--tg-text)' }}
+          >
+            Next
+            <ChevronRight size={18} />
+          </button>
         </div>
 
         {/* Go to Unit button */}
