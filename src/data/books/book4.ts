@@ -1068,7 +1068,7 @@ export const book4Units: Unit[] = [
                 "definition": "A role is the normal purpose or function of a person or thing.",
                 "example": "My role at work is to check the quality of the products.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Brighton_Sharbino_Acting_roles.jpg/500px-Brighton_Sharbino_Acting_roles.jpg",
+                image: "/image-manager/uploads/book4_unit6_role.jpg",
             },
             {
                 "word": "shrink",
