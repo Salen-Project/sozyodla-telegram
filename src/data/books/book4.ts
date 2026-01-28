@@ -1467,7 +1467,7 @@ export const book4Units: Unit[] = [
                 "definition": "When something is valid, it is correct or based on good reasoning.",
                 "example": "The expert’s opinion on the subject was more valid than others.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Green_checkmark_in_circle.png/500px-Green_checkmark_in_circle.png",
+                image: "/image-manager/uploads/book4_unit8_valid.jpg",
             },
             {
                 "word": "version",
