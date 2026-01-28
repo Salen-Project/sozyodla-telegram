@@ -5,7 +5,7 @@ import { Heart, Volume2, ChevronRight, BookOpen } from 'lucide-react';
 import { useProgress } from '../contexts/ProgressContext';
 import { editions } from '../data/vocabulary';
 import { Word } from '../types';
-import { hideBackButton, hideMainButton } from '../lib/telegram';
+import { hideBackButton, hideMainButton, haptic } from '../lib/telegram';
 
 interface FavoriteWord {
   word: Word;
@@ -46,6 +46,12 @@ export const FavoritesPage: React.FC = () => {
     const u = new SpeechSynthesisUtterance(text);
     u.lang = 'en-US';
     speechSynthesis.speak(u);
+    haptic.selection();
+  };
+
+  const handleRemoveFavorite = (editionId: number, unitId: number, word: string) => {
+    haptic.impact('light');
+    toggleFavorite(editionId, unitId, word);
   };
 
   return (
@@ -82,7 +88,7 @@ export const FavoritesPage: React.FC = () => {
                 style={{ backgroundColor: 'var(--tg-section-bg)', border: '1px solid var(--tg-secondary-bg)' }}
               >
                 <button
-                  onClick={() => toggleFavorite(fav.editionId, fav.unitId, fav.word.word)}
+                  onClick={() => handleRemoveFavorite(fav.editionId, fav.unitId, fav.word.word)}
                   className="shrink-0 active:scale-90 transition-transform"
                 >
                   <Heart size={20} fill="#ef4444" color="#ef4444" />
