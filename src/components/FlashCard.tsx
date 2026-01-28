@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence, PanInfo } from 'framer-motion';
 import { Word } from '../types';
 import { haptic } from '../lib/telegram';
-import { Volume2, Heart, RotateCcw, ImageOff } from 'lucide-react';
+import { Volume2, Heart, RotateCcw } from 'lucide-react';
 
 interface FlashCardProps {
   word: Word;
