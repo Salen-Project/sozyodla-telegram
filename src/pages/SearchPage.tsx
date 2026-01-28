@@ -1,10 +1,13 @@
-import React, { useState, useMemo, useRef, useEffect } from 'react';
+import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Search, X, Volume2, BookOpen, ChevronRight } from 'lucide-react';
+import { Search, X, Volume2, BookOpen, ChevronRight, Clock, Trash2 } from 'lucide-react';
 import { editions } from '../data/vocabulary';
 import { Word } from '../types';
-import { hideBackButton, hideMainButton } from '../lib/telegram';
+import { hideBackButton, hideMainButton, haptic } from '../lib/telegram';
+
+const RECENT_SEARCHES_KEY = 'sozyola_recent_searches';
+const MAX_RECENT_SEARCHES = 5;
 
 interface SearchResult {
   word: Word;
@@ -19,13 +22,36 @@ export const SearchPage: React.FC = () => {
   const navigate = useNavigate();
   const [query, setQuery] = useState('');
   const inputRef = useRef<HTMLInputElement>(null);
+  const [recentSearches, setRecentSearches] = useState<string[]>([]);
 
+  // Load recent searches
   useEffect(() => {
     hideBackButton();
     hideMainButton();
-    // Auto focus search input
     setTimeout(() => inputRef.current?.focus(), 100);
+    
+    try {
+      const stored = localStorage.getItem(RECENT_SEARCHES_KEY);
+      if (stored) setRecentSearches(JSON.parse(stored));
+    } catch {}
   }, []);
+
+  // Save a search term
+  const saveRecentSearch = useCallback((term: string) => {
+    const trimmed = term.trim();
+    if (trimmed.length < 2) return;
+    
+    const updated = [trimmed, ...recentSearches.filter(s => s !== trimmed)].slice(0, MAX_RECENT_SEARCHES);
+    setRecentSearches(updated);
+    localStorage.setItem(RECENT_SEARCHES_KEY, JSON.stringify(updated));
+  }, [recentSearches]);
+
+  // Clear recent searches
+  const clearRecentSearches = () => {
+    setRecentSearches([]);
+    localStorage.removeItem(RECENT_SEARCHES_KEY);
+    haptic.impact('light');
+  };
 
   const results = useMemo<SearchResult[]>(() => {
     const q = query.trim().toLowerCase();
@@ -92,14 +118,49 @@ export const SearchPage: React.FC = () => {
       {/* Results */}
       <div className="flex-1 overflow-y-auto px-4 pb-6">
         {query.length < 2 ? (
-          <div className="flex flex-col items-center justify-center mt-12">
-            <BookOpen size={48} style={{ color: 'var(--tg-hint)', opacity: 0.5 }} />
-            <p className="text-sm mt-3" style={{ color: 'var(--tg-hint)' }}>
-              Type at least 2 characters to search
-            </p>
-            <p className="text-xs mt-1" style={{ color: 'var(--tg-hint)', opacity: 0.7 }}>
-              Search in English, Uzbek, or Russian
-            </p>
+          <div>
+            {/* Recent searches */}
+            {recentSearches.length > 0 && (
+              <div className="mb-4">
+                <div className="flex items-center justify-between mb-2">
+                  <div className="flex items-center gap-1.5">
+                    <Clock size={14} style={{ color: 'var(--tg-hint)' }} />
+                    <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: 'var(--tg-section-header)' }}>
+                      Recent Searches
+                    </span>
+                  </div>
+                  <button 
+                    onClick={clearRecentSearches}
+                    className="p-1 active:opacity-60"
+                  >
+                    <Trash2 size={14} style={{ color: 'var(--tg-hint)' }} />
+                  </button>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {recentSearches.map((term, i) => (
+                    <button
+                      key={i}
+                      onClick={() => setQuery(term)}
+                      className="px-3 py-1.5 rounded-full text-sm active:scale-95 transition-transform"
+                      style={{ backgroundColor: 'var(--tg-secondary-bg)', color: 'var(--tg-text)' }}
+                    >
+                      {term}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Empty state */}
+            <div className="flex flex-col items-center justify-center mt-8">
+              <BookOpen size={48} style={{ color: 'var(--tg-hint)', opacity: 0.5 }} />
+              <p className="text-sm mt-3" style={{ color: 'var(--tg-hint)' }}>
+                Type at least 2 characters to search
+              </p>
+              <p className="text-xs mt-1" style={{ color: 'var(--tg-hint)', opacity: 0.7 }}>
+                Search in English, Uzbek, or Russian
+              </p>
+            </div>
           </div>
         ) : results.length === 0 ? (
           <div className="flex flex-col items-center justify-center mt-12">
@@ -118,7 +179,10 @@ export const SearchPage: React.FC = () => {
                 initial={{ opacity: 0, y: 5 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: Math.min(i * 0.02, 0.3) }}
-                onClick={() => navigate(`/word/${r.editionId}/${r.unitId}/${r.wordIndex}`)}
+                onClick={() => {
+                  saveRecentSearch(query);
+                  navigate(`/word/${r.editionId}/${r.unitId}/${r.wordIndex}`);
+                }}
                 className="w-full text-left p-3 rounded-xl active:opacity-80 transition-opacity"
                 style={{ backgroundColor: 'var(--tg-section-bg)', border: '1px solid var(--tg-secondary-bg)' }}
               >
