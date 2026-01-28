@@ -1211,7 +1211,7 @@ export const book1Units: Unit[] = [
                 definition: "If you are certain about something, you know it is true.",
                 example: "I am certain that zebras have stripes.",
                 partOfSpeech: "n",
-                image: "https://pixabay.com/get/g4a5646b722fa7122f2ad36e47360343859277fdda3f5ece08ef2c54a736b75e35300ebb6cdc6dafa5510c56f22b5d98c90e5ace2aefa98ec9109e82f5ad8dfb3_640.jpg",
+                image: "/image-manager/uploads/book1_unit10_certain.jpg",
             },
             {
                 word: "chance",
@@ -1220,7 +1220,7 @@ export const book1Units: Unit[] = [
                 definition: "A chance is an opportunity to do something.",
                 example: "I had a chance to see the Roman Coliseum last summer.",
                 partOfSpeech: "n",
-                image: "https://pixabay.com/get/g35167cb5339b160b3a74898daf35991bffd5ce6a3d450e38fe491ce25afc124cf95086123af93e599801b4320687e465efb31beb4f1cdfb9536fe9d9ceb6274a_640.jpg",
+                image: "/image-manager/uploads/book1_unit10_chance.jpg",
             },
             {
                 word: "effect",

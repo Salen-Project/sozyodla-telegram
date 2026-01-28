@@ -3042,7 +3042,7 @@ export const book5Units: Unit[] = [
                 "definition": "To graduate from a school means to complete and pass all courses of study there.",
                 "example": "At the end of the spring, my friends and I will graduate from high school.",
                 "partOfSpeech": "v.",
-                image: "https://pixabay.com/get/g79f6d58be2b448ae59dd4d2812509a0284e5edc5ac1ad9188a1892110c60fd7328d64c22d44ce8c71ec76deb4263dfe78c38c79ad2ebbe1498bdedddf060f51e_640.jpg",
+                image: "/image-manager/uploads/book5_unit12_undergraduate.jpeg",
             },
             {
                 "word": "graffiti",
@@ -3051,7 +3051,7 @@ export const book5Units: Unit[] = [
                 "definition": "Graffiti is words or drawings in public places.",
                 "example": "The wall was covered with colorful graffiti.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/g50b9195065a533be72adbe9e7b13deda124b113876c18e63dbf53504ce4ab5016c1ae244cd44ea630f1616c2bb3f8745_640.jpg",
+                image: "/image-manager/uploads/book5_unit17_graffiti.jpg",
             },
             {
                 "word": "guardian",
@@ -3345,7 +3345,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is sacred, then it is worshipped and respected.",
                 "example": "One religion in India will not harm cows because it believes that they are sacred.",
                 "partOfSpeech": "adj.",
-                image: "https://pixabay.com/get/g844c2c36ded53dd6fa02e98ae2a866338e2ba3d112ced55cec65c6a7a18ceeab40ef5612046f9e8a1a5158cd008c2409930cc7d351d765fde738f6040f77d7cc_640.jpg",
+                image: "/image-manager/uploads/book5_unit18_sacred.jpg",
             }
         ]
     },
@@ -3405,7 +3405,7 @@ export const book5Units: Unit[] = [
                 "definition": "To designate someone or something means to give them a particular description.",
                 "example": "The famous lighthouse was designated a historical monument.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/7168326/pexels-photo-7168326.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit19_designate.jpg",
             },
             {
                 "word": "distort",
@@ -3414,7 +3414,7 @@ export const book5Units: Unit[] = [
                 "definition": "To distort something means to lie about it.",
                 "example": "His lawyer distorted the facts so that he would be set free.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/8847204/pexels-photo-8847204.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit19_distort.jpg",
             },
             {
                 "word": "dock",
@@ -3459,7 +3459,7 @@ export const book5Units: Unit[] = [
                 "definition": "Grease is an oily substance put on moving parts, so they work smoothly.",
                 "example": "When I was done working on the car, I had grease all over my hands.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/13065694/pexels-photo-13065694.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit19_grease.jpg",
             },
             {
                 "word": "intricate",
@@ -3477,7 +3477,7 @@ export const book5Units: Unit[] = [
                 "definition": "To offset means to use one thing to cancel out the effect of another thing.",
                 "example": "Increased wages are offset by higher prices for goods.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/6289026/pexels-photo-6289026.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit19_offset.jpg",
             },
             {
                 "word": "overlap",
@@ -3531,7 +3531,7 @@ export const book5Units: Unit[] = [
                 "definition": "A tactic is a careful plan to achieve something.",
                 "example": "Shannon tried to come up with a unique chess tactic that his opponents would not expect",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/6114958/pexels-photo-6114958.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit19_tactic.jpg",
             }
         ]
     },
@@ -3546,7 +3546,7 @@ export const book5Units: Unit[] = [
                 "definition": "When a number is aggregate, it is made up of smaller amounts added together.",
                 "example": "The company totaled its aggregate sales for the entire year.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/19224085/pexels-photo-19224085.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_aggregate.jpg",
             },
             {
                 "word": "antibiotic",
@@ -3555,7 +3555,7 @@ export const book5Units: Unit[] = [
                 "definition": "An antibiotic is a medical drug used to kill bacteria and treat infections.",
                 "example": "The doctor gave me a shot of an antibiotic when I got the flu.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/8413177/pexels-photo-8413177.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_antibiotic.jpg",
             },
             {
                 "word": "circuit",
@@ -3582,7 +3582,7 @@ export const book5Units: Unit[] = [
                 "definition": "To compress something means to press or squeeze it so that it takes up less space.",
                 "example": "The machine can compress the garbage to save space.",
                 "partOfSpeech": "V.",
-                image: "https://images.pexels.com/photos/3230538/pexels-photo-3230538.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_compress.jpg",
             },
             {
                 "word": "database",
@@ -3591,7 +3591,7 @@ export const book5Units: Unit[] = [
                 "definition": "A database is a collection of data that is stored in a computer.",
                 "example": "The company has a database of all the names and accounts of their customers.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/7054415/pexels-photo-7054415.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_database.png",
             },
             {
                 "word": "equivalent",
@@ -3636,7 +3636,7 @@ export const book5Units: Unit[] = [
                 "definition": "A magnet is a piece of iron or other material which attracts iron toward it.",
                 "example": "I used a magnet to pick up the nails that were scattered on the floor.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/5583070/pexels-photo-5583070.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_magnet.jpg",
             },
             {
                 "word": "metabolism",
@@ -3645,7 +3645,7 @@ export const book5Units: Unit[] = [
                 "definition": "A person’s metabolism is the way chemical processes in their body use energy.",
                 "example": "If you exercise every day, your metabolism speeds up.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/4720773/pexels-photo-4720773.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_metabolism.png",
             },
             {
                 "word": "microchip",
@@ -3654,7 +3654,7 @@ export const book5Units: Unit[] = [
                 "definition": "A microchip is a small device inside a computer that holds information.",
                 "example": "I can put more data on my computer if I buy a more powerful microchip.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/51165/cpu-processor-electronics-computer-51165.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_microchip.jpg",
             },
             {
                 "word": "phase",
@@ -3663,7 +3663,7 @@ export const book5Units: Unit[] = [
                 "definition": "A phase is a stage in a process or the gradual development of something.",
                 "example": "The first phase in the recycling project involves finding volunteers to help out.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/7692636/pexels-photo-7692636.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_phase.gif",
             },
             {
                 "word": "pinch",
@@ -3672,7 +3672,7 @@ export const book5Units: Unit[] = [
                 "definition": "To pinch means to take a piece of skin between one’s fingers and squeeze.",
                 "example": "She pinched my nose in order to express her feelings",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/7741691/pexels-photo-7741691.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_pinch.jpg",
             },
             {
                 "word": "prevalent",
@@ -3690,7 +3690,7 @@ export const book5Units: Unit[] = [
                 "definition": "When something is quantum, it relates to the behavior of atomic particles.",
                 "example": "The physics student studied quantum mechanics.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/25626435/pexels-photo-25626435.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_quantum.jpg",
             },
             {
                 "word": "ratio",
@@ -3699,7 +3699,7 @@ export const book5Units: Unit[] = [
                 "definition": "A ratio is a relationship between two things expressed in numbers or amounts.",
                 "example": "The boy to girl ratio is four to three.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Aspect-ratio-4x3.svg/400px-Aspect-ratio-4x3.svg.png",
+                image: "/image-manager/uploads/book5_unit7_duration.jpeg",
             },
             {
                 "word": "spiral",
@@ -3708,7 +3708,7 @@ export const book5Units: Unit[] = [
                 "definition": "A spiral is a shape which winds round and round in a larger and larger circle.",
                 "example": "A strand of DNA looks like two interlocking spirals.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/13833648/pexels-photo-13833648.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_spiral.jpg",
             },
             {
                 "word": "viral",
@@ -3759,7 +3759,7 @@ export const book5Units: Unit[] = [
                 "definition": "A clone is an identical copy of a living creature.",
                 "example": "Scientists recently made a clone of a sheep.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/15742158/pexels-photo-15742158.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_clone.jpg",
             },
             {
                 "word": "colloquial",
@@ -3795,7 +3795,7 @@ export const book5Units: Unit[] = [
                 "definition": "Disgust is a feeling of distaste and anger caused by something rude or unpleasant.",
                 "example": "He felt disgust toward his date because she had such terrible eating habits.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/3958835/pexels-photo-3958835.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_disgust.jpg",
             },
             {
                 "word": "fluorescent",
@@ -3804,7 +3804,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is fluorescent, it is such a bright color that it seems to give off light.",
                 "example": "She highlighted the key words in the document with a fluorescent yellow pen.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/6958526/pexels-photo-6958526.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_fluorescent.jpg",
             },
             {
                 "word": "furious",
@@ -3813,7 +3813,7 @@ export const book5Units: Unit[] = [
                 "definition": "If you are furious, you are extremely angry.",
                 "example": "My father was furious when he read my bad school report.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/7927253/pexels-photo-7927253.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_furious.png",
             },
             {
                 "word": "gulf",
@@ -3840,7 +3840,7 @@ export const book5Units: Unit[] = [
                 "definition": "A knot is made when you tie the ends of rope or cord together.",
                 "example": "He tied a knot in his shoelaces, so they wouldn’t come off during the race.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/8497536/pexels-photo-8497536.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_knot.png",
             },
             {
                 "word": "linguist",
@@ -3876,7 +3876,7 @@ export const book5Units: Unit[] = [
                 "definition": "A ritual is a formal custom that people do regularly.",
                 "example": "Ken was very interested to learn about the religious rituals of the natives.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/34768710/pexels-photo-34768710.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_ritual.jpg",
             },
             {
                 "word": "sibling",
@@ -3885,7 +3885,7 @@ export const book5Units: Unit[] = [
                 "definition": "A sibling is a brother or sister.",
                 "example": "Jane has two siblings, an older brother and a younger sister.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/33133398/pexels-photo-33133398.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_sibling.jpg",
             },
             {
                 "word": "skinny",
@@ -3894,7 +3894,7 @@ export const book5Units: Unit[] = [
                 "definition": "If someone is skinny, they are extremely thin.",
                 "example": "Polly is very skinny. I think she needs to eat more.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/7943469/pexels-photo-7943469.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_skinny.jpg",
             },
             {
                 "word": "vague",
@@ -3903,7 +3903,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is vague, it is not clear, and it gives very few details.",
                 "example": "I asked him about his mother's health, but he was very vague about it.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/6129246/pexels-photo-6129246.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_vague.jpg",
             }
         ]
     },
@@ -3945,7 +3945,7 @@ export const book5Units: Unit[] = [
                 "definition": "Biotechnology is the use of living parts, such as cells, in industry and technology.",
                 "example": "Researchers at the biotechnology company use bacteria to make medicine.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/4031440/pexels-photo-4031440.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_biotechnology.jpg",
             },
             {
                 "word": "cholesterol",
@@ -3954,7 +3954,7 @@ export const book5Units: Unit[] = [
                 "definition": "Cholesterol is a substance in fat, tissues, and blood of all animals.",
                 "example": "Eating a balanced diet can help maintain healthy cholesterol levels.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/10540806/pexels-photo-10540806.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_cholesterol.png",
             },
             {
                 "word": "coalition",
@@ -3963,7 +3963,7 @@ export const book5Units: Unit[] = [
                 "definition": "A coalition is a group of people or organizations working for a common purpose.",
                 "example": "The companies formed a coalition to make trade less expensive.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/7128920/pexels-photo-7128920.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_coalition.jpg",
             },
             {
                 "word": "deceptive",
@@ -3990,7 +3990,7 @@ export const book5Units: Unit[] = [
                 "definition": "[ilimaneit] V. To eliminate something that is unwanted means to completely remove it.",
                 "example": "Wearing a seatbelt eliminates some of the dangers of driving a car.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/5834963/pexels-photo-5834963.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_eliminate.jpg",
             },
             {
                 "word": "erosion",
@@ -3999,7 +3999,7 @@ export const book5Units: Unit[] = [
                 "definition": "Erosion is the destruction of rock or soil due to flowing water or weather.",
                 "example": "Canyons are formed because rivers of fast-moving water caused erosion.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/34921063/pexels-photo-34921063.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_erosion.jpg",
             },
             {
                 "word": "ethics",
@@ -4008,7 +4008,7 @@ export const book5Units: Unit[] = [
                 "definition": "Ethics are moral beliefs or rules about right or wrong.",
                 "example": "Doctors must follow strict ethics in their work.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/8376232/pexels-photo-8376232.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_ethics.jpg",
             },
             {
                 "word": "explicit",
@@ -4062,7 +4062,7 @@ export const book5Units: Unit[] = [
                 "definition": "Nectar is a sweet liquid produced by flowers that bees and other insects collect.",
                 "example": "Bees use nectar to make their honey.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/1082059/pexels-photo-1082059.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_nectar.jpg",
             },
             {
                 "word": "notion",
@@ -4071,7 +4071,7 @@ export const book5Units: Unit[] = [
                 "definition": "A notion is an idea or belief about something.",
                 "example": "The notion of love at first sight is romanticized in movies.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/35660981/pexels-photo-35660981.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_notion.jpg",
             },
             {
                 "word": "prone",
@@ -4104,7 +4104,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is astronomical, then it is extremely large.",
                 "example": "It’s an astronomical distance between the Milky Way galaxy and the nearest galaxy.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/29297655/pexels-photo-29297655.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_astronomical.jpg",
             },
             {
                 "word": "atom",
@@ -4113,7 +4113,7 @@ export const book5Units: Unit[] = [
                 "definition": "An atom is the smallest unit of a substance.",
                 "example": "A molecule consists of a combination of two or more atoms.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/13014236/pexels-photo-13014236.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_atom.png",
             },
             {
                 "word": "breadth",
@@ -4131,7 +4131,7 @@ export const book5Units: Unit[] = [
                 "definition": "A circumference is the distance completely around a circular object.",
                 "example": "The circumference of the Earth is obviously much larger than a baseball’s.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/30596256/pexels-photo-30596256.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_circumference.png",
             },
             {
                 "word": "comet",
@@ -4140,7 +4140,7 @@ export const book5Units: Unit[] = [
                 "definition": "A comet is an object in space made of ice and rock with a tail of glowing dust.",
                 "example": "Comets take many decades to complete an orbit around a star.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/5086477/pexels-photo-5086477.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_comet.jpg",
             },
             {
                 "word": "crater",
@@ -4194,7 +4194,7 @@ export const book5Units: Unit[] = [
                 "definition": "A fragment is a small part of something.",
                 "example": "After the light broke, there were fragments of glass to clean up.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/3022456/pexels-photo-3022456.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_fragment.jpg",
             },
             {
                 "word": "galaxy",
@@ -4266,7 +4266,7 @@ export const book5Units: Unit[] = [
                 "definition": "A sphere is a three-dimensional round shape, like a ball.",
                 "example": "The balloons were inflated into a variety of colorful spheres.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/3371101/pexels-photo-3371101.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit13_hemisphere.jpeg",
             },
             {
                 "word": "status",
@@ -4290,7 +4290,7 @@ export const book5Units: Unit[] = [
                 "definition": "If someone is bankrupt, then they are unable to pay their debts.",
                 "example": "The store had few customers and soon went bankrupt.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/7679468/pexels-photo-7679468.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_bankrupt.jpg",
             },
             {
                 "word": "conform",
@@ -4317,7 +4317,7 @@ export const book5Units: Unit[] = [
                 "definition": "To expel someone means to force them to leave a place.",
                 "example": "Since he would not follow the rules, the principal had to expel the student from the exam hall",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/8499634/pexels-photo-8499634.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_expel.jpg",
             },
             {
                 "word": "extension",
@@ -4353,7 +4353,7 @@ export const book5Units: Unit[] = [
                 "definition": "Hygiene is the conditions or methods needed for health and cleanliness.",
                 "example": "People who brush their teeth at least twice a day are practicing good hygiene.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/8762982/pexels-photo-8762982.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_hygiene.jpg",
             },
             {
                 "word": "hygienic",
@@ -4380,7 +4380,7 @@ export const book5Units: Unit[] = [
                 "definition": "To lease means to rent property, usually an apartment or land.",
                 "example": "When the family first leased the apartment, the rent was very low.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/8962344/pexels-photo-8962344.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_lease.jpeg",
             },
             {
                 "word": "mandatory",
@@ -4407,7 +4407,7 @@ export const book5Units: Unit[] = [
                 "definition": "A mortgage is a loan for property, especially homes and businesses.",
                 "example": "When they bought their new home, the married couple had to sign a mortgage.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/7641838/pexels-photo-7641838.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_mortgage.png",
             },
             {
                 "word": "personnel",
@@ -4416,7 +4416,7 @@ export const book5Units: Unit[] = [
                 "definition": "Personnel are employees in a business.",
                 "example": "When business increased,  we had to hire more personnel.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/5439449/pexels-photo-5439449.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_personnel.jpg",
             },
             {
                 "word": "plumbing",
@@ -4425,7 +4425,7 @@ export const book5Units: Unit[] = [
                 "definition": "Plumbing is the system of pipes used in a home to supply water.",
                 "example": "When the plumbing stopped working, no one was allowed to use the toilets.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/19882102/pexels-photo-19882102.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_plumbing.jpg",
             },
             {
                 "word": "tenant",

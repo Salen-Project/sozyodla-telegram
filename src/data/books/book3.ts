@@ -1236,7 +1236,7 @@ export const book3Units: Unit[] = [
                 "definition": "The mayor is the person in  charge of a city.",
                 "example": "The mayor o f my hometown is quite a powerful speaker.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/A_R_Grindlay_%28Mayor_of_Coventry%29.jpg/452px-A_R_Grindlay_%28Mayor_of_Coventry%29.jpg",
+                image: "/image-manager/uploads/book3_unit7_mayor.jpg",
             },
             {
                 "word": "mutual",

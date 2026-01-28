@@ -21,7 +21,7 @@ export const book2Units: Unit[] = [
                 "definition": "When something is awful, it is very bad.",
                 "example": "Room had an awful smell because of the garlic.",
                 "partOfSpeech": "adj.",
-                image: "https://pixabay.com/get/gebb5229c24ffe60bf222f9ea35f19339b224d0125119c9211aac9fd2b776938120fcf30fd5f6bd2019598cc91251aada3507081ee5f557f35d5e173fbd056e18_640.jpg",
+                image: "/image-manager/uploads/book2_unit1_awful.jpg",
             },
             {
                 "word": "consist",
@@ -252,7 +252,7 @@ export const book2Units: Unit[] = [
                 "definition": "Jewelry is something that people wear like earrings or necklaces.",
                 "example": "The woman looked beautiful with her nice dress and jewelry.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/g85a3cd2f6cd062fa3fd26776f66b8b2269fa90b196464eccdf053c2bac80ad72f239f031af27d3132b839f0e902aa5a9d6138aa8341e4dc3ee178f230216a94e_640.jpg",
+                image: "/image-manager/uploads/book2_unit2_jewelry.jpg",
             },
             {
                 "word": "land",
@@ -2643,7 +2643,7 @@ export const book2Units: Unit[] = [
                 "definition": "A contract is a written agreement between two people.",
                 "example": "The woman signed a contract when she bought the house.",
                 "partOfSpeech": "n",
-                image: "https://pixabay.com/get/g5f544adb059d57d1bca9b91172725e90a78ca67c4825229986942d7955d42e42f27c9c25bcb39ec9bf3f1897d6f857a86095e7a74c9399237a3bbea7a499494f_640.jpg",
+                image: "/image-manager/uploads/book2_unit15_contract.jpeg",
             },
             {
                 "word": "crew",
@@ -2742,7 +2742,7 @@ export const book2Units: Unit[] = [
                 "definition": "A handle is the part of an object people hold while using it.",
                 "example": "The pot is very hot. So pick it up by the handle.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/g4131306158094cd21f28447edb3deef6c38e314bb4e0e947aad2e80183c09d68bd04dd141ebfeb9f9e6d4dacd10acdf9748183e0d2d4e552aee9a7bf18709d4d_640.jpg",
+                image: "/image-manager/uploads/book2_unit15_handle.jpeg",
             },
             {
                 "word": "layer",
@@ -2751,7 +2751,7 @@ export const book2Units: Unit[] = [
                 "definition": "A layer covers over something or is between two things.",
                 "example": "There was a layer of snow on the tops of the houses this morning.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/g848198056e50c2e35afcb2520776329bb772b376949efb950451fb5ed8e73dbd48b4c53dcd73e4ec9b3135817dc79b81cb8285dccbeb18412ce8fbe394559836_640.jpg",
+                image: "/image-manager/uploads/book2_unit15_layer.jpeg",
             },
             {
                 "word": "mud",
@@ -2997,7 +2997,7 @@ export const book2Units: Unit[] = [
                 "definition": "To attach is to put two things together.",
                 "example": "I attached the socks to the clothesline to dry.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/ga451ac5da1bfc58146b2e731e602ebc12860f8c8d37ff060db11a07e077bca663c5a0151b237af45fe55a3fa3be916fa_640.jpg",
+                image: "/image-manager/uploads/book2_unit17_attach.jpeg",
             },
             {
                 "word": "bet",
@@ -3015,7 +3015,7 @@ export const book2Units: Unit[] = [
                 "definition": "A carriage is a vehicle pulled by a horse.",
                 "example": "We took a carriage ride in the park.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/gc162a0f4af77eb834872841cf7dcf0efcfea0e18680b1d7ba5660954115d4c07e9c90f81fc6cb0018ac0256d64f20693a6b2a56e72c44ed781f3416b100fc01b_640.jpg",
+                image: "/image-manager/uploads/book2_unit17_carriage.jpeg",
             },
             {
                 "word": "classic",
@@ -3033,7 +3033,7 @@ export const book2Units: Unit[] = [
                 "definition": "To commute is to travel a long distance to get to work.",
                 "example": "I usually commute to work on the train.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/g6d23662d37d3a723af4e5f92097f95d7b3d2105975c297d9976dee939181d540f9acf18cf521eaf8f6874cef401e12911d61e289485802f1d7296935adc45ede_640.jpg",
+                image: "/image-manager/uploads/book2_unit17_commute.jpeg",
             },
             {
                 "word": "confirm",
@@ -5043,7 +5043,7 @@ export const book2Units: Unit[] = [
                 "definition": "When something is bare, it is plain. It has no covering.",
                 "example": "He likes to walk around in his bare feet.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/16299841/pexels-photo-16299841.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_bare.jpeg",
             },
             {
                 "word": "branch",
@@ -5052,7 +5052,7 @@ export const book2Units: Unit[] = [
                 "definition": "A branch is the part of a tree with leaves.",
                 "example": "The monkey was hanging from a branch on the tree.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/17031200/pexels-photo-17031200.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_branch.jpeg",
             },
             {
                 "word": "breath",
@@ -5070,7 +5070,7 @@ export const book2Units: Unit[] = [
                 "definition": "A bridge is something that is built over a river so people can cross it.",
                 "example": "The bridge over the river is strong.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/31928590/pexels-photo-31928590.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_bridge.jpeg",
             },
             {
                 "word": "cast",
@@ -5079,7 +5079,7 @@ export const book2Units: Unit[] = [
                 "definition": "To cast something means to throw it.",
                 "example": "The fisherman cast his line into the water.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/28845587/pexels-photo-28845587.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit11_forecast.jpeg",
             },
             {
                 "word": "dare",
@@ -5088,7 +5088,7 @@ export const book2Units: Unit[] = [
                 "definition": "To dare means to be brave enough to try something.",
                 "example": "He dared to jump out of the airplane and skydive.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/15076298/pexels-photo-15076298.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_dare.jpeg",
             },
             {
                 "word": "electronic",
@@ -5097,7 +5097,7 @@ export const book2Units: Unit[] = [
                 "definition": "When something is electronic, it uses electricity to do something.",
                 "example": "I like having electronic devices such as an MP3 player.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/3945667/pexels-photo-3945667.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_electronic.jpeg",
             },
             {
                 "word": "inn",
@@ -5106,7 +5106,7 @@ export const book2Units: Unit[] = [
                 "definition": "An inn is a place where travelers can rest and eat.",
                 "example": "The visitor got a room at the inn.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/6466488/pexels-photo-6466488.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit27_innocent.jpeg",
             },
             {
                 "word": "net",
@@ -5124,7 +5124,7 @@ export const book2Units: Unit[] = [
                 "definition": "A philosophy is a way to think about truth and life.",
                 "example": "Her main cooking philosophy is to use only fresh ingredients.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/8980488/pexels-photo-8980488.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_philosophy.jpeg",
             },
             {
                 "word": "pot",
@@ -5142,7 +5142,7 @@ export const book2Units: Unit[] = [
                 "definition": "A seed is the hard part of a plant or fruit that trees grow from.",
                 "example": "I planted the seed in the dirt hoping that it would grow into a tree.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/401213/pexels-photo-401213.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_seed.jpeg",
             },
             {
                 "word": "sharp",
@@ -5151,7 +5151,7 @@ export const book2Units: Unit[] = [
                 "definition": "When something is sharp, it has a thin edge that cuts things easily.",
                 "example": "That knife is very sharp.  Be careful not to hurt yourself.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/9424957/pexels-photo-9424957.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_sharp.jpeg",
             },
             {
                 "word": "sort",
@@ -5160,7 +5160,7 @@ export const book2Units: Unit[] = [
                 "definition": "A sort of something is a type of it.",
                 "example": "What sort of music do you like?",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/6664578/pexels-photo-6664578.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_sort.jpeg",
             },
             {
                 "word": "subtract",
@@ -5169,7 +5169,7 @@ export const book2Units: Unit[] = [
                 "definition": "To subtract means to take something away.",
                 "example": "We learned how to subtract numbers from each other in class.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/7054419/pexels-photo-7054419.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_subtract.jpeg",
             },
             {
                 "word": "tight",
@@ -5178,7 +5178,7 @@ export const book2Units: Unit[] = [
                 "definition": "When something is tight, it is fixed or fastened firmly in place.",
                 "example": "The knots were too tight to untie.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/5156155/pexels-photo-5156155.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_tight.jpeg",
             },
             {
                 "word": "virtual",
@@ -5187,7 +5187,7 @@ export const book2Units: Unit[] = [
                 "definition": "If something is virtual, then it is very close to being true or accurate.",
                 "example": "His virtual reality headset allowed him to explore a simulated environment.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/8097899/pexels-photo-8097899.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_virtual.jpeg",
             },
             {
                 "word": "weigh",
@@ -5196,7 +5196,7 @@ export const book2Units: Unit[] = [
                 "definition": "To weigh something means to see how heavy it is.",
                 "example": "The little dog weighed less.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/6716842/pexels-photo-6716842.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_weigh.jpeg",
             },
             {
                 "word": "whisper",
@@ -5205,7 +5205,7 @@ export const book2Units: Unit[] = [
                 "definition": "To whisper means to say very quietly.",
                 "example": "She whispered to me that she was going to the store.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/6148534/pexels-photo-6148534.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit28_whisper.jpeg",
             }
         ]
     },
@@ -5220,7 +5220,7 @@ export const book2Units: Unit[] = [
                 "definition": "If ideas are abstract, they are based on general ways of thinking.",
                 "example": "The concept of love is often considered abstract, making it difficult to define precisely.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/8762188/pexels-photo-8762188.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_abstract.jpeg",
             },
             {
                 "word": "annual",
@@ -5229,7 +5229,7 @@ export const book2Units: Unit[] = [
                 "definition": "If something is annual, it happens once a year.",
                 "example": "The only time I see my aunts and uncles is at our annual family picnic.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/33524530/pexels-photo-33524530.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_annual.jpeg",
             },
             {
                 "word": "clay",
@@ -5238,7 +5238,7 @@ export const book2Units: Unit[] = [
                 "definition": "Clay is a type of heavy, wet soil used to make pots.",
                 "example": "She made a bowl out of the clay.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/8063876/pexels-photo-8063876.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_clay.jpeg",
             },
             {
                 "word": "cloth",
@@ -5265,7 +5265,7 @@ export const book2Units: Unit[] = [
                 "definition": "To deserve is to be worthy of something as a result of one’s actions.",
                 "example": "The dog deserved a bone for behaving very well.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/5913069/pexels-photo-5913069.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_deserve.jpeg",
             },
             {
                 "word": "feather",
@@ -5274,7 +5274,7 @@ export const book2Units: Unit[] = [
                 "definition": "Feathers are the things covering birds’ bodies.",
                 "example": "That bird has orange feathers on its chest.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/33652965/pexels-photo-33652965.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_feather.jpeg",
             },
             {
                 "word": "fertile",
@@ -5283,7 +5283,7 @@ export const book2Units: Unit[] = [
                 "definition": "If land is fertile, it is able to produce good crops and plants.",
                 "example": "The farmer grew many vegetables in the fertile soil.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/19163065/pexels-photo-19163065.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_fertile.jpeg",
             },
             {
                 "word": "flood",
@@ -5292,7 +5292,7 @@ export const book2Units: Unit[] = [
                 "definition": "A flood is an event in which water covers an area which is usually dry.",
                 "example": "After three days of rain, there was a flood in the city.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/26202090/pexels-photo-26202090.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_flood.jpeg",
             },
             {
                 "word": "furniture",
@@ -5310,7 +5310,7 @@ export const book2Units: Unit[] = [
                 "definition": "A grave is the place where a dead person is buried.",
                 "example": "I visit my grandfather’s grave each year.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/6841164/pexels-photo-6841164.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_grave.jpeg",
             },
             {
                 "word": "ideal",
@@ -5319,7 +5319,7 @@ export const book2Units: Unit[] = [
                 "definition": "If something is ideal, it is the best that it can possibly be.",
                 "example": "This house is an ideal place for my family. It has everything we need.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/4469163/pexels-photo-4469163.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_ideal.jpeg",
             },
             {
                 "word": "intelligence",
@@ -5328,7 +5328,7 @@ export const book2Units: Unit[] = [
                 "definition": "Intelligence is the ability to learn and understand things.",
                 "example": "Because of his high intelligence, he finished school early.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/5211472/pexels-photo-5211472.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_intelligence.jpeg",
             },
             {
                 "word": "nowadays",
@@ -5355,7 +5355,7 @@ export const book2Units: Unit[] = [
                 "definition": "When something is religious, it has to do with religion.",
                 "example": "The holy man spoke about religious topics.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/7219093/pexels-photo-7219093.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_religious.jpeg",
             },
             {
                 "word": "romantic",
@@ -5364,7 +5364,7 @@ export const book2Units: Unit[] = [
                 "definition": "When something is romantic, it has to do with love.",
                 "example": "The young couple went to see a romantic movie.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/7234322/pexels-photo-7234322.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_romantic.jpeg",
             },
             {
                 "word": "shell",
@@ -5373,7 +5373,7 @@ export const book2Units: Unit[] = [
                 "definition": "A shell is a hard covering that protects the body of some sea creatures.",
                 "example": "There were many pretty shells on the beach.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/14093090/pexels-photo-14093090.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit29_shell.jpeg",
             },
             {
                 "word": "shore",
@@ -5391,7 +5391,7 @@ export const book2Units: Unit[] = [
                 "definition": "A wheel is a round object that is used to move something.",
                 "example": "The car has four wheels.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/g795a7211ebdac6ce7149f43e836ca53287c4cb6490866817a3c72c1d80f49681dbd6afbb6b6f05a11345928c5e611afe39294d8644fa2b1a84ea6a05805f689e_640.jpg",
+                image: "/image-manager/uploads/book2_unit29_wheel.jpeg",
             }
         ]
     },
@@ -5415,7 +5415,7 @@ export const book2Units: Unit[] = [
                 "definition": "To assume something is to think that it is true, even with no proof.",
                 "example": "I assume she is the new manager.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/5673519/pexels-photo-5673519.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit30_assume.jpeg",
             },
             {
                 "word": "borrow",
@@ -5424,7 +5424,7 @@ export const book2Units: Unit[] = [
                 "definition": "To borrow something is to take it and then give it back later.",
                 "example": "Can I borrow 20$ for food? I left mine at home.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/4968551/pexels-photo-4968551.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit30_borrow.jpeg",
             },
             {
                 "word": "client",
@@ -5433,7 +5433,7 @@ export const book2Units: Unit[] = [
                 "definition": "A client is a person or business that pays another to do a service.",
                 "example": "She has many clients who enjoy coming to her salon.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/4783333/pexels-photo-4783333.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit30_client.jpeg",
             },
             {
                 "word": "downtown",
@@ -5442,7 +5442,7 @@ export const book2Units: Unit[] = [
                 "definition": "The downtown is the center of most cities.",
                 "example": "The downtown is filled with many tall buildings.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/19232227/pexels-photo-19232227.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit30_downtown.jpeg",
             },
             {
                 "word": "dull",
@@ -5487,7 +5487,7 @@ export const book2Units: Unit[] = [
                 "definition": "A formula is a set mathematical way or method of solving a problem.",
                 "example": "I learned a new formula that may help us with our problem.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/6209796/pexels-photo-6209796.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit30_formula.jpeg",
             },
             {
                 "word": "found",

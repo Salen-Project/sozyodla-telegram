@@ -2910,7 +2910,7 @@ export const book4Units: Unit[] = [
                 "definition": "To rip something means to pull it apart.",
                 "example": "She ripped the paper in half by accident.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Rip_Dicken_Medal_Dog_IWM_D_5937crop.jpg/500px-Rip_Dicken_Medal_Dog_IWM_D_5937crop.jpg",
+                image: "/image-manager/uploads/book4_unit18_script.jpg",
             },
             {
                 "word": "sake",
@@ -3096,7 +3096,7 @@ export const book4Units: Unit[] = [
                 "definition": "When something is native, it is originating in a certain place or area.",
                 "example": "Avocadoes are native fruits of Mexico.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Native_Garhwali_Woman_In_Rishikesh.jpg/500px-Native_Garhwali_Woman_In_Rishikesh.jpg",
+                image: "/image-manager/uploads/book4_unit12_alternative.jpg",
             },
             {
                 "word": "poison",
@@ -3327,7 +3327,7 @@ export const book4Units: Unit[] = [
                 "definition": "To search for something or someone means to look for them carefully.",
                 "example": "I searched the newspaper for a new job.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/RAF_Search_and_Rescue_Helicopter_in_the_Cairngorms_MOD_45155350.jpg/500px-RAF_Search_and_Rescue_Helicopter_in_the_Cairngorms_MOD_45155350.jpg",
+                image: "/image-manager/uploads/book4_unit15_research.jpeg",
             },
             {
                 "word": "slam",
@@ -3531,7 +3531,7 @@ export const book4Units: Unit[] = [
                 "definition": "A steward is a person like a waiter who serves food on planes and ships.",
                 "example": "The steward brought some tea to the passengers on the plane.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flight_attendant.jpg/500px-Flight_attendant.jpg",
+                image: "/image-manager/uploads/book4_unit2_steward.jpeg",
             }
         ]
     },
@@ -5265,7 +5265,7 @@ export const book4Units: Unit[] = [
                 "definition": "An era is a period of time that has something special about it.",
                 "example": "During the medieval era,  knights wore protective armor.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Era%2C_Texas.JPG/500px-Era%2C_Texas.JPG",
+                image: "/image-manager/uploads/book4_unit1_beverage.jpg",
             },
             {
                 "word": "guideline",
@@ -5310,7 +5310,7 @@ export const book4Units: Unit[] = [
                 "definition": "If something is mobile, it can be moved easily.",
                 "example": "Mobile phones are popular because you can take them anywhere.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Le_cuirass%C3%A9_USS_Alabama%2C_Battleship_Memorial_Park%2C_Mobile%2C_Alabama.jpg/500px-Le_cuirass%C3%A9_USS_Alabama%2C_Battleship_Memorial_Park%2C_Mobile%2C_Alabama.jpg",
+                image: "/image-manager/uploads/book4_unit29_automobile.jpeg",
             },
             {
                 "word": "modify",

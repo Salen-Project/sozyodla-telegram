@@ -57,7 +57,7 @@ export const book6Units: Unit[] = [
                 "definition": "To err means to make a mistake.",
                 "example": "The pilot erred in  his estimate of the time it would take to make the trip.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/SAKURAKO_goes_on_an_errand_to_the_store._%2827880377846%29.jpg/500px-SAKURAKO_goes_on_an_errand_to_the_store._%2827880377846%29.jpg",
+                image: "/image-manager/uploads/book6_unit28_terrace.jpg",
             },
             {
                 "word": "erroneous",
@@ -5301,7 +5301,7 @@ export const book6Units: Unit[] = [
                 "definition": "Ore is the raw form of rock or material from which a valuable metal is taken.",
                 "example": "The factory melted the ore and used it  to make iron products.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Banded_iron_formation.png/400px-Banded_iron_formation.png",
+                image: "/image-manager/uploads/book6_unit26_forefinger.jpg",
             },
             {
                 "word": "outback",
@@ -5550,7 +5550,7 @@ export const book6Units: Unit[] = [
                 "definition": "When a bird pecks, it bites or hits something with its beak.",
                 "example": "The birds pecked at the seeds on the ground.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Half_peck_apple_bag.jpg/500px-Half_peck_apple_bag.jpg",
+                image: "/image-manager/uploads/book6_unit10_speck.jpg",
             },
             {
                 "word": "pebble",
