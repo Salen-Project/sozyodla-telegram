@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { BookOpen, Brain, Pen, Trophy, ChevronRight, Zap, PlayCircle } from 'lucide-react';
+import { Trophy, ChevronRight, Zap, PlayCircle } from 'lucide-react';
 import { useProgress } from '../contexts/ProgressContext';
 import { editions } from '../data/vocabulary';
 import { StreakBadge } from '../components/StreakBadge';
@@ -22,12 +22,6 @@ export const HomePage: React.FC = () => {
   const goalPercent = progress.dailyGoal.target > 0
     ? Math.min(100, Math.round((progress.dailyGoal.wordsToday / progress.dailyGoal.target) * 100))
     : 0;
-
-  const exerciseModes = [
-    { id: 'flashcards', label: 'Flashcards', icon: BookOpen, desc: 'Swipe through cards', color: '#3b82f6' },
-    { id: 'quiz', label: 'Quiz', icon: Brain, desc: 'Multiple choice', color: '#8b5cf6' },
-    { id: 'recall', label: 'Word Recall', icon: Pen, desc: 'Type the answer', color: '#f59e0b' },
-  ];
 
   return (
     <div className="h-full overflow-y-auto pb-2">
@@ -117,41 +111,6 @@ export const HomePage: React.FC = () => {
               </p>
               <p className="text-xs" style={{ color: 'var(--tg-hint)' }}>{stat.label}</p>
             </motion.div>
-          ))}
-        </div>
-      </div>
-
-      {/* Exercise Modes */}
-      <div className="px-4 mb-5">
-        <h2 className="text-sm font-semibold mb-3 uppercase tracking-wider" style={{ color: 'var(--tg-section-header)' }}>
-          Practice Modes
-        </h2>
-        <div className="space-y-2">
-          {exerciseModes.map((mode, i) => (
-            <motion.button
-              key={mode.id}
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: i * 0.08 }}
-              whileTap={{ scale: 0.98 }}
-              onClick={() => navigate(`/select/${mode.id}`)}
-              className="w-full flex items-center gap-3 p-4 rounded-xl active:opacity-80 transition-opacity"
-              style={{ backgroundColor: 'var(--tg-section-bg)', border: '1px solid var(--tg-secondary-bg)' }}
-            >
-              <div
-                className="w-10 h-10 rounded-xl flex items-center justify-center"
-                style={{ backgroundColor: `${mode.color}20` }}
-              >
-                <mode.icon size={20} style={{ color: mode.color }} />
-              </div>
-              <div className="flex-1 text-left">
-                <p className="text-sm font-semibold" style={{ color: 'var(--tg-text)' }}>
-                  {mode.label}
-                </p>
-                <p className="text-xs" style={{ color: 'var(--tg-hint)' }}>{mode.desc}</p>
-              </div>
-              <ChevronRight size={18} style={{ color: 'var(--tg-hint)' }} />
-            </motion.button>
           ))}
         </div>
       </div>
