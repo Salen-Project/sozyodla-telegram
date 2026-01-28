@@ -7,7 +7,12 @@ import { LoginPage } from './pages/LoginPage';
 import { HomePage } from './pages/HomePage';
 import { BottomNav } from './components/BottomNav';
 
-// Lazy load non-essential pages for faster initial load
+// Eager load main tab pages for instant navigation
+import { SearchPage } from './pages/SearchPage';
+import { ProfilePage } from './pages/ProfilePage';
+import { ShopPage } from './pages/ShopPage';
+
+// Lazy load secondary pages for faster initial load
 const BookPage = React.lazy(() => import('./pages/BookPage').then(m => ({ default: m.BookPage })));
 const UnitPage = React.lazy(() => import('./pages/UnitPage').then(m => ({ default: m.UnitPage })));
 const SelectUnitPage = React.lazy(() => import('./pages/SelectUnitPage').then(m => ({ default: m.SelectUnitPage })));
@@ -16,11 +21,8 @@ const QuizPage = React.lazy(() => import('./pages/QuizPage').then(m => ({ defaul
 const RecallPage = React.lazy(() => import('./pages/RecallPage').then(m => ({ default: m.RecallPage })));
 const MatchingPage = React.lazy(() => import('./pages/MatchingPage').then(m => ({ default: m.MatchingPage })));
 const MultipleChoicePage = React.lazy(() => import('./pages/MultipleChoicePage').then(m => ({ default: m.MultipleChoicePage })));
-const SearchPage = React.lazy(() => import('./pages/SearchPage').then(m => ({ default: m.SearchPage })));
 const FavoritesPage = React.lazy(() => import('./pages/FavoritesPage').then(m => ({ default: m.FavoritesPage })));
 const SettingsPage = React.lazy(() => import('./pages/SettingsPage').then(m => ({ default: m.SettingsPage })));
-const ProfilePage = React.lazy(() => import('./pages/ProfilePage').then(m => ({ default: m.ProfilePage })));
-const ShopPage = React.lazy(() => import('./pages/ShopPage').then(m => ({ default: m.ShopPage })));
 const WordDetailPage = React.lazy(() => import('./pages/WordDetailPage').then(m => ({ default: m.WordDetailPage })));
 const WordScramblePage = React.lazy(() => import('./pages/WordScramblePage').then(m => ({ default: m.WordScramblePage })));
 const FillBlankPage = React.lazy(() => import('./pages/FillBlankPage').then(m => ({ default: m.FillBlankPage })));
