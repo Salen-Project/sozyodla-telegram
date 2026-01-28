@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Target, Globe, Trash2, Info, CheckCircle, LogOut } from 'lucide-react';
 import { useProgress } from '../contexts/ProgressContext';
 import { useAuth } from '../contexts/AuthContext';
-import { hideBackButton, hideMainButton } from '../lib/telegram';
+import { hideBackButton, hideMainButton, haptic } from '../lib/telegram';
 
 const LANG_KEY = 'sozyola_tg_lang';
 const GOAL_OPTIONS = [10, 15, 20, 30, 50];
@@ -21,12 +21,14 @@ export const SettingsPage: React.FC = () => {
   }, []);
 
   const handleLangChange = (newLang: string) => {
+    haptic.selection();
     setLang(newLang);
     localStorage.setItem(LANG_KEY, newLang);
     flashSaved();
   };
 
   const handleGoalChange = (target: number) => {
+    haptic.selection();
     setDailyGoalTarget(target);
     flashSaved();
   };
@@ -37,6 +39,7 @@ export const SettingsPage: React.FC = () => {
   };
 
   const handleReset = () => {
+    haptic.impact(showResetConfirm ? 'heavy' : 'medium');
     if (showResetConfirm) {
       resetProgress();
       setShowResetConfirm(false);
