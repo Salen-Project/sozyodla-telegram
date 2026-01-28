@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { BookOpen, Brain, Pen, ArrowRight, Volume2, Shuffle, ListChecks } from 'lucide-react';
+import { BookOpen, Brain, Pen, ArrowRight, Volume2, Shuffle, ListChecks, Sparkles, FileText } from 'lucide-react';
 import { editions } from '../data/vocabulary';
 import { useProgress } from '../contexts/ProgressContext';
 import { showBackButton, hideMainButton } from '../lib/telegram';
@@ -151,6 +151,22 @@ export const UnitPage: React.FC = () => {
       icon: ListChecks,
       color: '#ec4899',
       path: `/multiple-choice/${bookId}/${unitId}`,
+    },
+    {
+      id: 'scramble',
+      label: 'Word Scramble',
+      desc: 'Unscramble the letters',
+      icon: Sparkles,
+      color: '#06b6d4',
+      path: `/scramble/${bookId}/${unitId}`,
+    },
+    {
+      id: 'fill-blank',
+      label: 'Fill in Blank',
+      desc: 'Complete the sentence',
+      icon: FileText,
+      color: '#8b5cf6',
+      path: `/fill-blank/${bookId}/${unitId}`,
     },
   ];
 

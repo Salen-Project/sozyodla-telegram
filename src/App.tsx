@@ -18,6 +18,8 @@ import { SettingsPage } from './pages/SettingsPage';
 import { ProfilePage } from './pages/ProfilePage';
 import { ShopPage } from './pages/ShopPage';
 import { WordDetailPage } from './pages/WordDetailPage';
+import { WordScramblePage } from './pages/WordScramblePage';
+import { FillBlankPage } from './pages/FillBlankPage';
 import { BottomNav } from './components/BottomNav';
 
 const AuthGate: React.FC = () => {
@@ -66,6 +68,8 @@ const AuthGate: React.FC = () => {
               <Route path="/recall/:bookId/:unitId" element={<RecallPage />} />
               <Route path="/matching/:bookId/:unitId" element={<MatchingPage />} />
               <Route path="/multiple-choice/:bookId/:unitId" element={<MultipleChoicePage />} />
+              <Route path="/scramble/:bookId/:unitId" element={<WordScramblePage />} />
+              <Route path="/fill-blank/:bookId/:unitId" element={<FillBlankPage />} />
             </Routes>
           </div>
           <BottomNav />

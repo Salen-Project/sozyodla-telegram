@@ -4,10 +4,9 @@ import { motion } from 'framer-motion';
 import { editions } from '../data/vocabulary';
 import { useProgress } from '../contexts/ProgressContext';
 import { showBackButton, hideMainButton, haptic } from '../lib/telegram';
-import { ProgressBar } from '../components/ProgressBar';
 import { getWordImageUrl } from '../lib/images';
 import { Word } from '../types';
-import { Trophy, RotateCcw, ArrowRight } from 'lucide-react';
+import { Trophy, RotateCcw, ArrowRight, RefreshCw, ListChecks } from 'lucide-react';
 
 function shuffleArray<T>(arr: T[]): T[] {
   const shuffled = [...arr];
@@ -37,10 +36,26 @@ export const MultipleChoicePage: React.FC = () => {
   const unit = edition?.units.find(u => u.id === Number(unitId));
   const words = unit?.words || [];
 
-  const getMeaning = (w: Word) => lang === 'ru' && w.meaningRu ? w.meaningRu : w.meaning;
+  const getMeaning = useCallback((w: Word) => lang === 'ru' && w.meaningRu ? w.meaningRu : w.meaning, [lang]);
 
-  const questions = useMemo<MCQuestion[]>(() => {
-    return shuffleArray(words).map(word => {
+  const [gameWords, setGameWords] = useState<Word[]>([]);
+  const [questions, setQuestions] = useState<MCQuestion[]>([]);
+  const [currentQ, setCurrentQ] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+  const [correctCount, setCorrectCount] = useState(0);
+  const [incorrectCount, setIncorrectCount] = useState(0);
+  const [incorrectWords, setIncorrectWords] = useState<Word[]>([]);
+  const [completed, setCompleted] = useState(false);
+  const [isRetryMode, setIsRetryMode] = useState(false);
+  const [imgError, setImgError] = useState(false);
+
+  // Initialize game
+  const initializeGame = useCallback((wordList: Word[]) => {
+    const shuffled = shuffleArray(wordList);
+    setGameWords(shuffled);
+    
+    const qs: MCQuestion[] = shuffled.map(word => {
       const wrongWords = words.filter(w => w.word !== word.word);
       const wrongOptions = shuffleArray(wrongWords).slice(0, 3).map(w => getMeaning(w));
       const allOptions = shuffleArray([...wrongOptions, getMeaning(word)]);
@@ -51,14 +66,23 @@ export const MultipleChoicePage: React.FC = () => {
         imageUrl: getWordImageUrl(word.image),
       };
     });
-  }, [words]);
+    
+    setQuestions(qs);
+    setCurrentQ(0);
+    setSelectedIndex(null);
+    setIsCorrect(null);
+    setCorrectCount(0);
+    setIncorrectCount(0);
+    setIncorrectWords([]);
+    setCompleted(false);
+    setImgError(false);
+  }, [words, getMeaning]);
 
-  const [currentQ, setCurrentQ] = useState(0);
-  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
-  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
-  const [score, setScore] = useState(0);
-  const [completed, setCompleted] = useState(false);
-  const [imgError, setImgError] = useState(false);
+  useEffect(() => {
+    if (words.length > 0) {
+      initializeGame(words);
+    }
+  }, [words, initializeGame]);
 
   useEffect(() => {
     showBackButton(() => navigate(`/unit/${bookId}/${unitId}`));
@@ -77,11 +101,14 @@ export const MultipleChoicePage: React.FC = () => {
     setSelectedIndex(index);
     const correct = index === questions[currentQ].correctIndex;
     setIsCorrect(correct);
+    
     if (correct) {
       haptic.notification('success');
-      setScore(s => s + 1);
+      setCorrectCount(c => c + 1);
     } else {
       haptic.notification('error');
+      setIncorrectCount(c => c + 1);
+      setIncorrectWords(prev => [...prev, questions[currentQ].word]);
     }
   }, [selectedIndex, currentQ, questions]);
 
@@ -91,69 +118,183 @@ export const MultipleChoicePage: React.FC = () => {
       setSelectedIndex(null);
       setIsCorrect(null);
     } else {
-      if (edition && unit) {
-        const percentage = Math.round((score / questions.length) * 100);
+      // Finish
+      if (edition && unit && !isRetryMode) {
+        const percentage = Math.round((correctCount / questions.length) * 100);
         saveResult(edition.id, unit.id, {
-          score, total: questions.length, percentage, date: new Date().toISOString(),
+          score: correctCount, 
+          total: questions.length, 
+          percentage, 
+          date: new Date().toISOString(),
         });
-        addWordsLearned(score);
+        addWordsLearned(correctCount);
       }
       setCompleted(true);
-      haptic.notification('success');
+      haptic.notification(correctCount >= questions.length * 0.8 ? 'success' : 'warning');
     }
-  }, [currentQ, questions.length, score, edition, unit, saveResult, addWordsLearned]);
+  }, [currentQ, questions.length, correctCount, edition, unit, isRetryMode, saveResult, addWordsLearned]);
+
+  const startRetry = useCallback(() => {
+    setIsRetryMode(true);
+    initializeGame(incorrectWords);
+    haptic.impact('medium');
+  }, [incorrectWords, initializeGame]);
+
+  const restartAll = useCallback(() => {
+    setIsRetryMode(false);
+    initializeGame(words);
+    haptic.impact('medium');
+  }, [words, initializeGame]);
 
   if (!edition || !unit || words.length === 0) {
     return (
       <div className="h-full flex items-center justify-center">
-        <p style={{ color: 'var(--tg-hint)' }}>No words found</p>
+        <p style={{ color: 'var(--tg-hint)' }}>Loading...</p>
       </div>
     );
   }
 
   if (completed) {
-    const percentage = Math.round((score / questions.length) * 100);
-    const isGreat = percentage >= 80;
+    const total = questions.length;
+    const percentage = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+    const passed = percentage >= 80;
+
     return (
-      <div className="h-full flex flex-col items-center justify-center px-6">
-        <motion.div initial={{ scale: 0, rotate: -180 }} animate={{ scale: 1, rotate: 0 }} transition={{ type: 'spring' }}>
-          <Trophy size={64} className={isGreat ? 'text-yellow-500' : 'text-gray-400'} />
+      <div className="h-full flex flex-col items-center justify-center px-6 pb-6 safe-area-bottom">
+        <motion.div
+          initial={{ scale: 0, rotate: -180 }}
+          animate={{ scale: 1, rotate: 0 }}
+          transition={{ type: 'spring', stiffness: 200 }}
+          className="w-20 h-20 rounded-full flex items-center justify-center mb-4"
+          style={{ 
+            background: passed 
+              ? 'linear-gradient(135deg, #22c55e, #10b981)' 
+              : 'linear-gradient(135deg, #f59e0b, #f97316)',
+            boxShadow: passed ? '0 0 30px rgba(34, 197, 94, 0.4)' : '0 0 30px rgba(245, 158, 11, 0.4)'
+          }}
+        >
+          <ListChecks size={36} color="white" />
         </motion.div>
-        <h2 className="text-2xl font-bold mt-4 mb-2" style={{ color: 'var(--tg-text)' }}>
-          {isGreat ? 'Excellent! 🎉' : 'Keep Practicing! 💪'}
+
+        <h2 className="text-2xl font-bold mb-2" style={{ color: 'var(--tg-text)' }}>
+          {isRetryMode 
+            ? (lang === 'uz' ? 'Qayta urinish tugadi!' : 'Retry Complete!')
+            : (lang === 'uz' ? 'Test tugadi!' : 'Quiz Complete!')}
         </h2>
-        <div className="text-4xl font-bold mb-2" style={{ color: isGreat ? '#22c55e' : '#f59e0b' }}>
+
+        {/* Big percentage */}
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ delay: 0.2 }}
+          className="text-5xl font-extrabold mb-4"
+          style={{ color: passed ? '#22c55e' : '#f59e0b' }}
+        >
           {percentage}%
+        </motion.div>
+
+        {/* Stats */}
+        <div className="flex gap-8 mb-6">
+          <div className="text-center">
+            <div className="text-2xl font-bold" style={{ color: '#22c55e' }}>{correctCount}</div>
+            <div className="text-xs" style={{ color: 'var(--tg-hint)' }}>
+              {lang === 'uz' ? "To'g'ri" : 'Correct'}
+            </div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-bold" style={{ color: '#ef4444' }}>{incorrectCount}</div>
+            <div className="text-xs" style={{ color: 'var(--tg-hint)' }}>
+              {lang === 'uz' ? "Noto'g'ri" : 'Incorrect'}
+            </div>
+          </div>
         </div>
-        <p className="text-sm mb-6" style={{ color: 'var(--tg-subtitle)' }}>
-          {score} out of {questions.length} correct
-        </p>
-        <div className="flex gap-3">
+
+        {/* Feedback message */}
+        <div 
+          className="px-4 py-3 rounded-xl mb-6 text-center"
+          style={{ 
+            backgroundColor: passed ? '#22c55e20' : '#f59e0b20',
+            maxWidth: '280px'
+          }}
+        >
+          <p className="text-sm font-medium" style={{ color: passed ? '#22c55e' : '#f59e0b' }}>
+            {passed 
+              ? (lang === 'uz' ? "Ajoyib natija! Davom eting." : "Excellent! Keep it up.")
+              : (lang === 'uz' ? "Mashq qilishda davom eting!" : "Keep practicing to improve!")}
+          </p>
+        </div>
+
+        {/* Action buttons */}
+        <div className="flex flex-col gap-3 w-full max-w-[280px]">
+          {incorrectWords.length > 0 && (
+            <button
+              onClick={startRetry}
+              className="w-full py-3 rounded-xl text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-transform"
+              style={{ backgroundColor: 'var(--tg-button)', color: 'var(--tg-button-text)' }}
+            >
+              <RotateCcw size={18} />
+              {lang === 'uz' 
+                ? `Xatolarni mashq qilish (${incorrectWords.length})` 
+                : `Practice Incorrect (${incorrectWords.length})`}
+            </button>
+          )}
           <button
-            onClick={() => { setCurrentQ(0); setSelectedIndex(null); setIsCorrect(null); setScore(0); setCompleted(false); }}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold"
+            onClick={restartAll}
+            className="w-full py-3 rounded-xl text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-transform"
             style={{ backgroundColor: 'var(--tg-secondary-bg)', color: 'var(--tg-text)' }}
           >
-            <RotateCcw size={16} /> Retry
+            <RefreshCw size={18} />
+            {lang === 'uz' ? 'Qaytadan boshlash' : 'Start Over'}
           </button>
           <button
             onClick={() => navigate(`/unit/${bookId}/${unitId}`)}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold"
-            style={{ backgroundColor: 'var(--tg-button)', color: 'var(--tg-button-text)' }}
+            className="w-full py-3 rounded-xl text-sm font-semibold active:scale-95 transition-transform"
+            style={{ backgroundColor: 'var(--tg-secondary-bg)', color: 'var(--tg-hint)' }}
           >
-            Done <ArrowRight size={16} />
+            {lang === 'uz' ? "Bo'limga qaytish" : 'Back to Unit'}
           </button>
         </div>
       </div>
     );
   }
 
+  if (questions.length === 0) {
+    return (
+      <div className="h-full flex items-center justify-center">
+        <p style={{ color: 'var(--tg-hint)' }}>Loading...</p>
+      </div>
+    );
+  }
+
   const question = questions[currentQ];
+  const progress = ((currentQ + 1) / questions.length) * 100;
 
   return (
-    <div className="h-full flex flex-col px-4 pt-4 pb-6 safe-area-bottom">
+    <div className="h-full flex flex-col px-4 pt-2 pb-6 safe-area-bottom">
+      {/* Progress bar */}
       <div className="mb-3">
-        <ProgressBar current={currentQ + 1} total={questions.length} label="Progress" />
+        <div className="flex justify-between items-center mb-1">
+          <span className="text-xs font-medium" style={{ color: 'var(--tg-hint)' }}>
+            {isRetryMode 
+              ? (lang === 'uz' ? 'Qayta urinish' : 'Retry Mode')
+              : `${currentQ + 1} / ${questions.length}`}
+          </span>
+          <div className="flex gap-2 text-xs">
+            <span style={{ color: '#22c55e' }}>✓ {correctCount}</span>
+            <span style={{ color: '#ef4444' }}>✗ {incorrectCount}</span>
+          </div>
+        </div>
+        <div 
+          className="h-1.5 rounded-full overflow-hidden"
+          style={{ backgroundColor: 'var(--tg-secondary-bg)' }}
+        >
+          <motion.div
+            className="h-full rounded-full"
+            style={{ backgroundColor: 'var(--tg-button)' }}
+            animate={{ width: `${progress}%` }}
+            transition={{ duration: 0.3 }}
+          />
+        </div>
       </div>
 
       <div className="flex-1 flex flex-col">
@@ -171,7 +312,7 @@ export const MultipleChoicePage: React.FC = () => {
 
         <div className="mb-4">
           <p className="text-xs uppercase tracking-wider mb-2 font-medium" style={{ color: 'var(--tg-section-header)' }}>
-            Choose the correct meaning
+            {lang === 'uz' ? "To'g'ri ma'noni tanlang" : 'Choose the correct meaning'}
           </p>
           <h2 className="text-2xl font-bold" style={{ color: 'var(--tg-text)' }}>
             {question.word.word}
@@ -197,7 +338,7 @@ export const MultipleChoicePage: React.FC = () => {
                 transition={{ delay: i * 0.05 }}
                 onClick={() => handleSelect(i)}
                 disabled={selectedIndex !== null}
-                className="w-full text-left p-3.5 rounded-xl text-sm transition-all"
+                className="w-full text-left p-3.5 rounded-xl text-sm transition-all active:scale-[0.98]"
                 style={{
                   backgroundColor: showCorrect ? '#22c55e15' : showWrong ? '#ef444415' : isSelected ? 'var(--tg-button)' : 'var(--tg-section-bg)',
                   color: showCorrect ? '#22c55e' : showWrong ? '#ef4444' : isSelected ? 'var(--tg-button-text)' : 'var(--tg-text)',
@@ -218,7 +359,9 @@ export const MultipleChoicePage: React.FC = () => {
             className="w-full py-3.5 rounded-xl text-sm font-semibold mt-4 active:scale-[0.98] transition-transform"
             style={{ backgroundColor: 'var(--tg-button)', color: 'var(--tg-button-text)' }}
           >
-            {currentQ < questions.length - 1 ? 'Next Question →' : 'See Results'}
+            {currentQ < questions.length - 1 
+              ? (lang === 'uz' ? 'Keyingi savol →' : 'Next Question →')
+              : (lang === 'uz' ? 'Natijalarni ko\'rish' : 'See Results')}
           </motion.button>
         )}
       </div>
