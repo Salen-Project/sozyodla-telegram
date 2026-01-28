@@ -52,25 +52,14 @@ export const ShopPage: React.FC = () => {
     
     haptic.impact('medium');
     
-    // In real app, this would open Telegram payment
-    // For now, show alert
+    // Open payment bot with book info
     const tg = (window as any).Telegram?.WebApp;
-    if (tg?.showConfirm) {
-      tg.showConfirm(
-        `"${book.title}" kitobini ${formatPrice(book.price)} ga sotib olmoqchimisiz?`,
-        (confirmed: boolean) => {
-          if (confirmed) {
-            // Simulate purchase
-            const newPurchased = [...purchasedBooks, book.id];
-            setPurchasedBooks(newPurchased);
-            localStorage.setItem(PURCHASED_KEY, JSON.stringify(newPurchased));
-            haptic.notification('success');
-            tg.showAlert('Xarid muvaffaqiyatli! ✅');
-          }
-        }
-      );
+    const message = `buy_book_${book.id}`;
+    
+    if (tg?.openTelegramLink) {
+      tg.openTelegramLink(`https://t.me/soz_yodlabot?start=${message}`);
     } else {
-      alert(`Sotib olish: ${book.title} - ${formatPrice(book.price)}`);
+      window.open(`https://t.me/soz_yodlabot?start=${message}`, '_blank');
     }
   };
 
@@ -79,22 +68,14 @@ export const ShopPage: React.FC = () => {
     
     haptic.impact('medium');
     
+    // Open payment bot for bundle
     const tg = (window as any).Telegram?.WebApp;
-    if (tg?.showConfirm) {
-      tg.showConfirm(
-        `Barcha kitoblarni ${formatPrice(ALL_BOOKS_PRICE)} ga sotib olmoqchimisiz? (${unpurchasedCount} ta kitob)`,
-        (confirmed: boolean) => {
-          if (confirmed) {
-            const allIds = books.map(b => b.id);
-            setPurchasedBooks(allIds);
-            localStorage.setItem(PURCHASED_KEY, JSON.stringify(allIds));
-            haptic.notification('success');
-            tg.showAlert('Barcha kitoblar sotib olindi! 🎉');
-          }
-        }
-      );
+    const message = 'buy_all_books';
+    
+    if (tg?.openTelegramLink) {
+      tg.openTelegramLink(`https://t.me/soz_yodlabot?start=${message}`);
     } else {
-      alert(`Barcha kitoblar: ${formatPrice(ALL_BOOKS_PRICE)}`);
+      window.open(`https://t.me/soz_yodlabot?start=${message}`, '_blank');
     }
   };
 
