@@ -37,8 +37,17 @@ export const QuizOption: React.FC<QuizOptionProps> = ({
   return (
     <motion.button
       initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: index * 0.08 }}
+      animate={{ 
+        opacity: 1, 
+        y: 0,
+        x: isCorrect === false && isSelected ? [0, -10, 10, -8, 8, -4, 4, 0] : 0,
+        scale: isCorrect === true ? [1, 1.02, 1] : 1,
+      }}
+      transition={{ 
+        delay: isCorrect !== null ? 0 : index * 0.08,
+        x: { duration: 0.4 },
+        scale: { duration: 0.3 }
+      }}
       whileTap={!disabled ? { scale: 0.97 } : undefined}
       onClick={onSelect}
       disabled={disabled}
