@@ -3495,7 +3495,7 @@ export const book5Units: Unit[] = [
                 "definition": "To precipitate an event means to cause it to happen sooner than normal.",
                 "example": "Heavy rains can precipitate floods in low-lying areas.",
                 "partOfSpeech": "V.",
-                image: "https://images.pexels.com/photos/26202091/pexels-photo-26202091.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit1_allot.jpeg",
             },
             {
                 "word": "secondhand",
@@ -3504,7 +3504,7 @@ export const book5Units: Unit[] = [
                 "definition": "When something is secondhand, it has been owned by someone else.",
                 "example": "Her secondhand jeans were a bit faded in the front.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/30710023/pexels-photo-30710023.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_secondhand.jpg",
             },
             {
                 "word": "slot",
@@ -3513,7 +3513,7 @@ export const book5Units: Unit[] = [
                 "definition": "A slot is a narrow opening in a machine or container.",
                 "example": "To operate the machine, put your coins into the slot.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/4835466/pexels-photo-4835466.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_slot.jpg",
             },
             {
                 "word": "submerge",
@@ -3522,7 +3522,7 @@ export const book5Units: Unit[] = [
                 "definition": "To submerge something means to put it below the surface of a liquid.",
                 "example": "The whale submerged its huge body into the ocean.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/4781925/pexels-photo-4781925.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_submerge.jpg",
             },
             {
                 "word": "tactic",
@@ -3573,7 +3573,7 @@ export const book5Units: Unit[] = [
                 "definition": "To complement something or someone is to make them better.",
                 "example": "The scarf is a perfect complement to her outfit.",
                 "partOfSpeech": "V.",
-                image: "https://images.pexels.com/photos/12148039/pexels-photo-12148039.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit19_tactic.jpg",
             },
             {
                 "word": "compress",
@@ -3609,7 +3609,7 @@ export const book5Units: Unit[] = [
                 "definition": "When someone is immune to a disease, they cannot be affected by it.",
                 "example": "Children usually get shots to make them immune to certain diseases.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/7321689/pexels-photo-7321689.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_compress.jpg",
             },
             {
                 "word": "input",
@@ -3618,7 +3618,7 @@ export const book5Units: Unit[] = [
                 "definition": "Input is information that is put into a computer.",
                 "example": "Type the input into the computer program.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/5474295/pexels-photo-5474295.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_input.jpg",
             },
             {
                 "word": "intimate",
@@ -3627,7 +3627,7 @@ export const book5Units: Unit[] = [
                 "definition": "When a relationship is intimate, the two things are very closely connected.",
                 "example": "I only tell my secrets to my most intimate friends.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/5218348/pexels-photo-5218348.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_intimate.jpg",
             },
             {
                 "word": "magnet",
@@ -3732,7 +3732,7 @@ export const book5Units: Unit[] = [
                 "definition": "If you are astounded, you are very surprised.",
                 "example": "The shopkeeper stood astounded, holding the two suits",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/8638703/pexels-photo-8638703.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_magnet.jpg",
             },
             {
                 "word": "attribute",
@@ -3741,7 +3741,7 @@ export const book5Units: Unit[] = [
                 "definition": "An attribute is a characteristic of a person or thing.",
                 "example": "He isn’t very clever, but he does have some other positive attributes.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/7352869/pexels-photo-7352869.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_attribute.jpg",
             },
             {
                 "word": "bilingual",
@@ -3750,7 +3750,7 @@ export const book5Units: Unit[] = [
                 "definition": "If someone is bilingual, then they can speak two languages.",
                 "example": "Since you already know English, after learning French you’ll be bilingual.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/9268665/pexels-photo-9268665.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_bilingual.jpg",
             },
             {
                 "word": "clone",
@@ -3831,7 +3831,7 @@ export const book5Units: Unit[] = [
                 "definition": "Humanities are subjects which analyze human ideas, such as history and literature.",
                 "example": "Jennifer has always been more interested in humanities than science.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/5063444/pexels-photo-5063444.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_clone.jpg",
             },
             {
                 "word": "knot",
@@ -3858,7 +3858,7 @@ export const book5Units: Unit[] = [
                 "definition": "A participant is someone who joins in a social event or competition.",
                 "example": "There were thousands of participants in this year’s marathon.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/9687163/pexels-photo-9687163.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_knot.png",
             },
             {
                 "word": "plausible",
@@ -3867,7 +3867,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is plausible, it is reasonable or possible.",
                 "example": "It is plausible that she will win the competition based on her skills.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/159741/baseball-high-school-sport-competition-159741.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_plausible.jpg",
             },
             {
                 "word": "ritual",
@@ -3936,7 +3936,7 @@ export const book5Units: Unit[] = [
                 "definition": "Administrative describes anything related to managing a company or organization.",
                 "example": "I work as an administrative assistant to the owner of the company.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/7681117/pexels-photo-7681117.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_ritual.jpg",
             },
             {
                 "word": "biotechnology",
@@ -3981,7 +3981,7 @@ export const book5Units: Unit[] = [
                 "definition": "Diabetes is a medical condition where a person has too much sugar in their blood.",
                 "example": "Overweight people are more likely to suffer from diabetes than slimmer ones.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/12474259/pexels-photo-12474259.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_biotechnology.jpg",
             },
             {
                 "word": "eliminate",
@@ -4026,7 +4026,7 @@ export const book5Units: Unit[] = [
                 "definition": "A framework is a set of rules or ideas that people use to solve problems.",
                 "example": "His ideas fit into the framework of a successful business plan.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/6914469/pexels-photo-6914469.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_eliminate.jpg",
             },
             {
                 "word": "manufacture",
@@ -4035,7 +4035,7 @@ export const book5Units: Unit[] = [
                 "definition": "To manufacture something means to make it in a factory.",
                 "example": "My father’s company manufactures steel building materials.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/14804687/pexels-photo-14804687.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_manufacture.jpg",
             },
             {
                 "word": "mechanism",
@@ -4044,7 +4044,7 @@ export const book5Units: Unit[] = [
                 "definition": "A mechanism is a part of a machine that performs a certain function.",
                 "example": "I can’t open my car door because the locking mechanism is broke.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/9996408/pexels-photo-9996408.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_mechanism.jpg",
             },
             {
                 "word": "minimize",
@@ -4053,7 +4053,7 @@ export const book5Units: Unit[] = [
                 "definition": "To minimize means to reduce something to the lowest possible level.",
                 "example": "To minimize the risk of accidents, wear a seatbelt.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/12002262/pexels-photo-12002262.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_minimize.jpg",
             },
             {
                 "word": "nectar",
@@ -4089,7 +4089,7 @@ export const book5Units: Unit[] = [
                 "definition": "When something is straightforward, it is good because it is easy to understand.",
                 "example": "The teacher’s grading system was straightforward and fair.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/7092548/pexels-photo-7092548.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_nectar.jpg",
             }
         ]
     },
@@ -4176,7 +4176,7 @@ export const book5Units: Unit[] = [
                 "definition": "Despair is the complete loss of hope.",
                 "example": "After the other company won the account, our salespeople were filled with despair.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/6694903/pexels-photo-6694903.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_astronomical.jpg",
             },
             {
                 "word": "embed",
@@ -4185,7 +4185,7 @@ export const book5Units: Unit[] = [
                 "definition": "To embed something means to place it firmly within a surrounding thing.",
                 "example": "The logger embedded the axe into the wood after chopping several logs.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/10397927/pexels-photo-10397927.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_embed.jpg",
             },
             {
                 "word": "fragment",
@@ -4221,7 +4221,7 @@ export const book5Units: Unit[] = [
                 "definition": "Gloom is a state of being almost completely dark.",
                 "example": "In the gloom of the morning, it was difficult to see the boat on the lake.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/14748944/pexels-photo-14748944.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_fragment.jpg",
             },
             {
                 "word": "radiate",
@@ -4230,7 +4230,7 @@ export const book5Units: Unit[] = [
                 "definition": "To radiate means to send out energy or heat.",
                 "example": "The heat from the fireplace radiated throughout the room.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/12034871/pexels-photo-12034871.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_radiate.jpg",
             },
             {
                 "word": "roam",
@@ -4239,7 +4239,7 @@ export const book5Units: Unit[] = [
                 "definition": "To roam means to move around without a plan or purpose.",
                 "example": "All day the cows roamed around the field eating grass.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/12743139/pexels-photo-12743139.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_roam.jpg",
             },
             {
                 "word": "solitary",
@@ -4248,7 +4248,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is solitary, then it is lonely or the only one.",
                 "example": "The only thing in the room was a solitary chair.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_solitary.jpg",
             },
             {
                 "word": "spectrum",
@@ -4308,7 +4308,7 @@ export const book5Units: Unit[] = [
                 "definition": "To employ someone means to give work to them.",
                 "example": "The company decided to employ new workers to improve sales.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/7464713/pexels-photo-7464713.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_spectrum.jpg",
             },
             {
                 "word": "expel",
@@ -4335,7 +4335,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is forthcoming, then it is about to happen in the future.",
                 "example": "The singer’s forthcoming album will feature many of her own songs.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/7087168/pexels-photo-7087168.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_expel.jpg",
             },
             {
                 "word": "furnish",
@@ -4344,7 +4344,7 @@ export const book5Units: Unit[] = [
                 "definition": "To furnish means to put furniture in a house or room.",
                 "example": "Most homes are furnished with tables, chairs, and beds.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/7535062/pexels-photo-7535062.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_furnish.jpg",
             },
             {
                 "word": "hygiene",
@@ -4371,7 +4371,7 @@ export const book5Units: Unit[] = [
                 "definition": "A landlord is a man who rents property to a person.",
                 "example": "The landlord collected everyone’s rent money on the first day of every month.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/8963081/pexels-photo-8963081.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_hygiene.jpg",
             },
             {
                 "word": "lease",
@@ -4398,7 +4398,7 @@ export const book5Units: Unit[] = [
                 "definition": "To mend something means to fix it when it is broken or damaged.",
                 "example": "Mother mended the rip in my pants with a piece of cloth.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/29222239/pexels-photo-29222239.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_lease.jpeg",
             },
             {
                 "word": "mortgage",
@@ -4443,7 +4443,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is trendy, then it is very popular and new.",
                 "example": "Carlo bought a trendy new car.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/19368632/pexels-photo-19368632.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_mortgage.png",
             },
             {
                 "word": "utility",
@@ -4452,7 +4452,7 @@ export const book5Units: Unit[] = [
                 "definition": "A utility is a business that supplies services such as water or electricity.",
                 "example": "If you don’t pay the utilities, you may have your electricity turned off.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/7000/fre-sonneveld-powerlines.jpg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_utility.jpg",
             },
             {
                 "word": "whereby",
@@ -4461,7 +4461,7 @@ export const book5Units: Unit[] = [
                 "definition": "Whereby means by which or through which.",
                 "example": "The mayor had a new bridge built whereby the citizens could cross the river.",
                 "partOfSpeech": "conj.",
-                image: "https://images.pexels.com/photos/19253434/pexels-photo-19253434.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_pexels_whereby.jpg",
             }
         ]
     },

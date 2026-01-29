@@ -12,7 +12,7 @@ export const book6Units: Unit[] = [
                 "definition": "To alleviate pain or suffering means to make it less intense or severe.",
                 "example": "She needed something to alleviate the pain in her back.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Pitfalls_of_a_Big_City_%281919%29_-_1.jpg/500px-Pitfalls_of_a_Big_City_%281919%29_-_1.jpg",
+                image: "/image-manager/uploads/book6_final_alleviate.jpg",
             },
             {
                 "word": "astrology",
@@ -1608,7 +1608,7 @@ export const book6Units: Unit[] = [
                 "definition": "Paralysis is the loss of the ability to move all or part of your body.",
                 "example": "His paralysis meant that he had to use a  wheelchair to get around.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Facial_paralysis_following_surgical_removal_of_acoustic_neuroma.jpg/413px-Facial_paralysis_following_surgical_removal_of_acoustic_neuroma.jpg",
+                image: "/image-manager/uploads/book6_unit1_astrology.jpg",
             },
             {
                 "word": "pest",
@@ -3573,7 +3573,7 @@ export const book6Units: Unit[] = [
                 "definition": "To dump something means to throw it away or get rid of it.",
                 "example": "She dumped the garbage into the trash can.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Garbage_dump_site_in_Ikot_Oduot%2C_Ibesikpo.jpg/500px-Garbage_dump_site_in_Ikot_Oduot%2C_Ibesikpo.jpg",
+                image: "/image-manager/uploads/book6_unit9_pest.jpg",
             },
             {
                 "word": "eternal",
@@ -5256,7 +5256,7 @@ export const book6Units: Unit[] = [
                 "definition": "To depict something means to show or portray it, often using art.",
                 "example": "The statue’s face depicted the general’s determination and courage.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Webcartoonist%27s_depiction_of_her_own_nervous_breakdown.jpg/500px-Webcartoonist%27s_depiction_of_her_own_nervous_breakdown.jpg",
+                image: "/image-manager/uploads/book6_unit20_eternal.jpg",
             },
             {
                 "word": "dual",
