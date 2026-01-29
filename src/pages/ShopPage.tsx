@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { BookOpen, Package, Check, Star } from 'lucide-react';
+import { BookOpen, Package, Check, Star, LogIn } from 'lucide-react';
 import { hideBackButton, hideMainButton, haptic } from '../lib/telegram';
+import { useAuth } from '../contexts/AuthContext';
 import { editions } from '../data/vocabulary';
 
 interface BookItem {
@@ -17,6 +19,9 @@ const ALL_BOOKS_PRICE = 199000;
 const SINGLE_BOOK_PRICE = 49000;
 
 export const ShopPage: React.FC = () => {
+  const navigate = useNavigate();
+  const { user } = useAuth();
+  const [showLoginPrompt, setShowLoginPrompt] = useState(false);
   const [purchasedBooks, setPurchasedBooks] = useState<number[]>(() => {
     try {
       const stored = localStorage.getItem(PURCHASED_KEY);
@@ -52,6 +57,12 @@ export const ShopPage: React.FC = () => {
     
     haptic.impact('medium');
     
+    // Check if user is logged in
+    if (!user) {
+      setShowLoginPrompt(true);
+      return;
+    }
+    
     // Open payment bot with book info
     const tg = (window as any).Telegram?.WebApp;
     const message = `buy_book_${book.id}`;
@@ -67,6 +78,12 @@ export const ShopPage: React.FC = () => {
     if (allBooksPurchased) return;
     
     haptic.impact('medium');
+    
+    // Check if user is logged in
+    if (!user) {
+      setShowLoginPrompt(true);
+      return;
+    }
     
     // Open payment bot for bundle
     const tg = (window as any).Telegram?.WebApp;
@@ -195,6 +212,54 @@ export const ShopPage: React.FC = () => {
           <span>Birinchi kitob bepul!</span>
         </div>
       </div>
+
+      {/* Login Prompt Modal */}
+      {showLoginPrompt && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="fixed inset-0 z-50 flex items-center justify-center p-4"
+          style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}
+          onClick={() => setShowLoginPrompt(false)}
+        >
+          <motion.div
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            onClick={e => e.stopPropagation()}
+            className="w-full max-w-sm rounded-2xl p-6 text-center"
+            style={{ backgroundColor: 'var(--tg-bg)' }}
+          >
+            <div
+              className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center"
+              style={{ backgroundColor: 'var(--tg-button)', opacity: 0.1 }}
+            >
+              <LogIn size={32} style={{ color: 'var(--tg-button)' }} />
+            </div>
+            <h3 className="text-lg font-bold mb-2" style={{ color: 'var(--tg-text)' }}>
+              Sotib olish uchun kiring
+            </h3>
+            <p className="text-sm mb-5" style={{ color: 'var(--tg-hint)' }}>
+              Kitoblarni sotib olish uchun hisobingizga kiring yoki ro'yxatdan o'ting
+            </p>
+            <div className="flex gap-3">
+              <button
+                onClick={() => setShowLoginPrompt(false)}
+                className="flex-1 py-3 rounded-xl font-semibold"
+                style={{ backgroundColor: 'var(--tg-secondary-bg)', color: 'var(--tg-text)' }}
+              >
+                Bekor qilish
+              </button>
+              <button
+                onClick={() => { setShowLoginPrompt(false); navigate('/login'); }}
+                className="flex-1 py-3 rounded-xl font-semibold"
+                style={{ backgroundColor: 'var(--tg-button)', color: 'var(--tg-button-text)' }}
+              >
+                Kirish
+              </button>
+            </div>
+          </motion.div>
+        </motion.div>
+      )}
     </div>
   );
 };

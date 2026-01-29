@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../contexts/AuthContext';
 import { haptic } from '../lib/telegram';
-import { Globe, ArrowLeft, ArrowRight, Check, User, Briefcase, Lock, Eye, EyeOff } from 'lucide-react';
+import { Globe, ArrowLeft, ArrowRight, Check, User, Briefcase, Lock, Eye, EyeOff, X } from 'lucide-react';
 
 const translations = {
   uz: {
@@ -43,7 +44,7 @@ const translations = {
     have_account: "Hisobingiz bormi? Kiring",
     no_account: "Hisobingiz yo'qmi? Ro'yxatdan o'ting",
     or_continue: "yoki davom eting",
-    skip: "Hisobsiz davom etish",
+    skip: "Orqaga",
   },
   en: {
     title: "So'z Yodla",
@@ -83,7 +84,7 @@ const translations = {
     have_account: "Already have an account? Sign in",
     no_account: "Don't have an account? Sign up",
     or_continue: "or continue",
-    skip: "Continue without account",
+    skip: "Go Back",
   },
 };
 
@@ -98,7 +99,8 @@ const professionIcons: Record<Profession, string> = {
 };
 
 export const LoginPage: React.FC = () => {
-  const { login, signup, skipAuth } = useAuth();
+  const navigate = useNavigate();
+  const { login, signup } = useAuth();
   const [isSignup, setIsSignup] = useState(false);
   const [step, setStep] = useState(1); // 1: Name, 2: Profession, 3: Credentials
   
@@ -198,6 +200,7 @@ export const LoginPage: React.FC = () => {
       haptic.notification('error');
     } else {
       haptic.notification('success');
+      navigate(-1); // Go back after successful signup
     }
   };
 
@@ -222,12 +225,13 @@ export const LoginPage: React.FC = () => {
       haptic.notification('error');
     } else {
       haptic.notification('success');
+      navigate(-1); // Go back after successful login
     }
   };
 
-  const handleSkip = () => {
+  const handleGoBack = () => {
     haptic.impact('light');
-    skipAuth();
+    navigate(-1);
   };
 
   const resetSignup = () => {
@@ -318,7 +322,7 @@ export const LoginPage: React.FC = () => {
           <div className="text-center mt-6">
             <p className="text-xs mb-2" style={{ color: 'var(--tg-hint)' }}>— {t.or_continue} —</p>
             <button
-              onClick={handleSkip}
+              onClick={handleGoBack}
               className="text-sm px-4 py-2 rounded-xl active:scale-95 transition-transform"
               style={{ backgroundColor: 'var(--tg-secondary-bg)', color: 'var(--tg-text)' }}
             >{t.skip}</button>
@@ -570,10 +574,10 @@ export const LoginPage: React.FC = () => {
           )}
         </div>
 
-        {/* Skip option */}
+        {/* Go Back option */}
         <div className="text-center mt-4">
           <button
-            onClick={handleSkip}
+            onClick={handleGoBack}
             className="text-sm"
             style={{ color: 'var(--tg-hint)' }}
           >{t.skip}</button>

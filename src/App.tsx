@@ -48,8 +48,8 @@ const PageLoader: React.FC = () => (
   </div>
 );
 
-const AuthGate: React.FC = () => {
-  const { user, isLoading, isSkipped } = useAuth();
+const AppContent: React.FC = () => {
+  const { isLoading } = useAuth();
 
   if (isLoading) {
     return (
@@ -69,10 +69,7 @@ const AuthGate: React.FC = () => {
     );
   }
 
-  if (!user && !isSkipped) {
-    return <LoginPage />;
-  }
-
+  // Always show the app - login is triggered from Profile/Shop when needed
   return (
     <ProgressProvider>
       <MemoryRouter>
@@ -86,6 +83,7 @@ const AuthGate: React.FC = () => {
                 <Route path="/settings" element={<SettingsPage />} />
                 <Route path="/profile" element={<ProfilePage />} />
                 <Route path="/shop" element={<ShopPage />} />
+                <Route path="/login" element={<LoginPage />} />
                 <Route path="/book/:bookId" element={<BookPage />} />
                 <Route path="/unit/:bookId/:unitId" element={<UnitPage />} />
                 <Route path="/word/:bookId/:unitId/:wordIndex" element={<WordDetailPage />} />
@@ -118,7 +116,7 @@ const App: React.FC = () => {
   return (
     <ErrorBoundary>
       <AuthProvider>
-        <AuthGate />
+        <AppContent />
       </AuthProvider>
     </ErrorBoundary>
   );

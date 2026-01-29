@@ -1,20 +1,56 @@
 import React, { useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Trophy, BookOpen, Brain, Flame, Star, Calendar, Target, ChevronRight, Share2 } from 'lucide-react';
+import { Trophy, BookOpen, Brain, Flame, Star, Calendar, Target, ChevronRight, Share2, LogIn, User } from 'lucide-react';
 import { haptic } from '../lib/telegram';
 import { useProgress } from '../contexts/ProgressContext';
+import { useAuth } from '../contexts/AuthContext';
 import { editions } from '../data/vocabulary';
 import { hideBackButton, hideMainButton, getTelegramUser } from '../lib/telegram';
 
 export const ProfilePage: React.FC = () => {
   const navigate = useNavigate();
   const { progress } = useProgress();
+  const { user } = useAuth();
 
   useEffect(() => {
     hideBackButton();
     hideMainButton();
   }, []);
+
+  // If not logged in, show login prompt
+  if (!user) {
+    return (
+      <div className="h-full flex flex-col items-center justify-center px-6">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          className="text-center"
+        >
+          <div
+            className="w-20 h-20 rounded-full mx-auto mb-4 flex items-center justify-center"
+            style={{ backgroundColor: 'var(--tg-button)', opacity: 0.1 }}
+          >
+            <User size={40} style={{ color: 'var(--tg-button)' }} />
+          </div>
+          <h2 className="text-xl font-bold mb-2" style={{ color: 'var(--tg-text)' }}>
+            Sign in to access your profile
+          </h2>
+          <p className="text-sm mb-6" style={{ color: 'var(--tg-hint)' }}>
+            Track your progress, sync across devices, and compete on leaderboards
+          </p>
+          <button
+            onClick={() => { haptic.impact('light'); navigate('/login'); }}
+            className="flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-semibold mx-auto"
+            style={{ backgroundColor: 'var(--tg-button)', color: 'var(--tg-button-text)' }}
+          >
+            <LogIn size={20} />
+            Sign In / Sign Up
+          </button>
+        </motion.div>
+      </div>
+    );
+  }
 
   const tgUser = getTelegramUser();
   const totalWords = editions.reduce((acc, ed) => acc + ed.units.reduce((a, u) => a + u.words.length, 0), 0);
