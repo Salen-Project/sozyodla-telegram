@@ -14,7 +14,7 @@ interface AuthContextType {
   isLoading: boolean;
   isSkipped: boolean;
   login: (username: string, password: string) => Promise<{ error: string | null }>;
-  signup: (username: string, password: string) => Promise<{ error: string | null }>;
+  signup: (username: string, password: string, displayName?: string) => Promise<{ error: string | null }>;
   logout: () => Promise<void>;
   skipAuth: () => void;
 }
@@ -88,10 +88,19 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     }
   };
 
-  const signup = async (username: string, password: string): Promise<{ error: string | null }> => {
+  const signup = async (username: string, password: string, displayName?: string): Promise<{ error: string | null }> => {
     try {
       const email = usernameToEmail(username);
-      const { data, error } = await supabase.auth.signUp({ email, password });
+      const { data, error } = await supabase.auth.signUp({ 
+        email, 
+        password,
+        options: {
+          data: {
+            display_name: displayName || username,
+            username: username,
+          }
+        }
+      });
 
       if (error) {
         if (error.message.includes('User already registered')) {
