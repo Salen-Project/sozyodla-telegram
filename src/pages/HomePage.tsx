@@ -295,7 +295,7 @@ export const HomePage: React.FC = () => {
         </div>
 
         {/* Quick Actions */}
-        <div className="grid grid-cols-2 gap-2 mb-5">
+        <div className="grid grid-cols-3 gap-2 mb-5">
           <motion.button
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -304,15 +304,31 @@ export const HomePage: React.FC = () => {
               haptic.impact('light');
               navigate('/review');
             }}
-            className="p-4 rounded-xl flex flex-col items-center gap-2"
+            className="p-3 rounded-xl flex flex-col items-center gap-1"
             style={{ 
               background: 'linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(139, 92, 246, 0.15))',
               border: '1px solid rgba(168, 85, 247, 0.3)',
             }}
           >
-            <span className="text-2xl">🧠</span>
-            <span className="text-sm font-semibold" style={{ color: 'var(--tg-text)' }}>Review</span>
-            <span className="text-xs" style={{ color: 'var(--tg-hint)' }}>Spaced repetition</span>
+            <span className="text-xl">🧠</span>
+            <span className="text-xs font-semibold" style={{ color: 'var(--tg-text)' }}>Review</span>
+          </motion.button>
+          <motion.button
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={() => {
+              haptic.impact('light');
+              navigate('/challenge');
+            }}
+            className="p-3 rounded-xl flex flex-col items-center gap-1"
+            style={{ 
+              background: 'linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(249, 115, 22, 0.15))',
+              border: '1px solid rgba(239, 68, 68, 0.3)',
+            }}
+          >
+            <span className="text-xl">⚡</span>
+            <span className="text-xs font-semibold" style={{ color: 'var(--tg-text)' }}>Challenge</span>
           </motion.button>
           <motion.button
             initial={{ opacity: 0, y: 10 }}
@@ -322,15 +338,14 @@ export const HomePage: React.FC = () => {
               haptic.impact('light');
               navigate('/leaderboard');
             }}
-            className="p-4 rounded-xl flex flex-col items-center gap-2"
+            className="p-3 rounded-xl flex flex-col items-center gap-1"
             style={{ 
               background: 'linear-gradient(135deg, rgba(234, 179, 8, 0.15), rgba(249, 115, 22, 0.15))',
               border: '1px solid rgba(234, 179, 8, 0.3)',
             }}
           >
-            <span className="text-2xl">🏆</span>
-            <span className="text-sm font-semibold" style={{ color: 'var(--tg-text)' }}>Leaderboard</span>
-            <span className="text-xs" style={{ color: 'var(--tg-hint)' }}>Compete with others</span>
+            <span className="text-xl">🏆</span>
+            <span className="text-xs font-semibold" style={{ color: 'var(--tg-text)' }}>Leaderboard</span>
           </motion.button>
         </div>
       </div>

@@ -29,6 +29,7 @@ const FillBlankPage = React.lazy(() => import('./pages/FillBlankPage').then(m =>
 const LeaderboardPage = React.lazy(() => import('./pages/LeaderboardPage'));
 const StatsPage = React.lazy(() => import('./pages/StatsPage'));
 const ReviewPage = React.lazy(() => import('./pages/ReviewPage'));
+const ChallengePage = React.lazy(() => import('./pages/ChallengePage'));
 
 // Loading spinner for lazy loaded pages
 const PageLoader: React.FC = () => (
@@ -96,6 +97,7 @@ const AuthGate: React.FC = () => {
                 <Route path="/leaderboard" element={<LeaderboardPage />} />
                 <Route path="/stats" element={<StatsPage />} />
                 <Route path="/review" element={<ReviewPage />} />
+                <Route path="/challenge" element={<ChallengePage />} />
               </Routes>
             </Suspense>
           </div>
