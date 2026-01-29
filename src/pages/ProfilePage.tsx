@@ -215,6 +215,7 @@ export const ProfilePage: React.FC = () => {
         </h2>
         <div className="space-y-1.5">
           {[
+            { path: '/daily-challenges', label: 'Daily Challenges', icon: '🎯', desc: 'Complete tasks for rewards' },
             { path: '/leaderboard', label: 'Leaderboard', icon: '🏆', desc: 'Compete with others' },
             { path: '/stats', label: 'Statistics', icon: '📊', desc: 'Detailed progress' },
             { path: '/favorites', label: 'My Favorites', icon: '❤️', desc: 'Saved words' },
