@@ -26,6 +26,8 @@ const SettingsPage = React.lazy(() => import('./pages/SettingsPage').then(m => (
 const WordDetailPage = React.lazy(() => import('./pages/WordDetailPage').then(m => ({ default: m.WordDetailPage })));
 const WordScramblePage = React.lazy(() => import('./pages/WordScramblePage').then(m => ({ default: m.WordScramblePage })));
 const FillBlankPage = React.lazy(() => import('./pages/FillBlankPage').then(m => ({ default: m.FillBlankPage })));
+const LeaderboardPage = React.lazy(() => import('./pages/LeaderboardPage'));
+const StatsPage = React.lazy(() => import('./pages/StatsPage'));
 
 // Loading spinner for lazy loaded pages
 const PageLoader: React.FC = () => (
@@ -90,6 +92,8 @@ const AuthGate: React.FC = () => {
                 <Route path="/multiple-choice/:bookId/:unitId" element={<MultipleChoicePage />} />
                 <Route path="/scramble/:bookId/:unitId" element={<WordScramblePage />} />
                 <Route path="/fill-blank/:bookId/:unitId" element={<FillBlankPage />} />
+                <Route path="/leaderboard" element={<LeaderboardPage />} />
+                <Route path="/stats" element={<StatsPage />} />
               </Routes>
             </Suspense>
           </div>

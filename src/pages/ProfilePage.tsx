@@ -215,6 +215,8 @@ export const ProfilePage: React.FC = () => {
         </h2>
         <div className="space-y-1.5">
           {[
+            { path: '/leaderboard', label: 'Leaderboard', icon: '🏆', desc: 'Compete with others' },
+            { path: '/stats', label: 'Statistics', icon: '📊', desc: 'Detailed progress' },
             { path: '/favorites', label: 'My Favorites', icon: '❤️', desc: 'Saved words' },
             { path: '/settings', label: 'Settings', icon: '⚙️', desc: 'Goals, language, reset' },
           ].map(link => (
