@@ -1309,7 +1309,7 @@ export const collegePandaUnits: Unit[] = [
                 definition: "to downgrade, to lower in rank or status",
                 example: "She was relegated to a minor role.",
                 partOfSpeech: "v",
-                image: "/image-manager/uploads/college_panda_unit8_relegate.jpg",
+                image: "/image-manager/uploads/college_panda_unit8_relegate_fixed_1769657012.png",
             },
             {
                 word: "demur",
@@ -1318,7 +1318,7 @@ export const collegePandaUnits: Unit[] = [
                 definition: "to raise doubts or to protest",
                 example: "They accepted without demur.",
                 partOfSpeech: "v",
-                image: "/image-manager/uploads/college_panda_unit8_demur.jpg",
+                image: "/image-manager/uploads/college_panda_unit8_demur_fixed_1769656997.png",
             },
             {
                 word: "novel",
@@ -1416,7 +1416,7 @@ export const collegePandaUnits: Unit[] = [
                 definition: "prepared to obey others, submissive, less important",
                 example: "She refused to be subservient to him.",
                 partOfSpeech: "adj",
-                image: "/image-manager/uploads/college_panda_unit9_subservient.jpg",
+                image: "/image-manager/uploads/college_panda_unit9_subservient_fixed_1769656998.png",
             },
             {
                 word: "empirical",
@@ -2824,7 +2824,7 @@ export const collegePandaUnits: Unit[] = [
                 definition: "silent and unpleasant; depressed; gloomy",
                 example: "He sat in sullen silence.",
                 partOfSpeech: "adj",
-                image: "/image-manager/uploads/college_panda_unit17_sullen.jpg",
+                image: "/image-manager/uploads/college_panda_unit17_sullen_fixed_1769657011.png",
             },
             {
                 word: "imperative",

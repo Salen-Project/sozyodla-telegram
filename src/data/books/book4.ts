@@ -5151,7 +5151,7 @@ export const book4Units: Unit[] = [
                 "definition": "A riot is a crowd that reacts to bad news by violently breaking laws.",
                 "example": "A riot broke out after the candidate lost the election.",
                 "partOfSpeech": "n.",
-                image: "/image-manager/uploads/book4_unit28_riot.jpeg",
+                image: "/image-manager/uploads/book4_unit28_riot_fixed_1769657010.png",
             },
             {
                 "word": "scribble",
