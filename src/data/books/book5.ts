@@ -5283,7 +5283,7 @@ export const book5Units: Unit[] = [
                 "definition": "An excerpt is a short piece of writing or music taken from a larger piece.",
                 "example": "I didn’t listen to the entire symphony online, but I did play an excerpt.",
                 "partOfSpeech": "n.",
-                image: "/image-manager/uploads/book5_unit29_excerpt_fixed_1769656979.png",
+                image: "/image-manager/uploads/book5_unit29_excerpt_1768899154875.jpeg",
             },
             {
                 "word": "fossil",

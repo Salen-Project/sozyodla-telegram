@@ -2529,7 +2529,7 @@ export const book3Units: Unit[] = [
                 "definition": "If something is horrible, it is very bad.",
                 "example": "The assignment was horrible. I hated it.",
                 "partOfSpeech": "adj.",
-                image: "/image-manager/uploads/book3_unit14_horrible_fixed_1769656996.png",
+                image: "/image-manager/uploads/book3_unit14_horrible.jpg",
             },
             {
                 "word": "impolite",
@@ -4620,7 +4620,7 @@ export const book3Units: Unit[] = [
                 "definition": "Suicide is the act of killing oneself.",
                 "example": "Some people feel so sad that they think suicide is the only answer.",
                 "partOfSpeech": "n.",
-                image: "/image-manager/uploads/book3_unit25_suicide_fixed_1769656994.png",
+                image: "/image-manager/uploads/book3_unit25_suicide.jpg",
             },
             {
                 "word": "tremble",
