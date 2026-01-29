@@ -421,7 +421,15 @@ export const LoginPage: React.FC = () => {
                 {(['student', 'teacher', 'professional', 'self_learner', 'other'] as Profession[]).map(p => (
                   <button
                     key={p}
-                    onClick={() => { haptic.selection(); setProfession(p); }}
+                    onClick={() => { 
+                      haptic.selection(); 
+                      setProfession(p); 
+                      // Auto-advance to next step after brief delay for visual feedback
+                      setTimeout(() => {
+                        haptic.impact('light');
+                        setStep(3);
+                      }, 200);
+                    }}
                     className="w-full p-4 rounded-xl flex items-center gap-3 transition-all"
                     style={{
                       backgroundColor: profession === p ? 'var(--tg-button)' : 'var(--tg-secondary-bg)',
