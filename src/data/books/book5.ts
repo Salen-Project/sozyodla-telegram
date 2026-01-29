@@ -2121,7 +2121,7 @@ export const book5Units: Unit[] = [
                 "definition": "When something is crude, it is not exact or detailed, but it can still be useful.",
                 "example": "She drew crude hearts on the ground to show how much she loved him.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Petroleum_sample.jpg/500px-Petroleum_sample.jpg",
+                image: "/image-manager/uploads/book5_unit12_crude.jpg",
             },
             {
                 "word": "cube",
@@ -3006,7 +3006,7 @@ export const book5Units: Unit[] = [
                 "definition": "Discipline is training that helps people follow the rules.",
                 "example": "One of the teacher’s jobs is to teach her students discipline.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/g8e40ae36bf9febd62c41e44ede1063939b0451163b4ea75d56d4334d78b84a5cbc6a08cc648f5a012e1327636fe3b0427fd6528a62b5acc6a4296aac9fc3be3d_640.jpg",
+                image: "/image-manager/uploads/book5_unit17_discipline.jpg",
             },
             {
                 "word": "donor",
@@ -3150,7 +3150,7 @@ export const book5Units: Unit[] = [
                 "definition": "A theme is the main subject of a book, movie, or painting.",
                 "example": "The students discussed the book’s theme in class.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/g5174ccc57be81be5c0f3e7f2006860fa7507a0c98f56254462e6441332cbac2e137f726bd793ae89468aec9cf80bc03d5093ec067294f711a5f4d6eb3808d0ff_640.jpg",
+                image: "/image-manager/uploads/book5_unit17_theme.jpg",
             },
             {
                 "word": "tuition",
@@ -3228,7 +3228,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is commonplace, then it is ordinary.",
                 "example": "Texting while walking has become a commonplace occurrence.",
                 "partOfSpeech": "adj.",
-                image: "https://pixabay.com/get/g4f6a400233ae37df83c74b9c954cba89dd30b53f477848e683ad4df204a1fead3a300a333f064b52ef539b223d2235c42a5a6ae61b85465dccba54b5ee968a08_640.jpg",
+                image: "/image-manager/uploads/book5_unit18_commonplace.jpg",
             },
             {
                 "word": "compound",
@@ -3255,7 +3255,7 @@ export const book5Units: Unit[] = [
                 "definition": "To distract someone means to stop them from concentrating on something.",
                 "example": "The phone call distracted him so much that he forgot all about his homework.",
                 "partOfSpeech": "v.",
-                image: "https://pixabay.com/get/gaf382dc39b8438cafc9e889f3a0a97aa06e7347d224ba2d5bacbecc16689c779e905b91b80cfeced9a718f13b9a9ed47124fcecaef0bee493a6f5cc5e780d7d6_640.jpg",
+                image: "/image-manager/uploads/book5_unit18_distract.jpg",
             },
             {
                 "word": "dumb",
@@ -3468,7 +3468,7 @@ export const book5Units: Unit[] = [
                 "definition": "When something is intricate, it has many small parts or details.",
                 "example": "The intricate painting on the quilt was very lovely.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Intricate_Carvings_3.jpg/500px-Intricate_Carvings_3.jpg",
+                image: "/image-manager/uploads/book5_unit19_intricate.jpg",
             },
             {
                 "word": "offset",
@@ -5124,7 +5124,7 @@ export const book5Units: Unit[] = [
                 "definition": "When children are naughty, they behave badly or do not do what they are told.",
                 "example": "The boy had to go to his room because he was being naughty.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BIG_Naughty_210323.jpg/500px-BIG_Naughty_210323.jpg",
+                image: "/image-manager/uploads/book5_unit28_naughty.jpg",
             },
             {
                 "word": "norm",

@@ -120,7 +120,7 @@ export const book3Units: Unit[] = [
                 "definition": "If people are modest, they do not think that they are too important.",
                 "example": "Ryan is very modest person, despite being rich.",
                 "partOfSpeech": "adj.",
-                image: "https://pixabay.com/get/gc6eeb83476c7d19ca1ef236ca980f333790dff49c29eb4afcda456cbc7fda7d6d4e0eb27669beeb8099067926368f520_640.jpg",
+                image: "/image-manager/uploads/book3_unit1_modest.jpg",
             },
             {
                 "word": "occupy",
@@ -2547,7 +2547,7 @@ export const book3Units: Unit[] = [
                 "definition": "To kneel is to put one or both  knees on the ground.",
                 "example": "Daryl got down on one knee and asked Nina to marry him.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Red_tunic_gold_helmet_bangkok.jpg/427px-Red_tunic_gold_helmet_bangkok.jpg",
+                image: "/image-manager/uploads/book3_unit14_kneel.jpg",
             },
             {
                 "word": "luxury",

@@ -1518,7 +1518,7 @@ export const book4Units: Unit[] = [
                 "definition": "To assist someone is to help them.",
                 "example": "Andrew assisted me with my homework.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/A_Helping_Hand.png/500px-A_Helping_Hand.png",
+                image: "/image-manager/uploads/book4_unit9_assist.jpg",
             },
             {
                 "word": "breeze",
@@ -1767,7 +1767,7 @@ export const book4Units: Unit[] = [
                 "definition": "To isolate is to separate one person or thing from a group.",
                 "example": "The teacher isolated the bad child from the class before talking with her.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Solitude%2C_loneliness_in_snow_storm%2C_Don_River_in_ice%2C_Rostov-on-Don%2C_Russia.jpg/500px-Solitude%2C_loneliness_in_snow_storm%2C_Don_River_in_ice%2C_Rostov-on-Don%2C_Russia.jpg",
+                image: "/image-manager/uploads/book4_unit10_isolate.jpg",
             },
             {
                 "word": "longing",
@@ -2121,7 +2121,7 @@ export const book4Units: Unit[] = [
                 "definition": "A current is a steady and constant flow of air or water in a river or ocean.",
                 "example": "The ocean currents took the ship far off into the sea.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Current_River%2C_Missouri%2C_panorama.jpg/500px-Current_River%2C_Missouri%2C_panorama.jpg",
+                image: "/image-manager/uploads/book4_unit12_current.jpg",
             },
             {
                 "word": "disrespect",
@@ -2220,7 +2220,7 @@ export const book4Units: Unit[] = [
                 "definition": "If someone is timid, they are afraid, shy, or nervous.",
                 "example": "The timid child hides behind her mother whenever she sees a stranger.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Watkin_Scaredy_Cat_%28506301596%29.jpg/500px-Watkin_Scaredy_Cat_%28506301596%29.jpg",
+                image: "/image-manager/uploads/book4_unit12_timid.jpg",
             },
             {
                 "word": "violence",
@@ -2439,7 +2439,7 @@ export const book4Units: Unit[] = [
                 "definition": "To crumble means to break or fall apart into small pieces.",
                 "example": "The old house’s walls crumbled into a pile of rock and wood.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Crumble_mit_Vanillesauce.jpg/500px-Crumble_mit_Vanillesauce.jpg",
+                image: "/image-manager/uploads/book4_unit14_crumble.jpg",
             },
             {
                 "word": "dough",
@@ -2538,7 +2538,7 @@ export const book4Units: Unit[] = [
                 "definition": "To shatter something means to break it suddenly into many tiny pieces.",
                 "example": "When the ball hit the window,  the glass shattered.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Shattered_light_fixture_3.jpg/500px-Shattered_light_fixture_3.jpg",
+                image: "/image-manager/uploads/book4_unit14_shatter.jpg",
             },
             {
                 "word": "shutter",
@@ -2724,7 +2724,7 @@ export const book4Units: Unit[] = [
                 "definition": "A leash is a rope or chain that is used to lead an animal.",
                 "example": "A lot of dogs must wear a leash to keep them from running away.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/AmRatTerr2_wb.jpg/400px-AmRatTerr2_wb.jpg",
+                image: "/image-manager/uploads/book4_unit15_leash.jpg",
             },
             {
                 "word": "mature",
@@ -3024,7 +3024,7 @@ export const book4Units: Unit[] = [
                 "definition": "When something is drastic, it is extreme or major.",
                 "example": "She made a drastic decision to get her long hair cut short.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Lightning_Bolt.jpg/500px-Lightning_Bolt.jpg",
+                image: "/image-manager/uploads/book4_unit17_drastic.jpg",
             },
             {
                 "word": "exit",
@@ -3423,7 +3423,7 @@ export const book4Units: Unit[] = [
                 "definition": "To connect two things means to join them together.",
                 "example": "I connected the mouse to my laptop computer.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Roller_Chain_Render_%28with_numbers%29.png/500px-Roller_Chain_Render_%28with_numbers%29.png",
+                image: "/image-manager/uploads/book4_unit19_connect.jpg",
             },
             {
                 "word": "flip",
@@ -3564,7 +3564,7 @@ export const book4Units: Unit[] = [
                 "definition": "A bracelet is a piece of jewelry that you wear around your wrist.",
                 "example": "My father gave me a pretty gold bracelet for my birthday.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Gold_charm_bracelet.JPG/500px-Gold_charm_bracelet.JPG",
+                image: "/image-manager/uploads/book4_unit20_bracelet.jpg",
             },
             {
                 "word": "cease",
@@ -3654,7 +3654,7 @@ export const book4Units: Unit[] = [
                 "definition": "Lining is a piece of cloth that covers the inside of clothes.",
                 "example": "This jacket is very warm because it has a thick lining.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Uitsnijden_van_de_patroondelen_0.jpg/500px-Uitsnijden_van_de_patroondelen_0.jpg",
+                image: "/image-manager/uploads/book4_unit20_lining.jpg",
             },
             {
                 "word": "mass",
@@ -3894,7 +3894,7 @@ export const book4Units: Unit[] = [
                 "definition": "A vein is a tube in the body that carries blood toward the heart.",
                 "example": "The blue veins in my hand are just under my skin.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vein_%28retouched%29.svg/400px-Vein_%28retouched%29.svg.png",
+                image: "/image-manager/uploads/book4_unit21_vein.jpg",
             },
             {
                 "word": "venom",
@@ -3918,7 +3918,7 @@ export const book4Units: Unit[] = [
                 "definition": "Charity is an act of giving help, usually money, to those who need it.",
                 "example": "Thanks to his friends’ charity,  he had enough money to pay the rent.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Start_der_Spendenaktion_-B%C3%BCndnis_f%C3%BCr_K%C3%B6ln-_2012-4293.jpg/500px-Start_der_Spendenaktion_-B%C3%BCndnis_f%C3%BCr_K%C3%B6ln-_2012-4293.jpg",
+                image: "/image-manager/uploads/book4_unit22_charity.jpg",
             },
             {
                 "word": "commerce",
@@ -4080,7 +4080,7 @@ export const book4Units: Unit[] = [
                 "definition": "Unity is the state of people working together for a certain purpose.",
                 "example": "The project was finished early,  thanks to the unity of the workers.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/12_roots_of_unity.png/500px-12_roots_of_unity.png",
+                image: "/image-manager/uploads/book4_unit22_unity.jpg",
             },
             {
                 "word": "victor",
@@ -4176,7 +4176,7 @@ export const book4Units: Unit[] = [
                 "definition": "To be identical is to be the same as someone or something else.",
                 "example": "James and John are identical twins.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Indian_Twins.jpg/500px-Indian_Twins.jpg",
+                image: "/image-manager/uploads/book4_unit23_identical.jpg",
             },
             {
                 "word": "intellectual",
@@ -4212,7 +4212,7 @@ export const book4Units: Unit[] = [
                 "definition": "To multiply is to increase in number.",
                 "example": "In the past year,  the number of people at work multiplied by ten percent.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Signos_en_la_multiplicaci%C3%B3n.png/500px-Signos_en_la_multiplicaci%C3%B3n.png",
+                image: "/image-manager/uploads/book4_unit23_multiply.jpg",
             },
             {
                 "word": "offspring",
@@ -4266,7 +4266,7 @@ export const book4Units: Unit[] = [
                 "definition": "If something is vast, it is very large.",
                 "example": "The wealthy man bought a vast amount of land in the countryside.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Aguirangan_Island_in_a_Vast_Ocean.jpg/500px-Aguirangan_Island_in_a_Vast_Ocean.jpg",
+                image: "/image-manager/uploads/book4_unit23_vast.jpg",
             },
             {
                 "word": "vegetarian",
@@ -4362,7 +4362,7 @@ export const book4Units: Unit[] = [
                 "definition": "To grind something means to break it into very small pieces or powder.",
                 "example": "She wanted to grind the beans, so she could brew some coffee.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Grind_stone.JPG/500px-Grind_stone.JPG",
+                image: "/image-manager/uploads/book4_unit24_grind.jpg",
             },
             {
                 "word": "growl",
@@ -4512,7 +4512,7 @@ export const book4Units: Unit[] = [
                 "definition": "If someone is esteemed, many people like or respect them.",
                 "example": "An esteemed scientist is coming to the university to talk about her discoveries.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Self_Esteem_%282021%29.jpg/500px-Self_Esteem_%282021%29.jpg",
+                image: "/image-manager/uploads/book4_unit25_esteemed.jpg",
             },
             {
                 "word": "ethical",
@@ -4548,7 +4548,7 @@ export const book4Units: Unit[] = [
                 "definition": "An institute is an organization that is interested in research or teaching.",
                 "example": "I am going to a lecture about ancient Rome at the Historical Institute.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Aleksanteri_Institute_Building_Facade_2021-06-08.jpg/500px-Aleksanteri_Institute_Building_Facade_2021-06-08.jpg",
+                image: "/image-manager/uploads/book4_unit25_institute.jpg",
             },
             {
                 "word": "jealousy",
@@ -4752,7 +4752,7 @@ export const book4Units: Unit[] = [
                 "definition": "An embassy is where government officials work in a foreign country.",
                 "example": "If you lose your passport, you should contact the embassy.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Swiss_Embassy_Dublin.jpg/500px-Swiss_Embassy_Dublin.jpg",
+                image: "/image-manager/uploads/book4_unit26_embassy.jpg",
             },
             {
                 "word": "extinguish",
@@ -4857,7 +4857,7 @@ export const book4Units: Unit[] = [
                 "definition": "A birthplace is a place where a person is born or where something started.",
                 "example": "China is the birthplace of chopsticks.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/VITORIO_EMANUELLE_BIRTHPLACE_SIGN.PALAZZO_CARIGNANO.TURIN.%D7%A9%D7%9C%D7%98_%D7%9E%D7%A7%D7%95%D7%9D_%D7%94%D7%95%D7%9C%D7%93%D7%AA_%D7%95%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%95_%D7%90%D7%9E%D7%A0%D7%95%D7%90%D7%9C%D7%94%D7%942.%D7%98%D7%95%D7%A8%D7%99%D7%A0%D7%95.jpg/500px-VITORIO_EMANUELLE_BIRTHPLACE_SIGN.PALAZZO_CARIGNANO.TURIN.%D7%A9%D7%9C%D7%98_%D7%9E%D7%A7%D7%95%D7%9D_%D7%94%D7%95%D7%9C%D7%93%D7%AA_%D7%95%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%95_%D7%90%D7%9E%D7%A0%D7%95%D7%90%D7%9C%D7%94%D7%942.%D7%98%D7%95%D7%A8%D7%99%D7%A0%D7%95.jpg",
+                image: "/image-manager/uploads/book4_unit27_birthplace.jpg",
             },
             {
                 "word": "capacity",
@@ -5256,7 +5256,7 @@ export const book4Units: Unit[] = [
                 "definition": "To enhance something is to make it better.",
                 "example": "Amy’s blue shirt really enhances the color of her eyes.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Red_Arrows_Radom_2009_t.JPG/500px-Red_Arrows_Radom_2009_t.JPG",
+                image: "/image-manager/uploads/book4_unit29_enhance.jpg",
             },
             {
                 "word": "era",
@@ -5274,7 +5274,7 @@ export const book4Units: Unit[] = [
                 "definition": "A guideline is a rule about how to do something.",
                 "example": "Before they began the project,  the teacher gave them some guidelines.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Play-By-Mail_%28PBM%29_Game_Saturnalia_Rulebook_1984.jpg/500px-Play-By-Mail_%28PBM%29_Game_Saturnalia_Rulebook_1984.jpg",
+                image: "/image-manager/uploads/book4_unit29_guideline.jpg",
             },
             {
                 "word": "incorporate",
@@ -5301,7 +5301,7 @@ export const book4Units: Unit[] = [
                 "definition": "An interval is the time between two things happening.",
                 "example": "Tony rested for brief intervals while he worked in the yard.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Dead_Horse_Gap_Panorama_facing_north-east%2C_NSW.jpg/500px-Dead_Horse_Gap_Panorama_facing_north-east%2C_NSW.jpg",
+                image: "/image-manager/uploads/book4_unit29_interval.jpg",
             },
             {
                 "word": "mobile",
@@ -5319,7 +5319,7 @@ export const book4Units: Unit[] = [
                 "definition": "To modify something is to change it a little bit.",
                 "example": "I modified my outfit by adding a belt to it.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Athene_cunicularia_1_edited.JPG/500px-Athene_cunicularia_1_edited.JPG",
+                image: "/image-manager/uploads/book4_unit29_modify.jpg",
             },
             {
                 "word": "parallel",
@@ -5346,7 +5346,7 @@ export const book4Units: Unit[] = [
                 "definition": "To pollute means to make air, water, or land dirty, unclean, or foul.",
                 "example": "The other students ridicule Peter’s foreign accent.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Environmental_pollution_%28water_pollution%29.jpg/500px-Environmental_pollution_%28water_pollution%29.jpg",
+                image: "/image-manager/uploads/book4_unit29_pollute.jpg",
             },
             {
                 "word": "ridicule",
@@ -5415,7 +5415,7 @@ export const book4Units: Unit[] = [
                 "definition": "A boundary is the line where one area of land stops, and another begins.",
                 "example": "This fence shows the boundary between our yard and yours.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Boundary_marker_in_Oiso_Japan.jpg/500px-Boundary_marker_in_Oiso_Japan.jpg",
+                image: "/image-manager/uploads/book4_unit30_boundary.jpg",
             },
             {
                 "word": "chaos",
@@ -5433,7 +5433,7 @@ export const book4Units: Unit[] = [
                 "definition": "If a person is consistent, they keep the same behavior or attitude.",
                 "example": "Sara comes in every day and is our most consistent worker.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bedroom_with_rocking_horse_%283827277924%29.jpg/500px-Bedroom_with_rocking_horse_%283827277924%29.jpg",
+                image: "/image-manager/uploads/book4_unit30_consistent.jpg",
             },
             {
                 "word": "cyclone",
@@ -5478,7 +5478,7 @@ export const book4Units: Unit[] = [
                 "definition": "If food is organic, it is grown without adding chemicals to it.",
                 "example": "The organic carrots are more expensive,  but they’re better for you.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Organic_home-grown_tomatoes_-_unripe_to_ripe.jpg/500px-Organic_home-grown_tomatoes_-_unripe_to_ripe.jpg",
+                image: "/image-manager/uploads/book4_unit30_organic.jpg",
             },
             {
                 "word": "poultry",
@@ -5568,7 +5568,7 @@ export const book4Units: Unit[] = [
                 "definition": "To wail is to show sadness by crying loudly.",
                 "example": "The baby wailed because it was hungry.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Wail_OSM_01.png/500px-Wail_OSM_01.png",
+                image: "/image-manager/uploads/book4_unit30_wail.jpg",
             },
             {
                 "word": "wardrobe",
