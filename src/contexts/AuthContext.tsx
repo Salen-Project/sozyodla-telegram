@@ -133,7 +133,23 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       setUser(null);
       setSession(null);
       setIsSkipped(false);
-      localStorage.removeItem(SKIP_AUTH_KEY);
+      
+      // Clear ALL local storage to ensure clean slate for new user
+      const keysToRemove = [
+        SKIP_AUTH_KEY,
+        'sozyola_tg_progress',
+        'sozyola_tg_unlocks', 
+        'sozyola_daily_challenges',
+        'sozyola_review',
+        'sozyola_lang',
+        'sozyola_tg_lang',
+        'sozyola-tg-auth',
+        'lastVisited',
+      ];
+      keysToRemove.forEach(key => localStorage.removeItem(key));
+      
+      // Force page reload to reset all React state
+      window.location.reload();
     } catch (error) {
       console.error('Error signing out:', error);
     }
