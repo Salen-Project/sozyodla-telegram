@@ -474,7 +474,7 @@ export const book2Units: Unit[] = [
                 "definition": "Laughter is the sound produced by laughing about something funny.",
                 "example": "Susan's joke made her classmates burst into laughter.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit__laughter.jpg",
             },
             {
                 "word": "log",
@@ -1146,7 +1146,7 @@ export const book2Units: Unit[] = [
                 "definition": "A cage is something that holds an animal so it cannot leave.",
                 "example": "We put the parrots in their cage at night.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit__cage.jpg",
             },
             {
                 "word": "colleague",
@@ -1713,7 +1713,7 @@ export const book2Units: Unit[] = [
                 "definition": "When people or things are enormous, they are very large.",
                 "example": "My dog looks enormous next to yours.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit__enormous.jpg",
             },
             {
                 "word": "extraordinary",
@@ -1758,7 +1758,7 @@ export const book2Units: Unit[] = [
                 "definition": "An impression is the way of thinking about someone or something.",
                 "example": "Most people's first impression of Dr.  Giani is that he is mean.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/3771074/pexels-photo-3771074.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit__impression.jpg",
             },
             {
                 "word": "income",
@@ -2538,7 +2538,7 @@ export const book2Units: Unit[] = [
                 "definition": "A portion of something is a part of it.",
                 "example": "I only ate a small portion of the pizza.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit__portion.jpg",
             },
             {
                 "word": "remind",
@@ -2634,7 +2634,7 @@ export const book2Units: Unit[] = [
                 "definition": "A committee is a group of people who meet together to make decisions.",
                 "example": "The school’s committee agreed on a new dress code for students.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/8847157/pexels-photo-8847157.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit__committee.jpg",
             },
             {
                 "word": "contract",
@@ -3300,7 +3300,7 @@ export const book2Units: Unit[] = [
                 "definition": "A label is a tag that tells about something.",
                 "example": "The label on the back of your shirt will tell you what size it is.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/4068313/pexels-photo-4068313.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit__label.jpg",
             },
             {
                 "word": "monk",
@@ -3858,7 +3858,7 @@ export const book2Units: Unit[] = [
                 "definition": "A satellite is something that is sent into space to get information.",
                 "example": "The satellite sent back information about the Earth.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/586056/pexels-photo-586056.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book2_unit__satellite.jpg",
             },
             {
                 "word": "scale",

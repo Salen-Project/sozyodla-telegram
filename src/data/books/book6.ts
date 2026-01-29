@@ -30,7 +30,7 @@ export const book6Units: Unit[] = [
                 "definition": "To differentiate things or people is to show the difference between them.",
                 "example": "It was hard to differentiate between the identical twins.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Control_of_Timing_and_Spatial_organization_During_Cellular_Differentiation.jpg/500px-Control_of_Timing_and_Spatial_organization_During_Cellular_Differentiation.jpg",
+                image: "/image-manager/uploads/book6_unit1_astrology.jpg",
             },
             {
                 "word": "disrupt",
@@ -75,7 +75,7 @@ export const book6Units: Unit[] = [
                 "definition": "If people or things are frantic, they behave in a wild way because they are frightened",
                 "example": "The cat became frantic when I tried to give it a bath.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/P-51B_Frantic_46903012.jpg/500px-P-51B_Frantic_46903012.jpg",
+                image: "/image-manager/uploads/book6_unit1_disrupt_1768956359145.jpeg",
             },
             {
                 "word": "hull",
@@ -93,7 +93,7 @@ export const book6Units: Unit[] = [
                 "definition": "When an action is inadvertent, it is done without realizing what you are doing.",
                 "example": "She made an inadvertent error when she knocked over the nail polish.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Inadvertent_Covid-19_humour%2C_gents_toilets%2C_Weymouth_-_geograph.org.uk_-_6641730.jpg/500px-Inadvertent_Covid-19_humour%2C_gents_toilets%2C_Weymouth_-_geograph.org.uk_-_6641730.jpg",
+                image: "/image-manager/uploads/book6_unit1_hull.jpg",
             },
             {
                 "word": "improvise",
@@ -120,7 +120,7 @@ export const book6Units: Unit[] = [
                 "definition": "A mariner is a sailor.",
                 "example": "The old mariner used his telescope to find the shore.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Mariner09.jpg/500px-Mariner09.jpg",
+                image: "/image-manager/uploads/book6_unit1_improvise.jpg",
             },
             {
                 "word": "multitude",
@@ -147,7 +147,7 @@ export const book6Units: Unit[] = [
                 "definition": "The permanence of something is its ability to last forever.",
                 "example": "Poor results  will threaten the permanence o f the new teaching system.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Permanence_Oerlikon%2C_Zurich%2C_Switzerland-_Ank_Kumar_02.jpg/500px-Permanence_Oerlikon%2C_Zurich%2C_Switzerland-_Ank_Kumar_02.jpg",
+                image: "/image-manager/uploads/book6_unit1_multitude.jpg",
             },
             {
                 "word": "revolve",
@@ -165,7 +165,7 @@ export const book6Units: Unit[] = [
                 "definition": "To soothe means to calm someone who is angry or upset.",
                 "example": "The mother soothed her crying baby by rocking him in her arms.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Soothe-Logo-Vertical.png/500px-Soothe-Logo-Vertical.png",
+                image: "/image-manager/uploads/book6_unit1_revolve.jpg",
             },
             {
                 "word": "stranded",
@@ -183,7 +183,7 @@ export const book6Units: Unit[] = [
                 "definition": "When something is volatile, it is likely to change suddenly and unexpectedly.",
                 "example": "The volatile volcano m ight explode at any moment.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Sources_of_Volatile_Organic_Compounds.PNG/500px-Sources_of_Volatile_Organic_Compounds.PNG",
+                image: "/image-manager/uploads/book6_unit1_stranded.jpg",
             }
         ]
     },
@@ -207,7 +207,7 @@ export const book6Units: Unit[] = [
                 "definition": "To attain something means to gain or achieve it, often after a lot of effort.",
                 "example": "In two more years,  I w ill attain my high school diploma.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Boston_Fire_Truck_Boston_Marathon_Finish_Line.jpg/500px-Boston_Fire_Truck_Boston_Marathon_Finish_Line.jpg",
+                image: "/image-manager/uploads/book6_unit2_arduous.jpg",
             },
             {
                 "word": "coexist",
@@ -225,7 +225,7 @@ export const book6Units: Unit[] = [
                 "definition": "To conceive something means to be able to imagine or believe it.",
                 "example": "The child could not conceive the actual size o f the Earth.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Generalization_process_using_trees.svg/400px-Generalization_process_using_trees.svg.png",
+                image: "/image-manager/uploads/book6_unit2_coexist.jpg",
             },
             {
                 "word": "dubious",
@@ -252,7 +252,7 @@ export const book6Units: Unit[] = [
                 "definition": "Elastic is a rubber that stretches when it is pulled.",
                 "example": "He attached the elastic bungee to his legs before he jum ped o ff the platform.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Oval_003_2025_01_17.jpg/500px-Oval_003_2025_01_17.jpg",
+                image: "/image-manager/uploads/book6_unit2_dubious.jpg",
             },
             {
                 "word": "endeavor",
@@ -270,7 +270,7 @@ export const book6Units: Unit[] = [
                 "definition": "To engrave means to cut a design or words into the surface of something.",
                 "example": "The couple engraved their names onto the old pine tree.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/1/14/Engraving-of-mary-of-burgundy-and-maximilian.jpg",
+                image: "/image-manager/uploads/book6_unit2_endeavor.jpg",
             },
             {
                 "word": "excavate",
@@ -315,7 +315,7 @@ export const book6Units: Unit[] = [
                 "definition": "When something is outright, it is open and direct.",
                 "example": "Everyone knew that the boy’s story was an outright lie.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Outright_Libertarian_booth_%282534170656%29.jpg/472px-Outright_Libertarian_booth_%282534170656%29.jpg",
+                image: "/image-manager/uploads/book6_unit2_excavate.png",
             },
             {
                 "word": "periphery",
@@ -360,7 +360,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is terrestrial, it relates to Earth.",
                 "example": "There are billions o f terrestrial life forms.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Terrestrial_planet_sizes2.jpg/500px-Terrestrial_planet_sizes2.jpg",
+                image: "/image-manager/uploads/book6_unit2_periphery.jpg",
             },
             {
                 "word": "vicious",
@@ -411,7 +411,7 @@ export const book6Units: Unit[] = [
                 "definition": "An aristocrat is a person who is of the highest class in certain societies.",
                 "example": "The aristocrat did not need a job because his family was wealthy.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Portrait_of_Siamese_Aristocrats_%28Thai%29_1759.png/500px-Portrait_of_Siamese_Aristocrats_%28Thai%29_1759.png",
+                image: "/image-manager/uploads/book6_unit2_vicious.jpg",
             },
             {
                 "word": "attire",
@@ -429,7 +429,7 @@ export const book6Units: Unit[] = [
                 "definition": "A craze is a brief and popular activity or object.",
                 "example": "Wearing bright red socks was a craze when I was in high school.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Zennor_-_Gray_%28n%C3%A9e_Craze%29_gravestone.jpg/500px-Zennor_-_Gray_%28n%C3%A9e_Craze%29_gravestone.jpg",
+                image: "/image-manager/uploads/book6_unit3_attire.jpg",
             },
             {
                 "word": "enlarge",
@@ -456,7 +456,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is feminine, then it has qualities that are commonly related to women.",
                 "example": "Many o f the older people thought his long hair made him look too feminine.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/%22devi%22.jpg/500px-%22devi%22.jpg",
+                image: "/image-manager/uploads/book6_unit3_enlarge.jpg",
             },
             {
                 "word": "hallmark",
@@ -492,7 +492,7 @@ export const book6Units: Unit[] = [
                 "definition": "If someone or something is reputable, then they have a good reputation.",
                 "example": "The service from  the less than reputable company made her angry.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/A_reputable_building_in_owode_ede.jpg/500px-A_reputable_building_in_owode_ede.jpg",
+                image: "/image-manager/uploads/book6_unit3_hallmark.jpg",
             },
             {
                 "word": "rouge",
@@ -510,7 +510,7 @@ export const book6Units: Unit[] = [
                 "definition": "To signify means to be a symbol of something.",
                 "example": "A red octagon is used to signify to stop.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ilham_Aliyev_met_with_Chief_Executive_Officer_of_Signify_01.jpg/500px-Ilham_Aliyev_met_with_Chief_Executive_Officer_of_Signify_01.jpg",
+                image: "/image-manager/uploads/book6_unit3_rouge.jpg",
             },
             {
                 "word": "strap",
@@ -528,7 +528,7 @@ export const book6Units: Unit[] = [
                 "definition": "A tangle is something or many things twisted together.",
                 "example": "The laces o f his shoes were in such a tangle that he could not untie them.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Tangle_Ridge.jpg/500px-Tangle_Ridge.jpg",
+                image: "/image-manager/uploads/book6_unit3_strap.jpg",
             },
             {
                 "word": "vanity",
@@ -555,7 +555,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something or someone is vulgar, then they are rude or lacking in style.",
                 "example": "Her vulgar behavior g ot her into trouble with her parents.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vulgar_bush_brown_%28Bicyclus_vulgaris%29.jpg/500px-Vulgar_bush_brown_%28Bicyclus_vulgaris%29.jpg",
+                image: "/image-manager/uploads/book6_unit3_vanity.jpg",
             }
         ]
     },
@@ -615,7 +615,7 @@ export const book6Units: Unit[] = [
                 "definition": "To dissatisfy someone means to fail to please them.",
                 "example": "He was dissatisfied with his meal.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chodovec%2C_Py%C5%A1elsk%C3%A1%2C_Babick%C3%A1_2%2C_ANO.jpg/500px-Chodovec%2C_Py%C5%A1elsk%C3%A1%2C_Babick%C3%A1_2%2C_ANO.jpg",
+                image: "/image-manager/uploads/book6_unit4_attic.jpg",
             },
             {
                 "word": "fuss",
@@ -633,7 +633,7 @@ export const book6Units: Unit[] = [
                 "definition": "If food is gourmet, then it is nicer and more expensive than regular food.",
                 "example": "In order to get a gourm et meal, you have to eat at an expensive restaurant.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/SPAR_Gourmet-Logo.png/500px-SPAR_Gourmet-Logo.png",
+                image: "/image-manager/uploads/book6_unit4_fuss.jpg",
             },
             {
                 "word": "hence",
@@ -651,7 +651,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is intrinsic, then it is related to the basic nature of that thing.",
                 "example": "Paper money has no intrinsic value. It is useful simply because society says it is.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Common_crow_%28Euploea_core_core%29_underside.jpg/500px-Common_crow_%28Euploea_core_core%29_underside.jpg",
+                image: "/image-manager/uploads/book6_unit4_hence.jpg",
             },
             {
                 "word": "kettle",
@@ -669,7 +669,7 @@ export const book6Units: Unit[] = [
                 "definition": "A ministry is a government department.",
                 "example": "The M inistry o f Trade is  responsible fo r taxing  imports and exports.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pedro_Juan_Caballero14.png/500px-Pedro_Juan_Caballero14.png",
+                image: "/image-manager/uploads/book6_unit4_kettle.jpg",
             },
             {
                 "word": "ordeal",
@@ -687,7 +687,7 @@ export const book6Units: Unit[] = [
                 "definition": "If someone is outspoken, then they are not afraid to say what they think.",
                 "example": "She was an outspoken critic about the new banking laws.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Outspoken_-_geograph.org.uk_-_3842224.jpg/500px-Outspoken_-_geograph.org.uk_-_3842224.jpg",
+                image: "/image-manager/uploads/book6_unit4_ordeal.jpg",
             },
             {
                 "word": "overwork",
@@ -705,7 +705,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is particular, then it is a single, important part of a group of things.",
                 "example": "The dress shop didn’t have the particular dress she was looking for.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/St_Etheldreda%27s_Church_1%2C_London%2C_UK_-_Diliff.jpg/500px-St_Etheldreda%27s_Church_1%2C_London%2C_UK_-_Diliff.jpg",
+                image: "/image-manager/uploads/book6_unit4_overwork.jpg",
             },
             {
                 "word": "pungent",
@@ -723,7 +723,7 @@ export const book6Units: Unit[] = [
                 "definition": "To snore means to make a loud noise each time a sleeping person breathes.",
                 "example": "It was impossible to get to sleep because my husband snored.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Road_from_Great_Snoring_to_Little_Snoring_-_geograph.org.uk_-_3841057.jpg/500px-Road_from_Great_Snoring_to_Little_Snoring_-_geograph.org.uk_-_3841057.jpg",
+                image: "/image-manager/uploads/book6_unit4_pungent.jpg",
             },
             {
                 "word": "soundly",
@@ -756,7 +756,7 @@ export const book6Units: Unit[] = [
                 "definition": "To alternate means to switch back and forth between two things.",
                 "example": "The best exercise alternates muscle and heart strengthening.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Corvus_splendens_insolens_%40_Kuala_Lumpur_%282%29_alternate_crop.jpg/500px-Corvus_splendens_insolens_%40_Kuala_Lumpur_%282%29_alternate_crop.jpg",
+                image: "/image-manager/uploads/book6_unit4_soundly.jpg",
             },
             {
                 "word": "apologetic",
@@ -792,7 +792,7 @@ export const book6Units: Unit[] = [
                 "definition": "To clarify means to make something easier to understand by explaining it.",
                 "example": "Drew tried to clarify all the functions o f Michelle’s new computer.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Clear_water_bay_and_golf_course.jpg/500px-Clear_water_bay_and_golf_course.jpg",
+                image: "/image-manager/uploads/book6_unit5_apologetic.jpg",
             },
             {
                 "word": "distress",
@@ -810,7 +810,7 @@ export const book6Units: Unit[] = [
                 "definition": "When someone’s actions are dogged, they try hard to continue something.",
                 "example": "Her dad bought her a new jacket after her dogged requests for one.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/We_can_do_it%5E_-_NARA_-_535413.jpg/500px-We_can_do_it%5E_-_NARA_-_535413.jpg",
+                image: "/image-manager/uploads/book6_unit5_distress.jpg",
             },
             {
                 "word": "ensue",
@@ -828,7 +828,7 @@ export const book6Units: Unit[] = [
                 "definition": "To gasp means to make a noise by quickly breathing in when surprised.",
                 "example": "John always gasps when watching a scary movie.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Great_Gasp_disassembly.jpg/500px-Great_Gasp_disassembly.jpg",
+                image: "/image-manager/uploads/book6_unit5_ensue.jpg",
             },
             {
                 "word": "negotiate",
@@ -846,7 +846,7 @@ export const book6Units: Unit[] = [
                 "definition": "An overdose is an instance of taking or havingtoo much of something.",
                 "example": "John’s skin  was burned from an overdose o f sunshine.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Overdose.jpg/450px-Overdose.jpg",
+                image: "/image-manager/uploads/book6_unit5_negotiate.jpg",
             },
             {
                 "word": "persuasion",
@@ -882,7 +882,7 @@ export const book6Units: Unit[] = [
                 "definition": "To restate something means to say it again or in a different way.",
                 "example": "Mrs. Jones restated the test question to the class.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Restricted_Byway_needing_restating_-_geograph.org.uk_-_7069601.jpg/500px-Restricted_Byway_needing_restating_-_geograph.org.uk_-_7069601.jpg",
+                image: "/image-manager/uploads/book6_unit5_persuasion.png",
             },
             {
                 "word": "sesame",
@@ -909,7 +909,7 @@ export const book6Units: Unit[] = [
                 "definition": "The verge is the point at which something is about to happen.",
                 "example": "Joan was on the verge o f leaving  her house when the phone rang.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/The_Vessel_Elevator_2019-09-30_21-17.jpg/500px-The_Vessel_Elevator_2019-09-30_21-17.jpg",
+                image: "/image-manager/uploads/book6_unit5_sesame.jpg",
             },
             {
                 "word": "wary",
@@ -942,7 +942,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something goes ashore, it goes from water to the land.",
                 "example": " After a long day of fishing,  Glen pulled his boat ashore,  so it wouldn’t float away.",
                 "partOfSpeech": "adv.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Aegis_Ashore_deckhouse_Lockheed_Martin_Moorestown_Township_New_Jersey.png/500px-Aegis_Ashore_deckhouse_Lockheed_Martin_Moorestown_Township_New_Jersey.png",
+                image: "/image-manager/uploads/book6_unit5_wary.jpg",
             },
             {
                 "word": "contradict",
@@ -960,7 +960,7 @@ export const book6Units: Unit[] = [
                 "definition": "A counterpart is something that is very similar to something else in what it does.",
                 "example": "Our manager will meet our rival company’s counterpart later today.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Counterpart_Adrian_Lee_2.JPG/500px-Counterpart_Adrian_Lee_2.JPG",
+                image: "/image-manager/uploads/book6_unit6_contradict.jpg",
             },
             {
                 "word": "devoid",
@@ -978,7 +978,7 @@ export const book6Units: Unit[] = [
                 "definition": "To diverge is to become different or to follow a different direction.",
                 "example": "The road diverged into two paths that led to our houses.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Paths_diverge_-_geograph.org.uk_-_1656172.jpg/500px-Paths_diverge_-_geograph.org.uk_-_1656172.jpg",
+                image: "/image-manager/uploads/book6_unit6_devoid.jpg",
             },
             {
                 "word": "elude",
@@ -1005,7 +1005,7 @@ export const book6Units: Unit[] = [
                 "definition": "To fend off something means to push it away and avoid it.",
                 "example": "I fended off the attack by the wolf with a stick.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/20130524-gr%C3%B6dig-fc-blau-weiss-linz-kevin-fend-2.jpg/500px-20130524-gr%C3%B6dig-fc-blau-weiss-linz-kevin-fend-2.jpg",
+                image: "/image-manager/uploads/book6_unit6_elude.jpg",
             },
             {
                 "word": "fictitious",
@@ -1032,7 +1032,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is homogeneous, it is made up of things which are all the same.",
                 "example": "A ll o f the houses on  Victor’s block were boring and homogenous.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/4/47/Homog%C3%A8ne_h%C3%A9t%C3%A9rog%C3%A8ne.png",
+                image: "/image-manager/uploads/book6_unit6_fictitious.jpg",
             },
             {
                 "word": "obstruct",
@@ -1050,7 +1050,7 @@ export const book6Units: Unit[] = [
                 "definition": "To plunge means to move down into something very quickly.",
                 "example": "The water in  the pool was very cold,  but the boy plunged in anyway.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Plung%C4%97_St_John_the_Baptist_church_building_complex_and_Lourdes_replica_with_a_sculpture_of_the_Holy_Virgin_Mary_34-P.jpg/500px-Plung%C4%97_St_John_the_Baptist_church_building_complex_and_Lourdes_replica_with_a_sculpture_of_the_Holy_Virgin_Mary_34-P.jpg",
+                image: "/image-manager/uploads/book6_unit6_obstruct.jpg",
             },
             {
                 "word": "prolong",
@@ -1068,7 +1068,7 @@ export const book6Units: Unit[] = [
                 "definition": "To publicize is to make something get a lot of attention.",
                 "example": "The company publicized the jo b  positions in the newspaper.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Freeway_Traffic_Publicize%2C_Guansi_Service_Area_20060331.jpg/500px-Freeway_Traffic_Publicize%2C_Guansi_Service_Area_20060331.jpg",
+                image: "/image-manager/uploads/book6_unit6_prolong.png",
             },
             {
                 "word": "sparse",
@@ -1086,7 +1086,7 @@ export const book6Units: Unit[] = [
                 "definition": "A surplus is an extra amount of something.",
                 "example": "  The store sold their surplus items on sale.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Surplus_City_Lawton_Oklahoma.jpg/500px-Surplus_City_Lawton_Oklahoma.jpg",
+                image: "/image-manager/uploads/book6_unit6_sparse.jpg",
             },
             {
                 "word": "theorize",
@@ -1104,7 +1104,7 @@ export const book6Units: Unit[] = [
                 "definition": "To verify means to find out if something is true.",
                 "example": "Julian  called the movie theater to verify that the movie started at nine.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Verification-badge.png/500px-Verification-badge.png",
+                image: "/image-manager/uploads/book6_unit6_theorize.jpg",
             },
             {
                 "word": "vigorous",
@@ -1155,7 +1155,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something or someone is credible, they can be believed or trusted.",
                 "example": "Dick gave a credible reason fo r being late and d id n ’t get in any trouble.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Justin_Credible_in_ACW.jpg/500px-Justin_Credible_in_ACW.jpg",
+                image: "/image-manager/uploads/book6_unit6_vigorous.jpg",
             },
             {
                 "word": "deceased",
@@ -1182,7 +1182,7 @@ export const book6Units: Unit[] = [
                 "definition": "To decipher writing is to figure out what it says.",
                 "example": "My teacher complained that she couldn’t decipher my essay.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/DECIPHER_example.png/500px-DECIPHER_example.png",
+                image: "/image-manager/uploads/book6_unit7_deceased.jpg",
             },
             {
                 "word": "dung",
@@ -1209,7 +1209,7 @@ export const book6Units: Unit[] = [
                 "definition": "To gratify someone means to please them.",
                 "example": "Bonnie was gratified after receiving her gift from her parents.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/P415--Martin_Chuzzlewit_%28Phiz%29--martin_gratified_by_ceremony.jpg/500px-P415--Martin_Chuzzlewit_%28Phiz%29--martin_gratified_by_ceremony.jpg",
+                image: "/image-manager/uploads/book6_unit7_dung.jpg",
             },
             {
                 "word": "hone",
@@ -1236,7 +1236,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is ornate, it is decorated with a lot of fancy things.",
                 "example": "Kim's prom dress was very expensive since it was so ornate.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Ornate_Tinamou_%28Nothoprocta_ornata%29_%288077597072%29.jpg/500px-Ornate_Tinamou_%28Nothoprocta_ornata%29_%288077597072%29.jpg",
+                image: "/image-manager/uploads/book6_unit7_hone.jpg",
             },
             {
                 "word": "pneumonia",
@@ -1281,7 +1281,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something or someone is sinister, they are evil.",
                 "example": "Bad guys in  most movies have sinister laughs.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Hydrovatus_sinister%2C_Thailand.jpg/500px-Hydrovatus_sinister%2C_Thailand.jpg",
+                image: "/image-manager/uploads/book6_unit7_pneumonia.jpg",
             },
             {
                 "word": "strife",
@@ -1332,7 +1332,7 @@ export const book6Units: Unit[] = [
                 "definition": "To deform something means to change it from its correct or original shape.",
                 "example": "► The computer program deformed the b uild in g ’s picture into an  unreal sight.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Deformation_mechanism.jpg/500px-Deformation_mechanism.jpg",
+                image: "/image-manager/uploads/book6_unit7_strife.jpg",
             },
             {
                 "word": "etiquette",
@@ -1359,7 +1359,7 @@ export const book6Units: Unit[] = [
                 "definition": "Freight is a set of items carried on a train, boat, or airplane.",
                 "example": "Trade ships only carried valuable fre ig h t like silk and spices.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Thule-rooftop-cargo-carriers-desktop-Vector-mjautobox.jpg/500px-Thule-rooftop-cargo-carriers-desktop-Vector-mjautobox.jpg",
+                image: "/image-manager/uploads/book6_unit8_etiquette.jpeg",
             },
             {
                 "word": "garment",
@@ -1386,7 +1386,7 @@ export const book6Units: Unit[] = [
                 "definition": "Intuitive is knowing about something without naturally having support or proof.",
                 "example": "Rhonda had an intuitive feeling that Shane wasn’t coming to school today.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Intuitive_Machines_Lunar_Operations_Facility_at_Houston_Spaceport.jpg/500px-Intuitive_Machines_Lunar_Operations_Facility_at_Houston_Spaceport.jpg",
+                image: "/image-manager/uploads/book6_unit8_garment.jpg",
             },
             {
                 "word": "liable",
@@ -1404,7 +1404,7 @@ export const book6Units: Unit[] = [
                 "definition": "To obsess about something means to think about it all of the time.",
                 "example": "After watching the Star Wars movies,  Ike obsessed about becoming a Jedi.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/The_Obsessed_-_Wino.jpg/500px-The_Obsessed_-_Wino.jpg",
+                image: "/image-manager/uploads/book6_unit8_liable.jpg",
             },
             {
                 "word": "overboard",
@@ -1422,7 +1422,7 @@ export const book6Units: Unit[] = [
                 "definition": "A premium is a payment that is higher than average.",
                 "example": "Tony paid fo r premium gas because it  made his car run the best.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/YouTube_Premium_trial_notice_%282020%29.png/500px-YouTube_Premium_trial_notice_%282020%29.png",
+                image: "/image-manager/uploads/book6_unit8_overboard.jpg",
             },
             {
                 "word": "privilege",
@@ -1449,7 +1449,7 @@ export const book6Units: Unit[] = [
                 "definition": "To socialize is to have a good time with people.",
                 "example": "I like to socialize with my classmates after school.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Socialisatie-gezin-school-vrienden-sport-werk-geloof-media-overheid.png/500px-Socialisatie-gezin-school-vrienden-sport-werk-geloof-media-overheid.png",
+                image: "/image-manager/uploads/book6_unit8_privilege.jpg",
             },
             {
                 "word": "suppress",
@@ -1500,7 +1500,7 @@ export const book6Units: Unit[] = [
                 "definition": "An artery is a tube that takes blood from the heart to the rest of the body.",
                 "example": "Eating healthily keeps your arteries clean,  so blood can flow  with ease.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Artery.svg/400px-Artery.svg.png",
+                image: "/image-manager/uploads/book6_unit8_suppress.jpg",
             },
             {
                 "word": "deterioration",
@@ -1518,7 +1518,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something or someone is elusive, they are hard to find.",
                 "example": "The elusive fish  only came out at night.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Open_wing_basking_position_of_Rohana_tonkiniana_-_Elusive_Prince_%28Fruhstorfer%2C_1906%29.jpg/500px-Open_wing_basking_position_of_Rohana_tonkiniana_-_Elusive_Prince_%28Fruhstorfer%2C_1906%29.jpg",
+                image: "/image-manager/uploads/book6_unit9_deterioration.jpg",
             },
             {
                 "word": "forage",
@@ -1554,7 +1554,7 @@ export const book6Units: Unit[] = [
                 "definition": "If two things are inseparable, they can’t be separated.",
                 "example": "Denise and Diana have been inseparable since they firs t met.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Inseparable_Trees_-_geograph.org.uk_-_6699540.jpg/500px-Inseparable_Trees_-_geograph.org.uk_-_6699540.jpg",
+                image: "/image-manager/uploads/book6_unit9_forage.jpg",
             },
             {
                 "word": "invalid",
@@ -1572,7 +1572,7 @@ export const book6Units: Unit[] = [
                 "definition": "To magnify something means to make it look bigger than it really is.",
                 "example": " Astronomers use telescopes to m agnify far-away stars.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Magnification_view_mammography.jpg/500px-Magnification_view_mammography.jpg",
+                image: "/image-manager/uploads/book6_unit9_invalid.jpg",
             },
             {
                 "word": "mainstream",
@@ -1599,7 +1599,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is negligible, it is extremely small and not important.",
                 "example": "The amount she owed was negligible.  It was less than ten  cents.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Anthropocene_upper_strata_movement_negligible_-_geograph.org.uk_-_708957.jpg/500px-Anthropocene_upper_strata_movement_negligible_-_geograph.org.uk_-_708957.jpg",
+                image: "/image-manager/uploads/book6_unit9_mainstream.jpg",
             },
             {
                 "word": "paralysis",
@@ -1644,7 +1644,7 @@ export const book6Units: Unit[] = [
                 "definition": "To rupture means to tear or burst open.",
                 "example": "Sarah p ut too much water into the balloon,  and it ruptured.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Diaphragmatic_rupture_spleen_herniation.jpg/500px-Diaphragmatic_rupture_spleen_herniation.jpg",
+                image: "/image-manager/uploads/book6_unit9_pest.jpg",
             },
             {
                 "word": "savage",
@@ -1671,7 +1671,7 @@ export const book6Units: Unit[] = [
                 "definition": "If one is susceptible to something like disease, they are easily harmed by it.",
                 "example": "Not eating  enough  vegetables makes you more susceptible to getting sick.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Fogo_S%C3%A3o_Filipe_shop.jpg/500px-Fogo_S%C3%A3o_Filipe_shop.jpg",
+                image: "/image-manager/uploads/book6_unit9_savage.jpg",
             }
         ]
     },
@@ -1704,7 +1704,7 @@ export const book6Units: Unit[] = [
                 "definition": "An apparatus is a device used for a particular purpose.",
                 "example": "The campers had an apparatus  that showed them their exact location.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/0314_Golgi_Apparatus_a_ru.png/500px-0314_Golgi_Apparatus_a_ru.png",
+                image: "/image-manager/uploads/book6_unit10_accumulate.jpg",
             },
             {
                 "word": "avalanche",
@@ -1749,7 +1749,7 @@ export const book6Units: Unit[] = [
                 "definition": "When something is intact, it is complete and not damaged.",
                 "example": "Despite being over ten years old,  my father’s model ship is still intact.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tour_Intact_10.JPG/500px-Tour_Intact_10.JPG",
+                image: "/image-manager/uploads/book6_unit10_avalanche.jpg",
             },
             {
                 "word": "mortal",
@@ -1794,7 +1794,7 @@ export const book6Units: Unit[] = [
                 "definition": "A ranger is a person who protects the forest or parks.",
                 "example": "Peter wanted to be a ranger because he liked spending time outside.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Forest_ranger_walking_through_the_trail_to_Netravati_peak.jpg/500px-Forest_ranger_walking_through_the_trail_to_Netravati_peak.jpg",
+                image: "/image-manager/uploads/book6_unit10_mortal.jpg",
             },
             {
                 "word": "rubble",
@@ -1812,7 +1812,7 @@ export const book6Units: Unit[] = [
                 "definition": "To seclude someone means to keep them away from other people.",
                 "example": "She was secluded on an island for over a year.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Seclude_%28257503383%29.jpeg/500px-Seclude_%28257503383%29.jpeg",
+                image: "/image-manager/uploads/book6_unit10_rubble.jpg",
             },
             {
                 "word": "sideways",
@@ -1857,7 +1857,7 @@ export const book6Units: Unit[] = [
                 "definition": "An upbringing is the way that someone is taught to behave by their parents.",
                 "example": "► He had a strict upbringing and was never allowed to watch television.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Chase_Bryant_in_2015.jpg/500px-Chase_Bryant_in_2015.jpg",
+                image: "/image-manager/uploads/book6_unit10_sideways.jpg",
             }
         ]
     },
@@ -1917,7 +1917,7 @@ export const book6Units: Unit[] = [
                 "definition": "To disclose something means to tell it to someone else.",
                 "example": " John came home late, so he had to disclose his activities to his wife.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Disclose.tv_Homepage_Screenshot.png/500px-Disclose.tv_Homepage_Screenshot.png",
+                image: "/image-manager/uploads/book6_unit11_advocate.jpg",
             },
             {
                 "word": "dynamics",
@@ -1944,7 +1944,7 @@ export const book6Units: Unit[] = [
                 "definition": "When someone is envious, they want something that another person has.",
                 "example": "They were envious o f their neighbor’s front yard.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Envy_%28Invidia%29_from_The_Seven_Deadly_Sins_MET_DP818309.jpg/500px-Envy_%28Invidia%29_from_The_Seven_Deadly_Sins_MET_DP818309.jpg",
+                image: "/image-manager/uploads/book6_unit11_dynamics.jpg",
             },
             {
                 "word": "euphoria",
@@ -1989,7 +1989,7 @@ export const book6Units: Unit[] = [
                 "definition": "To marshal a group means to assemble them in order.",
                 "example": "The students were marshaled outside and p ut into groups.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Field_Marshal_Marquis_Oyama.jpg/500px-Field_Marshal_Marquis_Oyama.jpg",
+                image: "/image-manager/uploads/book6_unit11_euphoria.jpg",
             },
             {
                 "word": "morale",
@@ -2016,7 +2016,7 @@ export const book6Units: Unit[] = [
                 "definition": "A sage is someone who is very wise.",
                 "example": "Hal always visited the local sage fo r help with  love.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Salvia_officinalis_in_Cardaillac_%281%29.jpg/500px-Salvia_officinalis_in_Cardaillac_%281%29.jpg",
+                image: "/image-manager/uploads/book6_unit11_morale.jpg",
             },
             {
                 "word": "senate",
@@ -2043,7 +2043,7 @@ export const book6Units: Unit[] = [
                 "definition": "Unrest is a state of anger about something among the people in a place.",
                 "example": "High taxes caused much o f the unrest that led to the Revolutionary War.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2014_pro-Russian_unrest_in_Ukraine-ar.png/500px-2014_pro-Russian_unrest_in_Ukraine-ar.png",
+                image: "/image-manager/uploads/book6_unit11_senate.png",
             }
         ]
     },
@@ -2067,7 +2067,7 @@ export const book6Units: Unit[] = [
                 "definition": "Bliss is a state of complete happiness.",
                 "example": "Every time he sees his girlfriend,  he feels a sense o f bliss.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Storefront%2C_Bob%27s_Museum%2C_Rock_and_Gift_Shop%2C_I-84%2C_Bliss%2C_Idaho_%28LOC%29.jpg/500px-Storefront%2C_Bob%27s_Museum%2C_Rock_and_Gift_Shop%2C_I-84%2C_Bliss%2C_Idaho_%28LOC%29.jpg",
+                image: "/image-manager/uploads/book6_unit12_adorn.jpg",
             },
             {
                 "word": "butler",
@@ -2094,7 +2094,7 @@ export const book6Units: Unit[] = [
                 "definition": "When a building is dilapidated, it is old and in bad condition.",
                 "example": "Paint peeled o ff o f the old dilapidated apartment building.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Dilapidated_building_Kerala.jpg/500px-Dilapidated_building_Kerala.jpg",
+                image: "/image-manager/uploads/book6_unit12_butler.jpg",
             },
             {
                 "word": "evoke",
@@ -2112,7 +2112,7 @@ export const book6Units: Unit[] = [
                 "definition": "A farewell is an instance of saying goodbye or a way to say it.",
                 "example": "She got on the plane after we said our farewells.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Farewell_Hall_-_geograph.org.uk_-_184004.jpg/500px-Farewell_Hall_-_geograph.org.uk_-_184004.jpg",
+                image: "/image-manager/uploads/book6_unit12_evoke.jpg",
             },
             {
                 "word": "faucet",
@@ -2139,7 +2139,7 @@ export const book6Units: Unit[] = [
                 "definition": "A flaw is a mistake in something that causes it to be less effective or correct.",
                 "example": "We discovered a m ajor fla w  in the metal chain.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/UT_flaw_detection_-_crack.png/500px-UT_flaw_detection_-_crack.png",
+                image: "/image-manager/uploads/book6_unit12_faucet.jpg",
             },
             {
                 "word": "grin",
@@ -2175,7 +2175,7 @@ export const book6Units: Unit[] = [
                 "definition": "When a body part is numb, it does not have any feeling.",
                 "example": "After holding my hand under the icy water,  my fingers went numb.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Protein_NUMB_PDB_1wj1.png/500px-Protein_NUMB_PDB_1wj1.png",
+                image: "/image-manager/uploads/book6_unit12_grin.jpg",
             },
             {
                 "word": "reckless",
@@ -2211,7 +2211,7 @@ export const book6Units: Unit[] = [
                 "definition": "A testament to something shows that it exists or is true.",
                 "example": "The beautiful performance was a testament to the singer’s natural talents.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Testament_-_Leeds_2023.jpg/500px-Testament_-_Leeds_2023.jpg",
+                image: "/image-manager/uploads/book6_unit12_reckless.jpg",
             },
             {
                 "word": "timber",
@@ -2244,7 +2244,7 @@ export const book6Units: Unit[] = [
                 "definition": "To certify something means to confirm that its results are true.",
                 "example": "The photograph on her passport certified that she was indeed Jolene Sawyer.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lanaken_Walstraat_17-19_-_257683_-_onroerenderfgoed.jpg/500px-Lanaken_Walstraat_17-19_-_257683_-_onroerenderfgoed.jpg",
+                image: "/image-manager/uploads/book6_unit12_timber.jpg",
             },
             {
                 "word": "collaborate",
@@ -2262,7 +2262,7 @@ export const book6Units: Unit[] = [
                 "definition": "To compile things means to collect a variety of them into a group.",
                 "example": "She compiled a lis t o f people who she wanted to attend her birthday party.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Toolchain.png/500px-Toolchain.png",
+                image: "/image-manager/uploads/book6_unit13_collaborate.jpg",
             },
             {
                 "word": "counteract",
@@ -2298,7 +2298,7 @@ export const book6Units: Unit[] = [
                 "definition": "To enact something means to make it into a law.",
                 "example": "The council enacted a law that would only allow buses to drive downtown.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Battle_of_Evesham_re-enactment_-_geograph.org.uk_-_7253755.jpg/500px-Battle_of_Evesham_re-enactment_-_geograph.org.uk_-_7253755.jpg",
+                image: "/image-manager/uploads/book6_unit13_counteract.jpg",
             },
             {
                 "word": "federation",
@@ -2325,7 +2325,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is humane, then it is good and kind.",
                 "example": "Helping build homes fo r poor people is very humane.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/The_National_Humane_Review_1923.png/500px-The_National_Humane_Review_1923.png",
+                image: "/image-manager/uploads/book6_unit13_federation.png",
             },
             {
                 "word": "intolerable",
@@ -2352,7 +2352,7 @@ export const book6Units: Unit[] = [
                 "definition": "The onset of something unpleasant is the beginning of it.",
                 "example": "At the onset o f the battle,  the enemy wasn’t prepared fo r such a large attack.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Onset_Beach.JPG/500px-Onset_Beach.JPG",
+                image: "/image-manager/uploads/book6_unit13_intolerable.png",
             },
             {
                 "word": "pledge",
@@ -2370,7 +2370,7 @@ export const book6Units: Unit[] = [
                 "definition": "To prohibit something means to not allow it.",
                 "example": "She prohibited the students from speaking until their work was done.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/7/75/ESRA_Prohibited.png",
+                image: "/image-manager/uploads/book6_unit13_pledge.jpg",
             },
             {
                 "word": "rash",
@@ -2406,7 +2406,7 @@ export const book6Units: Unit[] = [
                 "definition": "To transmit something means to pass it from one person or place to another.",
                 "example": "The radio tower transmits a signal to all the radios in a 20-kilometer radius.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Transmission_2010_%287%29.JPG/500px-Transmission_2010_%287%29.JPG",
+                image: "/image-manager/uploads/book6_unit13_rash.jpg",
             },
             {
                 "word": "vow",
@@ -2439,7 +2439,7 @@ export const book6Units: Unit[] = [
                 "definition": "To contemplate something means to think about it.",
                 "example": "Mark took a moment to contemplate the math problem  before solving it.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Contemplate_Press_Photography_March_2018.jpg/500px-Contemplate_Press_Photography_March_2018.jpg",
+                image: "/image-manager/uploads/book6_unit13_vow.jpg",
             },
             {
                 "word": "contend",
@@ -2466,7 +2466,7 @@ export const book6Units: Unit[] = [
                 "definition": "To enlist means to join the military.",
                 "example": " In their fin al year at school,  the students were asked to enlist in  the military.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Conscription_in_Iran_-_Military_service_%287%29.jpg/500px-Conscription_in_Iran_-_Military_service_%287%29.jpg",
+                image: "/image-manager/uploads/book6_unit14_contend.jpg",
             },
             {
                 "word": "frontier",
@@ -2484,7 +2484,7 @@ export const book6Units: Unit[] = [
                 "definition": "A handbook is an item that gives specific information or instructions.",
                 "example": "If  you  look at the handbook,  it will tell you which  wires to connect to the TV.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/New_Horizons_Medical_Support_in_Trujillo_150612-F-LP903-148.jpg/500px-New_Horizons_Medical_Support_in_Trujillo_150612-F-LP903-148.jpg",
+                image: "/image-manager/uploads/book6_unit14_frontier.jpg",
             },
             {
                 "word": "hesitant",
@@ -2502,7 +2502,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is lush, then it is full of a variety of large, healthy plants.",
                 "example": "The lush jungle was fille d  with plants,  trees, and vines.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Lush_at_Brent_Cross_Shopping_Centre_15_March_2022.jpg/500px-Lush_at_Brent_Cross_Shopping_Centre_15_March_2022.jpg",
+                image: "/image-manager/uploads/book6_unit14_hesitant.jpg",
             },
             {
                 "word": "marrow",
@@ -2520,7 +2520,7 @@ export const book6Units: Unit[] = [
                 "definition": "An outfit is a set of clothes worn together, often for a certain job or event.",
                 "example": "Kelly’s new outfit made her look so glamourous.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Woman%27s_shirt_from_Kutch%2C_Gujarat%2C_India%2C_IMA_55114.jpg/500px-Woman%27s_shirt_from_Kutch%2C_Gujarat%2C_India%2C_IMA_55114.jpg",
+                image: "/image-manager/uploads/book6_unit14_marrow.jpg",
             },
             {
                 "word": "paw",
@@ -2556,7 +2556,7 @@ export const book6Units: Unit[] = [
                 "definition": "To stray means to go in a wrong direction and often become lost.",
                 "example": "He found him self lost because he had strayed from the tour group.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Stray_GDC_2023.jpg/500px-Stray_GDC_2023.jpg",
+                image: "/image-manager/uploads/book6_unit14_paw.jpg",
             },
             {
                 "word": "substantial",
@@ -2583,7 +2583,7 @@ export const book6Units: Unit[] = [
                 "definition": "A tract is a large area of land.",
                 "example": "On the other side o f the mountains was a long tract o f forest.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Newton%27s_Principia.jpg/434px-Newton%27s_Principia.jpg",
+                image: "/image-manager/uploads/book6_unit14_substantial.jpg",
             },
             {
                 "word": "vigil",
@@ -2625,7 +2625,7 @@ export const book6Units: Unit[] = [
                 "definition": "To administer means to take responsibility for organizing something.",
                 "example": "The teacher’s assistant will adm inister the test.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Konzeptionalisierung_des_CSM.png/500px-Konzeptionalisierung_des_CSM.png",
+                image: "/image-manager/uploads/book6_unit14_vigil.jpg",
             },
             {
                 "word": "compassionate",
@@ -2652,7 +2652,7 @@ export const book6Units: Unit[] = [
                 "definition": "A deficiency is a lack of something, especially something that is needed.",
                 "example": "Your snack has a deficiency o f any real nutrients.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/MRI_of_Cerebral_Folate_Deficiency_in_12_yo_girl_with_Dihydropyridine_Reductase_Deficiency_-_before_treatment.jpg/500px-MRI_of_Cerebral_Folate_Deficiency_in_12_yo_girl_with_Dihydropyridine_Reductase_Deficiency_-_before_treatment.jpg",
+                image: "/image-manager/uploads/book6_unit15_compassionate.jpg",
             },
             {
                 "word": "epidemic",
@@ -2688,7 +2688,7 @@ export const book6Units: Unit[] = [
                 "definition": "Intestines are tubes through which food passes after it leaves the stomach.",
                 "example": "Whatever you eat goes into your intestines.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Small_Intestine.jpg/500px-Small_Intestine.jpg",
+                image: "/image-manager/uploads/book6_unit15_epidemic.png",
             },
             {
                 "word": "manifest",
@@ -2706,7 +2706,7 @@ export const book6Units: Unit[] = [
                 "definition": "When something is metabolic, it relates to a person’s or animal’s metabolism.",
                 "example": "People who have a  low metabolic rate w ill gain weight.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Summary_of_Hif1_metabolic_signaling_pathway.webp/500px-Summary_of_Hif1_metabolic_signaling_pathway.webp.png",
+                image: "/image-manager/uploads/book6_unit15_manifest.jpg",
             },
             {
                 "word": "overcrowded",
@@ -2733,7 +2733,7 @@ export const book6Units: Unit[] = [
                 "definition": "A practitioner is a doctor.",
                 "example": "She made an  appointm ent with the practitioner to treat her cough.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/9/94/John_Harcup%2C_History_Medicine_Society.png",
+                image: "/image-manager/uploads/book6_unit15_overcrowded.jpg",
             },
             {
                 "word": "provision",
@@ -2751,7 +2751,7 @@ export const book6Units: Unit[] = [
                 "definition": "To replenish something means to make it full or complete again.",
                 "example": "We planted nearly one hundred seeds to replenish  the garden after the fire.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%22Replenish%22_Dunure_-_geograph.org.uk_-_7999103.jpg/500px-%22Replenish%22_Dunure_-_geograph.org.uk_-_7999103.jpg",
+                image: "/image-manager/uploads/book6_unit15_provision.jpg",
             },
             {
                 "word": "sterile",
@@ -2769,7 +2769,7 @@ export const book6Units: Unit[] = [
                 "definition": "To",
                 "example": "He upgraded to a real fancy car.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Red_Arrows_Radom_2009_t.JPG/500px-Red_Arrows_Radom_2009_t.JPG",
+                image: "/image-manager/uploads/book6_unit15_sterile.jpg",
             },
             {
                 "word": "viable",
@@ -2838,7 +2838,7 @@ export const book6Units: Unit[] = [
                 "definition": "If someone is clumsy, then they are awkward in handling things.",
                 "example": "The businessman was clumsy and dropped his  work files.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Clumsy_Waiter_by_Nakajima_Yoshiume.jpg/500px-Clumsy_Waiter_by_Nakajima_Yoshiume.jpg",
+                image: "/image-manager/uploads/book6_unit15_viable.png",
             },
             {
                 "word": "collide",
@@ -2865,7 +2865,7 @@ export const book6Units: Unit[] = [
                 "definition": "To evacuate means to leave a place of danger to a place of safety.",
                 "example": "During the flood,  many families  were evacuated to higher ground.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Evacuate_01252014.jpg/500px-Evacuate_01252014.jpg",
+                image: "/image-manager/uploads/book6_unit16_collide.jpg",
             },
             {
                 "word": "flammable",
@@ -2883,7 +2883,7 @@ export const book6Units: Unit[] = [
                 "definition": "A mob is a large crowd of people that often wants to cause violence.",
                 "example": "The copier was destroyed by a mob o f angry workers.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/MOB_Pendelz%C3%BCge_im_Bahnhof_Zweisimmen_%282014%29.jpg/500px-MOB_Pendelz%C3%BCge_im_Bahnhof_Zweisimmen_%282014%29.jpg",
+                image: "/image-manager/uploads/book6_unit16_flammable.jpg",
             },
             {
                 "word": "premature",
@@ -2919,7 +2919,7 @@ export const book6Units: Unit[] = [
                 "definition": "Scrutiny is the careful examination of something.",
                 "example": "A scientist should always practice scrutiny with their work.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Expert_scrutiny_-_geograph.org.uk_-_5302314.jpg/500px-Expert_scrutiny_-_geograph.org.uk_-_5302314.jpg",
+                image: "/image-manager/uploads/book6_unit16_premature.jpg",
             },
             {
                 "word": "segregate",
@@ -2937,7 +2937,7 @@ export const book6Units: Unit[] = [
                 "definition": "To subject someone to something means to force them to do or experience it.",
                 "example": "The officers subjected everyone to a careful search before they left the plane.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Dark_Matter_27x39_ENGLISH.png/500px-Dark_Matter_27x39_ENGLISH.png",
+                image: "/image-manager/uploads/book6_unit16_segregate.jpg",
             },
             {
                 "word": "testify",
@@ -2955,7 +2955,7 @@ export const book6Units: Unit[] = [
                 "definition": "A tumult is a loud and confused noise made by a large crowd of people.",
                 "example": "She couldn’t hear her friend over the tum ult o f the other excited guests.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Pothamus_-_TUMULT_Festival_2025_%2804.10.2025%29.06.jpg/500px-Pothamus_-_TUMULT_Festival_2025_%2804.10.2025%29.06.jpg",
+                image: "/image-manager/uploads/book6_unit16_testify.jpg",
             },
             {
                 "word": "underestimate",
@@ -2973,7 +2973,7 @@ export const book6Units: Unit[] = [
                 "definition": "Uproar is loud noise caused by people who are very angry or upset.",
                 "example": "The fans made a great uproar when their team lost the game.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Zinnia-uproar-rose.jpg/500px-Zinnia-uproar-rose.jpg",
+                image: "/image-manager/uploads/book6_unit16_underestimate.jpg",
             }
         ]
     },
@@ -3006,7 +3006,7 @@ export const book6Units: Unit[] = [
                 "definition": "A defect is a part of something that is wrong or missing.",
                 "example": "A ll these bottles have a defect and must be sent back to the warehouse.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Patent_foramen_ovale_%28hy%29.png/500px-Patent_foramen_ovale_%28hy%29.png",
+                image: "/image-manager/uploads/book6_unit17_accelerate.gif",
             },
             {
                 "word": "dreary",
@@ -3024,7 +3024,7 @@ export const book6Units: Unit[] = [
                 "definition": "To duplicate something means to copy it.",
                 "example": "She duplicated her frie n d ’s movements like she was in front o f a mirror.",
                 "partOfSpeech": "v",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Grenzstein_Preu%C3%9Fen-Belgien_Nr._159_Belgische_Seite_%281%29_Nachbildung.jpg/500px-Grenzstein_Preu%C3%9Fen-Belgien_Nr._159_Belgische_Seite_%281%29_Nachbildung.jpg",
+                image: "/image-manager/uploads/book6_unit17_dreary.jpg",
             },
             {
                 "word": "electromagnetic",
@@ -3060,7 +3060,7 @@ export const book6Units: Unit[] = [
                 "definition": "If someone is ingenious, then they are very smart.",
                 "example": "Charles was the only person ingenious enough to repair the plane’s engines.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%22The_Elephant_Clock%22%2C_Folio_from_a_Book_of_the_Knowledge_of_Ingenious_Mechanical_Devices_by_al-Jazari_MET_DP234075.jpg/500px-%22The_Elephant_Clock%22%2C_Folio_from_a_Book_of_the_Knowledge_of_Ingenious_Mechanical_Devices_by_al-Jazari_MET_DP234075.jpg",
+                image: "/image-manager/uploads/book6_unit17_electromagnetic.jpg",
             },
             {
                 "word": "innovation",
@@ -3132,7 +3132,7 @@ export const book6Units: Unit[] = [
                 "definition": "To simulate something means to copy its actions or characteristics.",
                 "example": "The French language teacher could simulate the accent o f a French citizen.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Spatial_quadtree_structure_of_the_Barnes-Hut_algorithm_in_the_N-body_problem.gif/500px-Spatial_quadtree_structure_of_the_Barnes-Hut_algorithm_in_the_N-body_problem.gif",
+                image: "/image-manager/uploads/book6_unit17_innovation.jpg",
             },
             {
                 "word": "spur",
@@ -3174,7 +3174,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is done beforehand, then it is done in advance.",
                 "example": "He packed his luggage beforehand,  so he was able to leave rig h t away.",
                 "partOfSpeech": "adv.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Spacca_Napoli_cooking_beforehand_%286939821244%29.jpg/500px-Spacca_Napoli_cooking_beforehand_%286939821244%29.jpg",
+                image: "/image-manager/uploads/book6_unit17_spur.jpg",
             },
             {
                 "word": "centigrade",
@@ -3210,7 +3210,7 @@ export const book6Units: Unit[] = [
                 "definition": "To condense a gas means to make it a liquid.",
                 "example": "The cool a ir made tiny drops o f water condense on the tops o f the grass.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Condenser-droplets.jpg/500px-Condenser-droplets.jpg",
+                image: "/image-manager/uploads/book6_unit18_centigrade.jpg",
             },
             {
                 "word": "cove",
@@ -3246,7 +3246,7 @@ export const book6Units: Unit[] = [
                 "definition": "A freeway is a road with no stops where cars travel at high speeds.",
                 "example": "Once you g et on the freeway,  it only takes an  hour to drive to my parent’s farm.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Freeway_performing_in_Wilmington%2C_Delaware_2.jpg/500px-Freeway_performing_in_Wilmington%2C_Delaware_2.jpg",
+                image: "/image-manager/uploads/book6_unit18_cove.jpg",
             },
             {
                 "word": "hearty",
@@ -3264,7 +3264,7 @@ export const book6Units: Unit[] = [
                 "definition": "If someone is hospitable, they are friendly to strangers.",
                 "example": "At dinner,  Dad was very hospitable to my friends.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Turkmen-girls-greeting-guests.jpg/500px-Turkmen-girls-greeting-guests.jpg",
+                image: "/image-manager/uploads/book6_unit18_hearty.jpg",
             },
             {
                 "word": "manor",
@@ -3309,7 +3309,7 @@ export const book6Units: Unit[] = [
                 "definition": "A parcel is a package of things to be carried or mailed somewhere.",
                 "example": "The parcel looked like it had been stepped on by someone.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Hope_Diamond_US_Mail_parcel-1958.jpg/500px-Hope_Diamond_US_Mail_parcel-1958.jpg",
+                image: "/image-manager/uploads/book6_unit18_manor.jpg",
             },
             {
                 "word": "profile",
@@ -3336,7 +3336,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is winding, then it follows a twisting course.",
                 "example": "The winding river turned and looped around the bases o f the hills.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Model_electromagnetic_coil.jpg/500px-Model_electromagnetic_coil.jpg",
+                image: "/image-manager/uploads/book6_unit18_profile.jpg",
             },
             {
                 "word": "zip",
@@ -3369,7 +3369,7 @@ export const book6Units: Unit[] = [
                 "definition": "The Almighty is a name for a god in a religion.",
                 "example": "Before eating,  they thanked the A lm ighty fo r their food.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/TUNEWEAR-ALMIGHTY-DOCK-nano1_01.jpg/500px-TUNEWEAR-ALMIGHTY-DOCK-nano1_01.jpg",
+                image: "/image-manager/uploads/book6_unit18_zip.gif",
             },
             {
                 "word": "advent",
@@ -3405,7 +3405,7 @@ export const book6Units: Unit[] = [
                 "definition": "To equate one thing with another is to compare them and consider them very similar.",
                 "example": "She equated the man’s messy appearance with a  lack o f responsibility.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Lambert_cylindrical_equal-area_projection_SW.jpg/500px-Lambert_cylindrical_equal-area_projection_SW.jpg",
+                image: "/image-manager/uploads/book6_unit19_advent.jpg",
             },
             {
                 "word": "inhale",
@@ -3468,7 +3468,7 @@ export const book6Units: Unit[] = [
                 "definition": "To pertain to something means to be related or connected to it.",
                 "example": "A ll o f the lawyer’s questions pertained to events around the nig ht o f the crime.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Pertain_%284%29.JPG/500px-Pertain_%284%29.JPG",
+                image: "/image-manager/uploads/book6_unit19_inhale.jpg",
             },
             {
                 "word": "primal",
@@ -3486,7 +3486,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is psychiatric, then it is related to mental illness or its treatment.",
                 "example": "The doctor said the patient m ight have a psychiatric problem.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Mental_Illness_Icon_1.png/500px-Mental_Illness_Icon_1.png",
+                image: "/image-manager/uploads/book6_unit19_primal.jpg",
             },
             {
                 "word": "psychiatry",
@@ -3513,7 +3513,7 @@ export const book6Units: Unit[] = [
                 "definition": "A seizure is sudden illness in which the body loses control and shakes.",
                 "example": "B right flashing lights can cause seizures in children.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spike-waves.png/400px-Spike-waves.png",
+                image: "/image-manager/uploads/book6_unit19_psychiatry.png",
             },
             {
                 "word": "session",
@@ -3564,7 +3564,7 @@ export const book6Units: Unit[] = [
                 "definition": "A dependency is a strong need for someone or something.",
                 "example": "The child s till has a dependency on her mother.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/9/9c/N%C3%B9ng_Autonomous_Territory_medal_boxtop.jpg",
+                image: "/image-manager/uploads/book6_unit19_session.png",
             },
             {
                 "word": "dump",
@@ -3591,7 +3591,7 @@ export const book6Units: Unit[] = [
                 "definition": "To fluctuate means to rise and fall in number or amount.",
                 "example": "Prices fo r gasoline have been fluctuating all month.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Variable_Star_DI_Cha.jpg/500px-Variable_Star_DI_Cha.jpg",
+                image: "/image-manager/uploads/book6_unit20_eternal.jpg",
             },
             {
                 "word": "fro",
@@ -3609,7 +3609,7 @@ export const book6Units: Unit[] = [
                 "definition": "Inclusion is the act of including someone or something in a group.",
                 "example": "Her inclusion into the photo club was well received.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Inclusion_and_togetherness_02.jpg/500px-Inclusion_and_togetherness_02.jpg",
+                image: "/image-manager/uploads/book6_unit20_fro.jpg",
             },
             {
                 "word": "intermediate",
@@ -3627,7 +3627,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is intermittent, then it happens in a way that is not constant.",
                 "example": "It was hard to focus  because interm ittent noises came from the workers outside.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Intermittent_wetland_in_Pilliga_National_Park_-1.jpg/500px-Intermittent_wetland_in_Pilliga_National_Park_-1.jpg",
+                image: "/image-manager/uploads/book6_unit20_intermediate.jpg",
             },
             {
                 "word": "mentor",
@@ -3645,7 +3645,7 @@ export const book6Units: Unit[] = [
                 "definition": "A phoenix is an imaginary bird that burned to ashes and was reborn.",
                 "example": "Some believe the phoenix is a symbol fo r rebirth and a new beginning.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Descent_of_Phoenix_with_a_crater_in_the_background_taken_by_Mars_Reconnaissance_Orbiter.jpg/500px-Descent_of_Phoenix_with_a_crater_in_the_background_taken_by_Mars_Reconnaissance_Orbiter.jpg",
+                image: "/image-manager/uploads/book6_unit20_mentor.jpg",
             },
             {
                 "word": "photosynthesis",
@@ -3672,7 +3672,7 @@ export const book6Units: Unit[] = [
                 "definition": "To regain something means to get it back.",
                 "example": "The battery regained its power after being recharged.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cotton_harvest_in_Xinjiang.jpg/500px-Cotton_harvest_in_Xinjiang.jpg",
+                image: "/image-manager/uploads/book6_unit20_photosynthesis.jpg",
             },
             {
                 "word": "reverse",
@@ -3690,7 +3690,7 @@ export const book6Units: Unit[] = [
                 "definition": "A swarm is a group of flying insects.",
                 "example": "A  beautiful swarm o f butterflies fille d  the summer sky.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/PSO_swarm_behaviour_optimized_for_presentation.gif/480px-PSO_swarm_behaviour_optimized_for_presentation.gif",
+                image: "/image-manager/uploads/book6_unit20_reverse.jpg",
             },
             {
                 "word": "texture",
@@ -3708,7 +3708,7 @@ export const book6Units: Unit[] = [
                 "definition": "To tickle someone is to touch them in a way that causes laughter.",
                 "example": "The mother tickled the little boy’s foot,  and he screamed with laughter.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/%28Venice%29_The_Tickle_by_Giuseppe_Angeli_-_Gallerie_Accademia.jpg/500px-%28Venice%29_The_Tickle_by_Giuseppe_Angeli_-_Gallerie_Accademia.jpg",
+                image: "/image-manager/uploads/book6_unit20_texture.jpg",
             },
             {
                 "word": "vibrant",
@@ -3741,7 +3741,7 @@ export const book6Units: Unit[] = [
                 "definition": "To amend something means to change it to improve or make it accurate.",
                 "example": "The countries were in agreement that the treaty needed to be amended.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Editing_screenshot_done.png/500px-Editing_screenshot_done.png",
+                image: "/image-manager/uploads/book6_unit20_vibrant.jpg",
             },
             {
                 "word": "aspire",
@@ -3759,7 +3759,7 @@ export const book6Units: Unit[] = [
                 "definition": "To censor information means to remove it if it is rude or rebellious.",
                 "example": "To protect innocent people,  the location o f the bomb was censored.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Dumitru_Karnabatt.jpg/500px-Dumitru_Karnabatt.jpg",
+                image: "/image-manager/uploads/book6_unit21_aspire.jpg",
             },
             {
                 "word": "charter",
@@ -3795,7 +3795,7 @@ export const book6Units: Unit[] = [
                 "definition": "To disseminate information or knowledge means to distribute it.",
                 "example": "The organization disseminates information about the dangers o f smoking.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Funds_Dissemination_Committee_November_2015_at_Wikimedia_Foundation_Office.jpg/500px-Funds_Dissemination_Committee_November_2015_at_Wikimedia_Foundation_Office.jpg",
+                image: "/image-manager/uploads/book6_unit21_charter.jpg",
             },
             {
                 "word": "flatter",
@@ -3813,7 +3813,7 @@ export const book6Units: Unit[] = [
                 "definition": "When someone is infamous, they are well known for something bad.",
                 "example": "That news channel is infamous fo r presenting biased information.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Infamous.jpg/500px-Infamous.jpg",
+                image: "/image-manager/uploads/book6_unit21_flatter.jpg",
             },
             {
                 "word": "lame",
@@ -3831,7 +3831,7 @@ export const book6Units: Unit[] = [
                 "definition": "To limp means to walk with difficulty because someone’s leg or foot is hurt.",
                 "example": "After the injury,  the player lim ped o ff o f the field.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Hinken_2010_PD_smallscreen_PD_2012.ogv/320px--Hinken_2010_PD_smallscreen_PD_2012.ogv.jpg",
+                image: "/image-manager/uploads/book6_unit21_lame.jpg",
             },
             {
                 "word": "outburst",
@@ -3894,7 +3894,7 @@ export const book6Units: Unit[] = [
                 "definition": "To tackle something means to deal with it in a determined and efficient way.",
                 "example": "Such social problems need to be tackled rig h t away.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Left_tackle_Thayer_%281915%29_%2814775632403%29.jpg/500px-Left_tackle_Thayer_%281915%29_%2814775632403%29.jpg",
+                image: "/image-manager/uploads/book6_unit21_outburst.jpg",
             },
             {
                 "word": "trance",
@@ -3936,7 +3936,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is firsthand, then it is from an original source.",
                 "example": "If  you want firsthand knowledge,  ask someone who saw it.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Firsthand_experience_%284761907%29.jpg/500px-Firsthand_experience_%284761907%29.jpg",
+                image: "/image-manager/uploads/book6_unit21_trance.jpg",
             },
             {
                 "word": "earnest",
@@ -3963,7 +3963,7 @@ export const book6Units: Unit[] = [
                 "definition": "To exclude someone means to not accept them into a group.",
                 "example": "Carol was excluded from the contest because her friend was a judge.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Javastraat-Amsterdam-COVID19-one-way-traffic.jpg/500px-Javastraat-Amsterdam-COVID19-one-way-traffic.jpg",
+                image: "/image-manager/uploads/book6_unit22_earnest.jpg",
             },
             {
                 "word": "fluent",
@@ -3981,7 +3981,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is imperial, then it is of, or related to an empire.",
                 "example": "These old im perial coins were once used in the Roman  Empire.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Imperial_College_London_Exhibition_Road_frontage.jpg/500px-Imperial_College_London_Exhibition_Road_frontage.jpg",
+                image: "/image-manager/uploads/book6_unit22_fluent.jpg",
             },
             {
                 "word": "inclusive",
@@ -4017,7 +4017,7 @@ export const book6Units: Unit[] = [
                 "definition": "If someone is monolingual, then they speak only one language.",
                 "example": "In  today’s global economy,  being monolingual lim its your opportunities.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Geocrab%2C_monolingual_sign_-_geograph.org.uk_-_3285679.jpg/500px-Geocrab%2C_monolingual_sign_-_geograph.org.uk_-_3285679.jpg",
+                image: "/image-manager/uploads/book6_unit22_inclusive.jpg",
             },
             {
                 "word": "nationality",
@@ -4053,7 +4053,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is racial, then it is related to a race or races.",
                 "example": "The differences between racial groups are physical characteristics and culture.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Racial_Ethnic_Composition_of_the_United_States_1970_2050.jpg/500px-Racial_Ethnic_Composition_of_the_United_States_1970_2050.jpg",
+                image: "/image-manager/uploads/book6_unit22_nationality.jpg",
             },
             {
                 "word": "solemn",
@@ -4071,7 +4071,7 @@ export const book6Units: Unit[] = [
                 "definition": "Solidarity is a union formed from common responsibilities or interests.",
                 "example": "All the citizens came together in a show o f so lid arity to create change.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/The_hand_that_will_rule_the_world.jpg/400px-The_hand_that_will_rule_the_world.jpg",
+                image: "/image-manager/uploads/book6_unit22_solemn.jpg",
             },
             {
                 "word": "tact",
@@ -4104,7 +4104,7 @@ export const book6Units: Unit[] = [
                 "definition": "To allocate something means to put it aside for a certain purpose or person.",
                 "example": "The government allocated $100 m illion to aid the disaster relief effort.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Pie-chart.jpg/500px-Pie-chart.jpg",
+                image: "/image-manager/uploads/book6_unit22_tact.jpg",
             },
             {
                 "word": "appetizing",
@@ -4140,7 +4140,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something moves clockwise, it moves in a circle in the same direction as a clock.",
                 "example": "Turn the screw clockwise to tighten it.",
                 "partOfSpeech": "adv.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Clockwise_arrow.svg/400px-Clockwise_arrow.svg.png",
+                image: "/image-manager/uploads/book6_unit23_appetizing.jpg",
             },
             {
                 "word": "concentric",
@@ -4158,7 +4158,7 @@ export const book6Units: Unit[] = [
                 "definition": "Courtesy is the excellence of manners or social conduct.",
                 "example": "",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Courtesy_Call.jpg/500px-Courtesy_Call.jpg",
+                image: "/image-manager/uploads/book6_unit23_concentric.jpg",
             },
             {
                 "word": "crisp",
@@ -4185,7 +4185,7 @@ export const book6Units: Unit[] = [
                 "definition": "When something is frigid, it is extremely cold.",
                 "example": "We decided not to go on  the hike because the weather was too frigid.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_Shuddering_Tenant_Of_The_Frigid_Zone.jpg/500px-The_Shuddering_Tenant_Of_The_Frigid_Zone.jpg",
+                image: "/image-manager/uploads/book6_unit23_crisp.jpg",
             },
             {
                 "word": "generate",
@@ -4230,7 +4230,7 @@ export const book6Units: Unit[] = [
                 "definition": "When something is multicultural, it relates to many different cultures.",
                 "example": "Everyone was welcomed to attend the m ulticultural celebration.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Shaw_Multicultural_Channel.png/500px-Shaw_Multicultural_Channel.png",
+                image: "/image-manager/uploads/book6_unit23_generate.jpg",
             },
             {
                 "word": "omission",
@@ -4248,7 +4248,7 @@ export const book6Units: Unit[] = [
                 "definition": "To oversee something means to make sure that it is being done properly.",
                 "example": "His job  was to oversee the progress o f the construction project.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Overseal_housing_-_geograph.org.uk_-_5566693.jpg/500px-Overseal_housing_-_geograph.org.uk_-_5566693.jpg",
+                image: "/image-manager/uploads/book6_unit23_omission.jpg",
             },
             {
                 "word": "pierce",
@@ -4266,7 +4266,7 @@ export const book6Units: Unit[] = [
                 "definition": "To replicate something is to do it in the exact same way as someone before.",
                 "example": "I would love to replicate my father’s achievements  in school.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/DNA_replication.png/500px-DNA_replication.png",
+                image: "/image-manager/uploads/book6_unit23_pierce.jpg",
             },
             {
                 "word": "wavy",
@@ -4290,7 +4290,7 @@ export const book6Units: Unit[] = [
                 "definition": "To abide by something, like a rule, means to obey it.",
                 "example": "If  you  want to play the game with us,  you must be willing to abide by our rules.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Abide_Hatun_Mosque_%284%29.jpg/500px-Abide_Hatun_Mosque_%284%29.jpg",
+                image: "/image-manager/uploads/book6_unit23_wavy.jpg",
             },
             {
                 "word": "conversion",
@@ -4344,7 +4344,7 @@ export const book6Units: Unit[] = [
                 "definition": "When something is habitual, it is a behavior that a person usually does or has.",
                 "example": "The man  was a habitual lia r who was incapable o f being honest with the police.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Expression_of_pinopodes_in_endometrial_tissue_from_control_and_recurrent_pregnancy_loss_women.png/500px-Expression_of_pinopodes_in_endometrial_tissue_from_control_and_recurrent_pregnancy_loss_women.png",
+                image: "/image-manager/uploads/book6_unit24_conversion.jpg",
             },
             {
                 "word": "justify",
@@ -4362,7 +4362,7 @@ export const book6Units: Unit[] = [
                 "definition": "Output is the amount of something that a person or thing produces.",
                 "example": "The boss hired more workers to increase the factory’s output o f products.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Boolesim_output.jpg/500px-Boolesim_output.jpg",
+                image: "/image-manager/uploads/book6_unit24_justify.jpg",
             },
             {
                 "word": "overpopulation",
@@ -4425,7 +4425,7 @@ export const book6Units: Unit[] = [
                 "definition": "A sector is a part of a country’s economy in a specific type of industry.",
                 "example": "We learned about ju s t a few o f the factories within the manufacturing sector.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Pie-chart.jpg/500px-Pie-chart.jpg",
+                image: "/image-manager/uploads/book6_unit24_overpopulation.jpg",
             },
             {
                 "word": "subscribe",
@@ -4443,7 +4443,7 @@ export const book6Units: Unit[] = [
                 "definition": "To subsist means to have the food, water, and money needed to stay alive.",
                 "example": "Some people are forced to subsist on  only a few dollars a month.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Les_subsistances_%28noir_et_blanc%29.jpg/500px-Les_subsistances_%28noir_et_blanc%29.jpg",
+                image: "/image-manager/uploads/book6_unit24_subscribe.jpg",
             },
             {
                 "word": "suspend",
@@ -4494,7 +4494,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is communal, it involves a group of people.",
                 "example": "On the weekends,  Theo and his son picked up trash in the communal park.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Energy_consulting_and_communal_work_at_a_Energy_Caf%C3%A9_in_East_London.jpg/500px-Energy_consulting_and_communal_work_at_a_Energy_Caf%C3%A9_in_East_London.jpg",
+                image: "/image-manager/uploads/book6_unit24_suspend.jpg",
             },
             {
                 "word": "fluid",
@@ -4512,7 +4512,7 @@ export const book6Units: Unit[] = [
                 "definition": "To harmonize means to make different things go well together.",
                 "example": "The sweet and sour flavors o f the dish harmonized well and tasted great.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Yankee_Doodle_harmonization_36.png/500px-Yankee_Doodle_harmonization_36.png",
+                image: "/image-manager/uploads/book6_unit25_fluid.jpg",
             },
             {
                 "word": "industrious",
@@ -4557,7 +4557,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is metropolitan, it relates to a large city.",
                 "example": "All o f the m etropolitan excitement o f New York City made Rufus nervous.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Tokyo_Metro_and_JR_East_at_Ochanomizu%2C_Tokyo.jpg/500px-Tokyo_Metro_and_JR_East_at_Ochanomizu%2C_Tokyo.jpg",
+                image: "/image-manager/uploads/book6_unit25_industrious.jpg",
             },
             {
                 "word": "mimic",
@@ -4575,7 +4575,7 @@ export const book6Units: Unit[] = [
                 "definition": "When something is misguided, it is based on bad judgment or wrong beliefs.",
                 "example": "The snake b it Molly during  her misguided attempt to grab it.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Misguided_sheep_-_geograph.org.uk_-_649562.jpg/500px-Misguided_sheep_-_geograph.org.uk_-_649562.jpg",
+                image: "/image-manager/uploads/book6_unit25_mimic.jpg",
             },
             {
                 "word": "rehearse",
@@ -4593,7 +4593,7 @@ export const book6Units: Unit[] = [
                 "definition": "To scorn someone means to behave without respect toward them.",
                 "example": "The crim inal was scorned by everyone in the community.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Paolo_Veronese_-_Scorn_-_Google_Art_Project.jpg/500px-Paolo_Veronese_-_Scorn_-_Google_Art_Project.jpg",
+                image: "/image-manager/uploads/book6_unit25_rehearse.jpg",
             },
             {
                 "word": "sensory",
@@ -4611,7 +4611,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is staple, it is standard or basic.",
                 "example": "Hamburgers,  steaks and hotdogs are staple foods to cook on a grill.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/2023_Zszywki.jpg/500px-2023_Zszywki.jpg",
+                image: "/image-manager/uploads/book6_unit25_sensory.jpg",
             },
             {
                 "word": "statute",
@@ -4671,7 +4671,7 @@ export const book6Units: Unit[] = [
                 "definition": "A depot is a bus or train station.",
                 "example": "He waited fo r his mother to arrive at the depot.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Rugby_%28LMR%29_Locomotive_Depot_2075441_9e424739.jpg/500px-Rugby_%28LMR%29_Locomotive_Depot_2075441_9e424739.jpg",
+                image: "/image-manager/uploads/book6_unit25_statute.jpg",
             },
             {
                 "word": "emulate",
@@ -4707,7 +4707,7 @@ export const book6Units: Unit[] = [
                 "definition": "When something is inherent, it is a natural part of something else.",
                 "example": "Sweating is an inherent bodily function  when exercising.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/1/16/DNA_orbit_animated.gif",
+                image: "/image-manager/uploads/book6_unit26_emulate.png",
             },
             {
                 "word": "intimidate",
@@ -4725,7 +4725,7 @@ export const book6Units: Unit[] = [
                 "definition": "A janitor is a person who makes repairs and takes care of a building.",
                 "example": "The school ja n ito r cleaned up the messy cafeteria.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Janitor_of_SVN_High_school_sitting_near_the_Classrooms.jpg/500px-Janitor_of_SVN_High_school_sitting_near_the_Classrooms.jpg",
+                image: "/image-manager/uploads/book6_unit26_intimidate.jpg",
             },
             {
                 "word": "moist",
@@ -4752,7 +4752,7 @@ export const book6Units: Unit[] = [
                 "definition": "To prod means to push someone or something with a finger or pointed object.",
                 "example": "The bully prodded me in the chest with his finger.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/RO_SB_Biserica_evanghelic%C4%83_din_Prod_%282%29.jpg/500px-RO_SB_Biserica_evanghelic%C4%83_din_Prod_%282%29.jpg",
+                image: "/image-manager/uploads/book6_unit26_moist.jpg",
             },
             {
                 "word": "ransom",
@@ -4815,7 +4815,7 @@ export const book6Units: Unit[] = [
                 "definition": "When people are tolerant, they are approved of because they accept others.",
                 "example": "The tolerant leader thought that everyone was equal regardless o f race.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/11.Hari_Raya_Unduh-Unduh_di_Lereng_Gunung_Kelud.jpg/500px-11.Hari_Raya_Unduh-Unduh_di_Lereng_Gunung_Kelud.jpg",
+                image: "/image-manager/uploads/book6_unit26_ransom.jpg",
             },
             {
                 "word": "vampire",
@@ -4857,7 +4857,7 @@ export const book6Units: Unit[] = [
                 "definition": "A person’s ancestry is the series of people from whom a person descended.",
                 "example": "M/e studied our ancestry and found out that we are related to royalty.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/People_with_Palestinian_ancestry_in_South_America.jpg/500px-People_with_Palestinian_ancestry_in_South_America.jpg",
+                image: "/image-manager/uploads/book6_unit26_vampire.jpg",
             },
             {
                 "word": "archer",
@@ -4884,7 +4884,7 @@ export const book6Units: Unit[] = [
                 "definition": "A deputy is the second-highest-ranking person in a business or government.",
                 "example": "While the s h eriff was ill,  the deputy took over his duties.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Nassau_County_Deputy_Sheriff_Tickets_Lawrence_Sperry.jpg/500px-Nassau_County_Deputy_Sheriff_Tickets_Lawrence_Sperry.jpg",
+                image: "/image-manager/uploads/book6_unit27_archer.jpg",
             },
             {
                 "word": "earl",
@@ -4902,7 +4902,7 @@ export const book6Units: Unit[] = [
                 "definition": "When something is fragrant, it has a pleasant smell.",
                 "example": "► The g irl picked delicious berries and fragrant flowers.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Palace_of_Fragrant_Hills_20251121.jpg/500px-Palace_of_Fragrant_Hills_20251121.jpg",
+                image: "/image-manager/uploads/book6_unit27_earl.jpg",
             },
             {
                 "word": "funnel",
@@ -4974,7 +4974,7 @@ export const book6Units: Unit[] = [
                 "definition": "When something is sarcastic, it is the opposite of what is actually meant.",
                 "example": "She h urt her m other’s feelings with her constant sarcastic remarks.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sarcastic_image_of_a_wellness_centre..jpg/500px-Sarcastic_image_of_a_wellness_centre..jpg",
+                image: "/image-manager/uploads/book6_unit27_funnel.jpg",
             },
             {
                 "word": "seasoning",
@@ -5043,7 +5043,7 @@ export const book6Units: Unit[] = [
                 "definition": "To allege something is to say that it is true without offering proof.",
                 "example": "The little g irl had alleged that her older brother hid her favorite doll.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Verloop_van_een_rechtszaak.png/500px-Verloop_van_een_rechtszaak.png",
+                image: "/image-manager/uploads/book6_unit27_seasoning.jpg",
             },
             {
                 "word": "arch",
@@ -5070,7 +5070,7 @@ export const book6Units: Unit[] = [
                 "definition": "A casualty is a person killed or injured in a war or an accident.",
                 "example": "The only casualty in the car accident was a  woman  who broke her arm.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Casualty.susan.cookson.arp.jpg/500px-Casualty.susan.cookson.arp.jpg",
+                image: "/image-manager/uploads/book6_unit28_arch.jpg",
             },
             {
                 "word": "erect",
@@ -5088,7 +5088,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something is foul, then it is not pleasant or enjoyable.",
                 "example": "He w ouldn’t let his dog drink from the water because it had a foul smell.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Foul_Mdammis%2C_Tunisie.jpg/500px-Foul_Mdammis%2C_Tunisie.jpg",
+                image: "/image-manager/uploads/book6_unit28_erect.jpg",
             },
             {
                 "word": "hectare",
@@ -5133,7 +5133,7 @@ export const book6Units: Unit[] = [
                 "definition": "To outnumber a group means to have a greater number than it.",
                 "example": "The girls outnumbered the boys at the school by four to one.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Prodigy_-_Always_Outnumbered%2C_Never_Outgunned.png/500px-The_Prodigy_-_Always_Outnumbered%2C_Never_Outgunned.png",
+                image: "/image-manager/uploads/book6_unit28_hectare.png",
             },
             {
                 "word": "overjoyed",
@@ -5160,7 +5160,7 @@ export const book6Units: Unit[] = [
                 "definition": "A petition is a written request asking an authority to do something.",
                 "example": "The citizens all signed a petition asking the mayor to repair the sidewalks.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/SOUTIEN_A_L%27EQUIPE_DE_CAISSE_DE_GRANDFRAIS.jpg/500px-SOUTIEN_A_L%27EQUIPE_DE_CAISSE_DE_GRANDFRAIS.jpg",
+                image: "/image-manager/uploads/book6_unit28_overjoyed.jpg",
             },
             {
                 "word": "renovate",
@@ -5178,7 +5178,7 @@ export const book6Units: Unit[] = [
                 "definition": "To revise something means to change or update it to make it better.",
                 "example": "When  the editor discovered certain facts were wrong,  he revised the book.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Revision_2025_E-Werk_Opening_Ceremony.png/500px-Revision_2025_E-Werk_Opening_Ceremony.png",
+                image: "/image-manager/uploads/book6_unit28_renovate.jpg",
             },
             {
                 "word": "slab",
@@ -5205,7 +5205,7 @@ export const book6Units: Unit[] = [
                 "definition": "Turf is a section of grass and the dirt in which it grows.",
                 "example": "After the game,  the turf looked ragged.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/A_peat_bog_below_the_top_of_Doune_Hill%2C_Luss_Hills%2C_Scotland.jpg/500px-A_peat_bog_below_the_top_of_Doune_Hill%2C_Luss_Hills%2C_Scotland.jpg",
+                image: "/image-manager/uploads/book6_unit28_slab.jpg",
             }
         ]
     },
@@ -5247,7 +5247,7 @@ export const book6Units: Unit[] = [
                 "definition": "If something comprises something else, it consists of or is made up of it.",
                 "example": " Our school’s football team is mostly comprised with seniors.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/MessageParts.png/500px-MessageParts.png",
+                image: "/image-manager/uploads/book6_unit29_analogous.jpg",
             },
             {
                 "word": "depict",
@@ -5283,7 +5283,7 @@ export const book6Units: Unit[] = [
                 "definition": "To fulfill something means to achieve or finish it.",
                 "example": "The professor d id not fu lfill his promise not to miss a single class.",
                 "partOfSpeech": "V",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Shinjuku-neon_Tokyo.jpg/500px-Shinjuku-neon_Tokyo.jpg",
+                image: "/image-manager/uploads/book6_unit29_dual.jpg",
             },
             {
                 "word": "grove",
@@ -5328,7 +5328,7 @@ export const book6Units: Unit[] = [
                 "definition": "A paradox is a true statement or real event that seems illogical.",
                 "example": "The paradox o f her work was that the less she worked,  the more she got done.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Paradox%2C_Colorado_-_wooden_storefront_in_2010.jpg/500px-Paradox%2C_Colorado_-_wooden_storefront_in_2010.jpg",
+                image: "/image-manager/uploads/book6_unit29_grove.jpg",
             },
             {
                 "word": "pier",
@@ -5346,7 +5346,7 @@ export const book6Units: Unit[] = [
                 "definition": "A shortcut is a route that is shorter than the main route.",
                 "example": "We got to the house firs t because we took a shortcut through the forest.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Computer-keyboard-key-Alt_Gr_plus_3.png/435px-Computer-keyboard-key-Alt_Gr_plus_3.png",
+                image: "/image-manager/uploads/book6_unit29_pier.jpg",
             },
             {
                 "word": "tariff",
@@ -5382,7 +5382,7 @@ export const book6Units: Unit[] = [
                 "definition": "The whereabouts of someone or something is the place where they are.",
                 "example": "The police looked fo r the lost dog,  b ut its whereabouts were still unknown.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Freshwater_%28whereabouts%29.jpg/500px-Freshwater_%28whereabouts%29.jpg",
+                image: "/image-manager/uploads/book6_unit29_tariff.jpg",
             },
             {
                 "word": "Celsius",
@@ -5433,7 +5433,7 @@ export const book6Units: Unit[] = [
                 "definition": "When someone is courteous, they are polite and respectful.",
                 "example": "The mother asked her fam ily to be courteous to their guests.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Courtesy_Call.jpg/500px-Courtesy_Call.jpg",
+                image: "/image-manager/uploads/book6_unit29_celsius.jpg",
             },
             {
                 "word": "credentials",
@@ -5451,7 +5451,7 @@ export const book6Units: Unit[] = [
                 "definition": "Crickets are small insects that make a loud noise at night.",
                 "example": "In the country, we could see the stars and hear the crickets at night.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Cricket_insect_near_Lantana_flower_Karnataka_India.jpg/500px-Cricket_insect_near_Lantana_flower_Karnataka_India.jpg",
+                image: "/image-manager/uploads/book6_unit30_credentials.jpg",
             },
             {
                 "word": "delta",
@@ -5514,7 +5514,7 @@ export const book6Units: Unit[] = [
                 "definition": "To haunt is to cause problems or negative thoughts over a long period of time.",
                 "example": "His thoughts about his scary dream haunted him fo r weeks.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Haunt_sign.jpg/500px-Haunt_sign.jpg",
+                image: "/image-manager/uploads/book6_unit30_delta.jpg",
             },
             {
                 "word": "liberal",
@@ -5577,7 +5577,7 @@ export const book6Units: Unit[] = [
                 "definition": "A streak is a long, thin mark that is easy to see.",
                 "example": "Her hair was brown except fo r a streak which she dyed blonde.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aero-Flight_AFA-2_Streak.jpg/500px-Aero-Flight_AFA-2_Streak.jpg",
+                image: "/image-manager/uploads/book6_unit30_liberal.jpg",
             }
         ]
     }

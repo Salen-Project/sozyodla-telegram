@@ -1245,7 +1245,7 @@ export const book3Units: Unit[] = [
                 "definition": "If something is mutual, it is felt in the same way by two or more people.",
                 "example": "Robert likes Sarah.  The feeling is mutual.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CommonMutualAid.png/479px-CommonMutualAid.png",
+                image: "/image-manager/uploads/book3_unit1_arise.jpeg",
             },
             {
                 "word": "overweight",
@@ -3663,7 +3663,7 @@ export const book3Units: Unit[] = [
                 "definition": "When something is profound, it is very intelligent.",
                 "example": "For a little boy, Jeremy has some profound thoughts.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Details_of_the_first_work_of_art_from_a_profound_and_new_artistic_movement_called_Profoundism.jpg/500px-Details_of_the_first_work_of_art_from_a_profound_and_new_artistic_movement_called_Profoundism.jpg",
+                image: "/image-manager/uploads/book3_unit20_profound.jpg",
             },
             {
                 "word": "seize",
@@ -5319,7 +5319,7 @@ export const book3Units: Unit[] = [
                 "definition": "A groom  is a man who is going to be married.",
                 "example": "The groom looked happy as he walked with his new wife.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Groom-Texas.jpg/480px-Groom-Texas.jpg",
+                image: "/image-manager/uploads/book3_unit29_groom.jpg",
             },
             {
                 "word": "license",

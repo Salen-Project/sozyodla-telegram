@@ -2787,7 +2787,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is updated, it has been made more modern or given the latest information.",
                 "example": "The website was updated with the latest news.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Update_of_a_micropayment_channel.jpg/500px-Update_of_a_micropayment_channel.jpg",
+                image: "/image-manager/uploads/book5_unit1_allot.jpeg",
             }
         ]
     },
@@ -2955,7 +2955,7 @@ export const book5Units: Unit[] = [
                 "definition": "A proponent is a person who supports an idea or a plan.",
                 "example": "He was a proponent of using environmentally friendly products.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/g707a4eab2787d2b1c695d39e0088997b3682ff0241d394935b602d64ec4649b5c78bb715d871fa1e977b9ec5f5b30c65_640.jpg",
+                image: "/image-manager/uploads/book5_unit16_addict.jpeg",
             },
             {
                 "word": "refine",
@@ -2973,7 +2973,7 @@ export const book5Units: Unit[] = [
                 "definition": "To restrict is to limit something and prevent it from getting bigger.",
                 "example": "The new law restricts smoking in public places.",
                 "partOfSpeech": "v.",
-                image: "https://pixabay.com/get/gf39adbaf18601cf1a61816732c3450dad740adc6c45b57a71bc69be47c7c38db747b1ff915eb83c48b052215d03915a2a2ec74db5cefad580fc7be6e1bbd57fc_640.jpg",
+                image: "/image-manager/uploads/book5_unit16_refine.jpeg",
             }
         ]
     },
@@ -3141,7 +3141,7 @@ export const book5Units: Unit[] = [
                 "definition": "To",
                 "example": "The trip was terminated after he is late for the flight",
                 "partOfSpeech": "V",
-                image: "https://pixabay.com/get/ga673d656293d56936884b4360f12f52a689bca7e4b12499194d28f890fcce528b2d24e92a8b7ea2b38d10d18721efab84a54ed6885edab0637b3fc4b211e3786_640.jpg",
+                image: "/image-manager/uploads/book5_unit17_attorney.jpg",
             },
             {
                 "word": "theme",
@@ -3159,7 +3159,7 @@ export const book5Units: Unit[] = [
                 "definition": "Tuition is the amount of money paid to go to a school.",
                 "example": "University tuitions have increased by fifty percent in the last five years.",
                 "partOfSpeech": "n.",
-                image: "https://pixabay.com/get/g767fa5208ef5bf5e36fc0c4f5f40028602c557eec43ae6b08ac4d95a4ec688f3ec18c3380f616992d5298201988dd232f76de49930b8ec492aee0a0db0fb1624_640.jpg",
+                image: "/image-manager/uploads/book5_unit17_theme.jpg",
             }
         ]
     },
@@ -3291,7 +3291,7 @@ export const book5Units: Unit[] = [
                 "definition": "To meditate means to focus or think deeply in silence.",
                 "example": "I like to meditate every morning to start my day with a clear mind.",
                 "partOfSpeech": "V.",
-                image: "https://pixabay.com/get/g2443876b66c79ac75fe10fa540b19165494b8a9f521997f2b29c03042a967c8f7baacc745c65c5a59aab98f41d9b762e_640.jpg",
+                image: "/image-manager/uploads/book5_unit18_aggressive.jpeg",
             },
             {
                 "word": "nick",
@@ -3450,7 +3450,7 @@ export const book5Units: Unit[] = [
                 "definition": "When something is genuine, it is true or real.",
                 "example": "The painting is a genuine masterpiece by a famous artist",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/24259758/pexels-photo-24259758.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit18_nick.jpg",
             },
             {
                 "word": "grease",
@@ -3486,7 +3486,7 @@ export const book5Units: Unit[] = [
                 "definition": "To overlap something means to cover a piece of it.",
                 "example": "We noticed an overlap in our schedules for the meeting.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/11045731/pexels-photo-11045731.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit19_grease.jpg",
             },
             {
                 "word": "precipitate",
@@ -3564,7 +3564,7 @@ export const book5Units: Unit[] = [
                 "definition": "A circuit is a piece of an electronic device that allows electricity to flow.",
                 "example": "Be very careful not to shock yourself when fixing an electrical circuit.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/6755066/pexels-photo-6755066.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit19_tactic.jpg",
             },
             {
                 "word": "complement",
@@ -3600,7 +3600,7 @@ export const book5Units: Unit[] = [
                 "definition": "An equivalent is an amount or value that is the same as another amount or value.",
                 "example": "Both cars have equivalent horsepower.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/752615/pexels-photo-752615.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_compress.jpg",
             },
             {
                 "word": "immune",
@@ -3681,7 +3681,7 @@ export const book5Units: Unit[] = [
                 "definition": "When something is prevalent, it is common.",
                 "example": "Growing a beard is more prevalent behavior in men than women.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/3998415/pexels-photo-3998415.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_magnet.jpg",
             },
             {
                 "word": "quantum",
@@ -3717,7 +3717,7 @@ export const book5Units: Unit[] = [
                 "definition": "When something is viral, it is a disease or infection that is caused by a virus.",
                 "example": "The girl was in bed for a week when she had a viral infection.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/7504657/pexels-photo-7504657.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit20_quantum.jpg",
             }
         ]
     },
@@ -3768,7 +3768,7 @@ export const book5Units: Unit[] = [
                 "definition": "Colloquial describes informal words that are more suitable for speech than writing.",
                 "example": "I find it difficult to understand people if they use colloquial language.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/7516576/pexels-photo-7516576.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_clone.jpg",
             },
             {
                 "word": "cosmetics",
@@ -3786,7 +3786,7 @@ export const book5Units: Unit[] = [
                 "definition": "To dash means to run or move quickly.",
                 "example": "Football player dashed towards the goal of the opponent",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/1618269/pexels-photo-1618269.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_cosmetics.jpg",
             },
             {
                 "word": "disgust",
@@ -3822,7 +3822,7 @@ export const book5Units: Unit[] = [
                 "definition": "A gulf is a gap between people who do not understand each other.",
                 "example": "The gulf between the team members continued to widen",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/3869374/pexels-photo-3869374.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_disgust.jpg",
             },
             {
                 "word": "humanities",
@@ -3849,7 +3849,7 @@ export const book5Units: Unit[] = [
                 "definition": "A linguist is someone who studies languages.",
                 "example": "Tony is a good linguist and speaks four different languages.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/4440715/pexels-photo-4440715.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_knot.png",
             },
             {
                 "word": "participant",
@@ -3927,7 +3927,7 @@ export const book5Units: Unit[] = [
                 "definition": "An administration is the group of people who manage a company or organization.",
                 "example": "She hoped she could be promoted to a job in the administration.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/6919744/pexels-photo-6919744.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit21_ritual.jpg",
             },
             {
                 "word": "administrative",
@@ -3972,7 +3972,7 @@ export const book5Units: Unit[] = [
                 "definition": "When something is deceptive, it encourages one to believe something that is false.",
                 "example": "The magician’s tricks were very deceptive.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/5412325/pexels-photo-5412325.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_biotechnology.jpg",
             },
             {
                 "word": "diabetes",
@@ -4017,7 +4017,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is explicit, it is very clear, open, and truthful.",
                 "example": "The man gave a very explicit account of the car accident.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/8439658/pexels-photo-8439658.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_eliminate.jpg",
             },
             {
                 "word": "framework",
@@ -4080,7 +4080,7 @@ export const book5Units: Unit[] = [
                 "definition": "proponent proportion p ro v id e .... provoke  — proximity •• publicity ••• punctual---",
                 "example": "She is prone to allergies, especially during the spring season",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/6865169/pexels-photo-6865169.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit22_nectar.jpg",
             },
             {
                 "word": "straightforward",
@@ -4122,7 +4122,7 @@ export const book5Units: Unit[] = [
                 "definition": "Breadth is the distance from one side to the other side of something.",
                 "example": "The breadth of the northern wall of the house is twenty meters.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/2581922/pexels-photo-2581922.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_astronomical.jpg",
             },
             {
                 "word": "circumference",
@@ -4167,7 +4167,7 @@ export const book5Units: Unit[] = [
                 "definition": "Debris is the small pieces scattered from something wrecked or destroyed.",
                 "example": "The debris from the cube scattered on the floor.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/5469035/pexels-photo-5469035.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_circumference.png",
             },
             {
                 "word": "despair",
@@ -4212,7 +4212,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is gigantic, then it is extremely large.",
                 "example": "Some dinosaurs were so gigantic that they were the size of buildings.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/12955899/pexels-photo-12955899.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_fragment.jpg",
             },
             {
                 "word": "gloom",
@@ -4275,7 +4275,7 @@ export const book5Units: Unit[] = [
                 "definition": "Status is the position of something or someone in relation to others.",
                 "example": "She had achieved the status of being the smartest girl in the class.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/12294130/pexels-photo-12294130.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit23_spectrum.jpg",
             }
         ]
     },
@@ -4299,7 +4299,7 @@ export const book5Units: Unit[] = [
                 "definition": "To conform to rules or laws is to obey them.",
                 "example": "The new student had to conform to the school’s dress code.",
                 "partOfSpeech": "v.",
-                image: "https://images.pexels.com/photos/10638087/pexels-photo-10638087.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_bankrupt.jpg",
             },
             {
                 "word": "employ",
@@ -4326,7 +4326,7 @@ export const book5Units: Unit[] = [
                 "definition": "An extension is a part added to something to give it more time or space.",
                 "example": "My parents decided to add an extension to our house for the new baby.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/28885519/pexels-photo-28885519.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_expel.jpg",
             },
             {
                 "word": "forthcoming",
@@ -4362,7 +4362,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is hygienic, then it is clean and unlikely to cause disease.",
                 "example": "My sister works very hard to keep her entire home as hygienic as possible.",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/3867605/pexels-photo-3867605.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_hygiene.jpg",
             },
             {
                 "word": "landlord",
@@ -4389,7 +4389,7 @@ export const book5Units: Unit[] = [
                 "definition": "If something is mandatory, then it is required by law.",
                 "example": "Wearing a uniform is mandatory for students at this school",
                 "partOfSpeech": "adj.",
-                image: "https://images.pexels.com/photos/32148973/pexels-photo-32148973.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_lease.jpeg",
             },
             {
                 "word": "mend",
@@ -4434,7 +4434,7 @@ export const book5Units: Unit[] = [
                 "definition": "A tenant is a person who rents property from a landlord.",
                 "example": "The new tenants moved into the house across the street.",
                 "partOfSpeech": "n.",
-                image: "https://images.pexels.com/photos/8962221/pexels-photo-8962221.jpeg?auto=compress&cs=tinysrgb&h=350",
+                image: "/image-manager/uploads/book5_unit24_mortgage.png",
             },
             {
                 "word": "trendy",

@@ -48,7 +48,7 @@ export const book4Units: Unit[] = [
                 "definition": "When a liquid is condensed, it is made thicker.",
                 "example": "One way to make a dessert thick and sweet is to use condensed milk.",
                 "partOfSpeech": "adj.",
-                image: "https://pixabay.com/get/g64b5ae41f98cda74754d773962dfbf1e739f864acd682127a6eeefb7a8673deaf2641ebbf1f51f115d6867aec7349004fc51976617e47a823ce02640544ebf70_640.jpg",
+                image: "/image-manager/uploads/book4_unit1_condensed.jpg",
             },
             {
                 "word": "contemporary",
@@ -120,7 +120,7 @@ export const book4Units: Unit[] = [
                 "definition": "A plantation is a big farm that only grows certain kinds of crops.",
                 "example": "In the  1800s,  there were many cotton plantations in the southern  US.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Palm_Oil_Plantation_-_Near_Tiberias_-_Galilee_-_Israel_%285710683290%29.jpg/500px-Palm_Oil_Plantation_-_Near_Tiberias_-_Galilee_-_Israel_%285710683290%29.jpg",
+                image: "/image-manager/uploads/book4_unit1_plantation.jpg",
             },
             {
                 "word": "rapid",
@@ -288,7 +288,7 @@ export const book4Units: Unit[] = [
                 "definition": "Kerosene is a type of oil. It is used in some lamps and stoves.",
                 "example": "Many people in poor countries cook on kerosene stoves.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/4_litre_Kristallfotogen_kerosene_can_by_Aktiebolaget_Lyse_Sweden_early_20th_century.jpg/500px-4_litre_Kristallfotogen_kerosene_can_by_Aktiebolaget_Lyse_Sweden_early_20th_century.jpg",
+                image: "/image-manager/uploads/book4_unit2_kerosene.jpg",
             },
             {
                 "word": "loop",
@@ -633,7 +633,7 @@ export const book4Units: Unit[] = [
                 "definition": "Ivy is a plant with long vines that grows upward typically on walls.",
                 "example": "The walls of the castle are covered with ivy.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ivy_Hedera_Red_Brick_Wall_2892px.jpg/500px-Ivy_Hedera_Red_Brick_Wall_2892px.jpg",
+                image: "/image-manager/uploads/book4_unit4_ivy.jpg",
             },
             {
                 "word": "moan",
@@ -774,7 +774,7 @@ export const book4Units: Unit[] = [
                 "definition": "To edit means to correct a piece of writing so that it is suitable to be published.",
                 "example": "She asked her brother to edit her paper before she submitted it to her teacher.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/AW_Faber_blue_pencils_catalog_1940.png/500px-AW_Faber_blue_pencils_catalog_1940.png",
+                image: "/image-manager/uploads/book4_unit5_edit.jpg",
             },
             {
                 "word": "essay",
@@ -978,7 +978,7 @@ export const book4Units: Unit[] = [
                 "definition": "To envision something means to imagine that it may happen.",
                 "example": "I can envision my mom’s face when  I give her this present!",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Buick_Envision_S_IMG003.jpg/500px-Buick_Envision_S_IMG003.jpg",
+                image: "/image-manager/uploads/book4_unit6_envision.jpg",
             },
             {
                 "word": "evenly",
@@ -1164,7 +1164,7 @@ export const book4Units: Unit[] = [
                 "definition": "A deed is a certificate that proves that someone owns something.",
                 "example": "When she bought the car, she was given a deed to show the car was hers.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Morrish_deed_for_property_in_the_Anclote_area_near_Tarpon_Springs.jpg/500px-Morrish_deed_for_property_in_the_Anclote_area_near_Tarpon_Springs.jpg",
+                image: "/image-manager/uploads/book4_unit__deed.jpg",
             },
             {
                 "word": "gratitude",
@@ -1227,7 +1227,7 @@ export const book4Units: Unit[] = [
                 "definition": "To oblige someone means to require them to do something.",
                 "example": "If I wanted to have playtime,  I was obliged to clean my room once a week.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Shepstone_vervangt_de_vlag_van_Transvaal_door_de_Britse_vlag%2C_1877_Noblesse_Oblige_%28titel_op_object%29_Annexation_of_the_Transvaal_by_an_African_%28serietitel_op_object%29%2C_RP-P-OB-89.249-3.jpg/500px-thumbnail.jpg",
+                image: "/image-manager/uploads/book4_unit__oblige.jpg",
             },
             {
                 "word": "offence",
@@ -1350,7 +1350,7 @@ export const book4Units: Unit[] = [
                 "definition": "A device is an object or a machine.",
                 "example": "A thermometer is a device that tells temperature.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nokia_6630.png/500px-Nokia_6630.png",
+                image: "/image-manager/uploads/book4_unit__device.jpg",
             },
             {
                 "word": "enclose",
@@ -1413,7 +1413,7 @@ export const book4Units: Unit[] = [
                 "definition": "A mode is a setting or condition on a machine.",
                 "example": "Mother turned the 7V to quiet mode while she talked on the phone.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/The_Yuza-no-ki.jpg/500px-The_Yuza-no-ki.jpg",
+                image: "/image-manager/uploads/book4_unit1_aroma.jpeg",
             },
             {
                 "word": "perspire",
@@ -1476,7 +1476,7 @@ export const book4Units: Unit[] = [
                 "definition": "A version is an account of something that differs slightly from the original.",
                 "example": "She read the students British version of the Chinese fairy tale.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Tectonic_plates.png/500px-Tectonic_plates.png",
+                image: "/image-manager/uploads/book4_unit8_perspire.jpeg",
             },
             {
                 "word": "whatsoever",
@@ -1554,7 +1554,7 @@ export const book4Units: Unit[] = [
                 "definition": "If something or someone is efficient, they do not waste energy.",
                 "example": "My car is very efficient.  I rarely have to buy gas.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Military_Efficiency_Graph.png/500px-Military_Efficiency_Graph.png",
+                image: "/image-manager/uploads/book4_unit8_whatsoever.jpeg",
             },
             {
                 "word": "feeble",
@@ -1713,7 +1713,7 @@ export const book4Units: Unit[] = [
                 "definition": "A concept is an idea about something.",
                 "example": "I learned some concepts of molecules before working in the science lab.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Generalization_process_using_trees.svg/400px-Generalization_process_using_trees.svg.png",
+                image: "/image-manager/uploads/book4_unit9_feeble.jpeg",
             },
             {
                 "word": "construct",
@@ -2043,7 +2043,7 @@ export const book4Units: Unit[] = [
                 "definition": "If people are vain, they are only concerned with how they look.",
                 "example": "Rebecca is so vain that she looks at herself in every mirror.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Vainio_1924.jpg/500px-Vainio_1924.jpg",
+                image: "/image-manager/uploads/book4_unit10_construct.jpg",
             }
         ]
     },
@@ -2148,7 +2148,7 @@ export const book4Units: Unit[] = [
                 "definition": "When something is harsh, it is very unpleasant.",
                 "example": "The desert can be a very harsh environment.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/The_Desert_is_Harsh.jpg/500px-The_Desert_is_Harsh.jpg",
+                image: "/image-manager/uploads/book4_unit12_alternative.jpg",
             },
             {
                 "word": "lean",
@@ -2361,7 +2361,7 @@ export const book4Units: Unit[] = [
                 "definition": "A signature is your name that you have written in your own way.",
                 "example": "I put my signature at the end of the letter.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Signature_Paul_von_Hindenburg.jpg/500px-Signature_Paul_von_Hindenburg.jpg",
+                image: "/image-manager/uploads/book4_unit12_lean.jpeg",
             },
             {
                 "word": "stuff",
@@ -2466,7 +2466,7 @@ export const book4Units: Unit[] = [
                 "definition": "A fist is a hand with fingers bent in toward the palm.",
                 "example": "The bully made a fist and threatened to hit the small boy.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Open_fist.jpg/500px-Open_fist.jpg",
+                image: "/image-manager/uploads/book4_unit13_stuff.jpeg",
             },
             {
                 "word": "flexible",
@@ -2547,7 +2547,7 @@ export const book4Units: Unit[] = [
                 "definition": "Shutters are wooden or metal covers in front of a window.",
                 "example": "Mr.  Smith closed the shutters every night to make his bedroom dark.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Wooden_house_%28window_shutters%29%2C_Riga.jpg/500px-Wooden_house_%28window_shutters%29%2C_Riga.jpg",
+                image: "/image-manager/uploads/book4_unit14_flexible.jpeg",
             },
             {
                 "word": "sift",
@@ -3360,7 +3360,7 @@ export const book4Units: Unit[] = [
                 "definition": "Afflicted means to suffer physically or mentally.",
                 "example": "He was afflicted by pain in his right arm.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/The_Amity_Affliction_2012.jpg/500px-The_Amity_Affliction_2012.jpg",
+                image: "/image-manager/uploads/book4_unit14_sift.jpg",
             },
             {
                 "word": "aisle",
@@ -3600,7 +3600,7 @@ export const book4Units: Unit[] = [
                 "definition": "To comment means to say something that shows your personal opinion.",
                 "example": "Tom commented on the poor quality of the food.",
                 "partOfSpeech": "V.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Card_stock_speech_balloons.jpg/500px-Card_stock_speech_balloons.jpg",
+                image: "/image-manager/uploads/book4_unit19_aisle.jpg",
             },
             {
                 "word": "cross",
@@ -3813,7 +3813,7 @@ export const book4Units: Unit[] = [
                 "definition": "A millennium is one thousand years.",
                 "example": "Stonehenge is believed to have been built about 5 millenniums ago.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Churchill_Millennium_stone.jpg/500px-Churchill_Millennium_stone.jpg",
+                image: "/image-manager/uploads/book4_unit20_cross.jpeg",
             },
             {
                 "word": "myth",
@@ -3903,7 +3903,7 @@ export const book4Units: Unit[] = [
                 "definition": "Venom is a poisonous substance that comes from animals or plants.",
                 "example": "A snake’s venom can be used to cure the illnesses it creates.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Waspstinger1658-2.jpg/400px-Waspstinger1658-2.jpg",
+                image: "/image-manager/uploads/book4_unit21_myth.jpg",
             }
         ]
     },
@@ -3999,7 +3999,7 @@ export const book4Units: Unit[] = [
                 "definition": "To hitchhike means to travel by asking for rides from passing vehicles.",
                 "example": "She didn’t have a car, so she hitchhiked several miles to her brother’s home.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Young_travellers_hitchhiking_in_Morocco.tif/lossy-page1-400px-Young_travellers_hitchhiking_in_Morocco.tif.jpg",
+                image: "/image-manager/uploads/book4_unit22_charity.jpg",
             },
             {
                 "word": "mock",
@@ -4158,7 +4158,7 @@ export const book4Units: Unit[] = [
                 "definition": "If something is genetic, it is related to the genes in one’s body.",
                 "example": "The color of one’s eyes is genetic.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Genetic_Diversity_in_Asia_Fig_2-B.jpg/500px-Genetic_Diversity_in_Asia_Fig_2-B.jpg",
+                image: "/image-manager/uploads/book4_unit__genetic.jpg",
             },
             {
                 "word": "genome",
@@ -4167,7 +4167,7 @@ export const book4Units: Unit[] = [
                 "definition": "A genome is the collection of all the genes in a living thing.",
                 "example": "Understanding the human genome may help cure many diseases.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hybridogenesis_in_water_frogs_gametes.svg/400px-Hybridogenesis_in_water_frogs_gametes.svg.png",
+                image: "/image-manager/uploads/book4_unit22_mock.jpeg",
             },
             {
                 "word": "identical",
@@ -4194,7 +4194,7 @@ export const book4Units: Unit[] = [
                 "definition": "A majority of something is almost all of the people orthings in that group.",
                 "example": "A majority of the people voted for Tom Smith in the election.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Plurality_versus_Majority.png/500px-Plurality_versus_Majority.png",
+                image: "/image-manager/uploads/book4_unit23_identical.jpg",
             },
             {
                 "word": "mammal",
@@ -4221,7 +4221,7 @@ export const book4Units: Unit[] = [
                 "definition": "Offspring are the children of a person or the babies of an animal.",
                 "example": "The dog’s offspring had the same color of fur as she did.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hybridogenesis_in_water_frogs_gametes.svg/400px-Hybridogenesis_in_water_frogs_gametes.svg.png",
+                image: "/image-manager/uploads/book4_unit23_mammal.png",
             },
             {
                 "word": "pesticide",
@@ -4275,7 +4275,7 @@ export const book4Units: Unit[] = [
                 "definition": "A vegetarian is someone who does not eat any meat products.",
                 "example": "I became a vegetarian because I don’t like the taste of meat.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vegetarian_Pizza.jpg/500px-Vegetarian_Pizza.jpg",
+                image: "/image-manager/uploads/book4_unit23_pesticide.jpg",
             }
         ]
     },
@@ -4380,7 +4380,7 @@ export const book4Units: Unit[] = [
                 "definition": "Moderation is a state of being just enough but not too much.",
                 "example": "The peregrine falcon is a predator that eats fish.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/The_Yuza-no-ki.jpg/500px-The_Yuza-no-ki.jpg",
+                image: "/image-manager/uploads/book4_unit24_cherish.jpeg",
             },
             {
                 "word": "predator",
@@ -4521,7 +4521,7 @@ export const book4Units: Unit[] = [
                 "definition": "If something is ethical, it is the right thing to do.",
                 "example": "Many people believe that it is ethical to help others in need.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Etica-ciencia-tecnologia.png/500px-Etica-ciencia-tecnologia.png",
+                image: "/image-manager/uploads/book4_unit24_predator.jpg",
             },
             {
                 "word": "extinct",
@@ -4593,7 +4593,7 @@ export const book4Units: Unit[] = [
                 "definition": "If a place is secluded, it is far away from any other place.",
                 "example": "There was a secluded bench in the park.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Conservatory_in_the_Secluded_Garden_-_geograph.org.uk_-_444701.jpg/500px-Conservatory_in_the_Secluded_Garden_-_geograph.org.uk_-_444701.jpg",
+                image: "/image-manager/uploads/book4_unit25_extinct.jpg",
             },
             {
                 "word": "species",
@@ -4824,7 +4824,7 @@ export const book4Units: Unit[] = [
                 "definition": "A technician is a person who is skilled in electronic or mechanical work.",
                 "example": "I need to call the technician to help me with my computer.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Technician_checks_circuit_card.jpg/500px-Technician_checks_circuit_card.jpg",
+                image: "/image-manager/uploads/book4_unit25_species.jpeg",
             },
             {
                 "word": "tropics",
@@ -4884,7 +4884,7 @@ export const book4Units: Unit[] = [
                 "definition": "If something is comprehensive, it has all the details about something else.",
                 "example": "The teacher gave us a comprehensive review for the exam.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Encyclopedia_on_a_wooden_bookshelf.png/500px-Encyclopedia_on_a_wooden_bookshelf.png",
+                image: "/image-manager/uploads/book4_unit26_tropics.png",
             },
             {
                 "word": "conserve",
@@ -5019,7 +5019,7 @@ export const book4Units: Unit[] = [
                 "definition": "If an area is wooded, it is covered with trees.",
                 "example": "Jim and Ben decided to go hiking in the wooded area by the river.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Open_Woodland_in_Illinois_United_States.jpg/500px-Open_Woodland_in_Illinois_United_States.jpg",
+                image: "/image-manager/uploads/book4_unit27_conserve.jpeg",
             }
         ]
     },
@@ -5292,7 +5292,7 @@ export const book4Units: Unit[] = [
                 "definition": "To interact is to talk to or do something with another person.",
                 "example": "The kids began to interact when the adults left the room.",
                 "partOfSpeech": "v.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Showing_interaction_possibilities.png/500px-Showing_interaction_possibilities.png",
+                image: "/image-manager/uploads/book4_unit28_avail.jpeg",
             },
             {
                 "word": "interval",
@@ -5328,7 +5328,7 @@ export const book4Units: Unit[] = [
                 "definition": "If two things are parallel, they are the same distance away from each other.",
                 "example": "There are two yellow parallel lines dividing both sides of traffic.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/D%C3%BClmen%2C_Kirchspiel%2C_ehem._Munitionslager_Visbeck%2C_Bunker_--_2020_--_8874_%28bw%29.jpg/500px-D%C3%BClmen%2C_Kirchspiel%2C_ehem._Munitionslager_Visbeck%2C_Bunker_--_2020_--_8874_%28bw%29.jpg",
+                image: "/image-manager/uploads/book4_unit29_interval.jpg",
             },
             {
                 "word": "phenomenon",
@@ -5382,7 +5382,7 @@ export const book4Units: Unit[] = [
                 "definition": "A tournament is a competition, usually with many people participating.",
                 "example": "My dad is playing in a golf tournament tomorrow.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Sp%C3%B8ttrup_Borg_turneringsbane_2015-07-12.jpg/500px-Sp%C3%B8ttrup_Borg_turneringsbane_2015-07-12.jpg",
+                image: "/image-manager/uploads/book4_unit29_phenomenon.jpg",
             },
             {
                 "word": "transportation",
@@ -5424,7 +5424,7 @@ export const book4Units: Unit[] = [
                 "definition": "Chaos is a situation that is confusing and not ordered.",
                 "example": "His presentation was in chaos.  I couldn’t understand what he meant.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Chaos_%28tarot_Etteilla_III%29.jpg/500px-Chaos_%28tarot_Etteilla_III%29.jpg",
+                image: "/image-manager/uploads/book4_unit29_transportation.jpg",
             },
             {
                 "word": "consistent",
@@ -5451,7 +5451,7 @@ export const book4Units: Unit[] = [
                 "definition": "If someone or something is doomed, they are going to fail or be destroyed.",
                 "example": "Since I spent all my money,  my date with Jane is doomed.",
                 "partOfSpeech": "adj.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/E3_2019_%2848045181601%29.jpg/500px-E3_2019_%2848045181601%29.jpg",
+                image: "/image-manager/uploads/book4_unit30_consistent.jpg",
             },
             {
                 "word": "heir",
@@ -5523,7 +5523,7 @@ export const book4Units: Unit[] = [
                 "definition": "A stance is an attitude about an issue that someone states clearly.",
                 "example": "My stance is that using oil and gas is bad for the environment.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/The_Wincher%27s_Stance_-_geograph.org.uk_-_3453358.jpg/500px-The_Wincher%27s_Stance_-_geograph.org.uk_-_3453358.jpg",
+                image: "/image-manager/uploads/book4_unit30_heir.jpg",
             },
             {
                 "word": "telegraph",
@@ -5577,7 +5577,7 @@ export const book4Units: Unit[] = [
                 "definition": "A wardrobe is the collection of all of a person’s clothing.",
                 "example": "■ She bought some new clothes to expand her wardrobe.",
                 "partOfSpeech": "n.",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Infinity_mirror%2C_hand-washing_sink_and_wardrobes_in_the_spa_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg/500px-Infinity_mirror%2C_hand-washing_sink_and_wardrobes_in_the_spa_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+                image: "/image-manager/uploads/book4_unit30_telegraph.jpg",
             }
         ]
     }
