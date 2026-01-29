@@ -31,14 +31,14 @@ export default function HistoryPage() {
       
       if (edition && unit && result) {
         entries.push({
-          date: result.timestamp || new Date().toISOString(),
+          date: result.date || new Date().toISOString(),
           editionId,
           unitId,
           bookTitle: edition.title,
           unitTitle: `Unit ${unit.id}`,
-          score: result.correct || 0,
+          score: result.score || 0,
           total: result.total || unit.words.length,
-          mode: result.mode || 'quiz',
+          mode: 'quiz',
         });
       }
     });
