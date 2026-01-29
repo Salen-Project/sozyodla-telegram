@@ -217,6 +217,7 @@ export const ProfilePage: React.FC = () => {
           {[
             { path: '/achievements', label: 'Achievements', icon: '🏅', desc: 'Unlock badges and rewards' },
             { path: '/daily-challenges', label: 'Daily Challenges', icon: '🎯', desc: 'Complete tasks for rewards' },
+            { path: '/history', label: 'Practice History', icon: '📜', desc: 'View past sessions' },
             { path: '/leaderboard', label: 'Leaderboard', icon: '🏆', desc: 'Compete with others' },
             { path: '/stats', label: 'Statistics', icon: '📊', desc: 'Detailed progress' },
             { path: '/favorites', label: 'My Favorites', icon: '❤️', desc: 'Saved words' },
